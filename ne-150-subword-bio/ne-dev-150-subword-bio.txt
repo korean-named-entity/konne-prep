@@ -36046,18 +36046,12 @@ d	O
 작품	O
 .	O
 
-## klue-ner-v1_dev_01115-wikitree	지난 <2002년:DT> <한:LC><일:;LC>월드컵에서 <대한민국:OG>을 첫 <4강:QT> 진출로 이끌고 간 주역인 <안정환:PS> <송종국:PS>은 <2014:DT> <브라질:LC> 월드컷에서 <김성주:PS> 캐스터와 함께 해설위원으로 <MBC:OG> 중계를 맡았다.
+## klue-ner-v1_dev_01115-wikitree	지난 <2002년:DT> <한:LC><일:LC>월드컵에서 <대한민국:OG>을 첫 <4강:QT> 진출로 이끌고 간 주역인 <안정환:PS> <송종국:PS>은 <2014:DT> <브라질:LC> 월드컷에서 <김성주:PS> 캐스터와 함께 해설위원으로 <MBC:OG> 중계를 맡았다.
 지난	B-DT_YEAR
 2002	I-DT_YEAR
 ##년	I-DT_YEAR
 한	O
-<	O
 일	B-EV_SPORTS
-:	I-EV_SPORTS
-;	I-EV_SPORTS
-L	I-EV_SPORTS
-##C	I-EV_SPORTS
->	O
 월드컵	I-EV_SPORTS
 ##에서	O
 대한민국	B-LCP_COUNTRY
@@ -118420,7 +118414,7 @@ SBS	B-OGG_MEDIA
 ##니다	O
 .	O
 
-## klue-ner-v1_dev_03606-wikitree	<2011년:DT> <322명:QT> 중 <194명:QT>(<60.2%:QT>), <2012년:DT> <490명:QT> 중 <385명:QT>(<78.5%:QT>), <2013년:DT> <572:명:QT> 중 <445명:QT>(<77.3%:QT>), <2014년:DT> <517명:QT> 중 <425명:QT>(<82.2%:QT>)이 월세지원 종료 후에도 고시원과 여인숙, 쪽방 등 주거지에 머물렀다.
+## klue-ner-v1_dev_03606-wikitree	<2011년:DT> <322명:QT> 중 <194명:QT>(<60.2%:QT>), <2012년:DT> <490명:QT> 중 <385명:QT>(<78.5%:QT>), <2013년:DT> <572명:QT> 중 <445명:QT>(<77.3%:QT>), <2014년:DT> <517명:QT> 중 <425명:QT>(<82.2%:QT>)이 월세지원 종료 후에도 고시원과 여인숙, 쪽방 등 주거지에 머물렀다.
 2011	B-DT_YEAR
 ##년	I-DT_YEAR
 32	B-QT_MAN_COUNT
@@ -118455,7 +118449,6 @@ SBS	B-OGG_MEDIA
 ##년	I-DT_YEAR
 57	B-QT_MAN_COUNT
 ##2	I-QT_MAN_COUNT
-:	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
 중	O
 44	B-QT_MAN_COUNT
@@ -119457,15 +119450,11 @@ NYT	B-OGG_MEDIA
 ##였	O
 ##다	O
 
-## klue-ner-v1_dev_03639-nsmc	<19:QT>, 20기:QT>로가면서 실망했지만 <21기:QT>에서 다시회복!<시로:PS>랑 춤출때 졸귀♥
+## klue-ner-v1_dev_03639-nsmc	<19:QT>, <20기:QT>로가면서 실망했지만 <21기:QT>에서 다시회복!<시로:PS>랑 춤출때 졸귀♥
 19	B-QT_ORDER
 ,	I-QT_ORDER
 20	B-QT_ORDER
 ##기	I-QT_ORDER
-:	O
-Q	O
-##T	O
->	O
 로	O
 ##가	O
 ##면서	O
