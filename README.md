@@ -2,7 +2,8 @@
 한국어 중첩 개체명 말뭉치 준비 작업
 
 
-- [klue-ner](klue-ner): klue-ner-v1.1 수정 작업 
+- [klue-ner](klue-ner): klue-ner-v1.1의 오류를 수정한 말뭉치.
+- [raw-sent](raw-sent): klue-ner의 원시 문장. klue-ner 수정에 따라 함께 갱신함.
 - [ne-150-subword-bio](ne-150-subword-bio): klue-ner-v1.1에 150개 부류 개체명 자동 태깅한 결과. subword BIO 형식.
 
 
