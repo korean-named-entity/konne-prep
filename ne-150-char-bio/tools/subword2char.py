@@ -48,6 +48,17 @@ class Processor:
         i = j = 0
         while j < len(raw_sent):
             c = raw_sent[j]
+
+            try:
+                char_bios[i]
+            except Exception as e:
+                raise Exception('{}: char_bios[i]\n{}\ni = {}\nchar_bios = {}\nraw_sent = {}'
+                                .format(e,
+                                        sid,
+                                        i,
+                                        char_bios,
+                                        raw_sent
+                                        ))
             
             if char_bios[i][0] == 'UNK':
                 if raw_sent[j] == ' ':
