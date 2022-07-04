@@ -127,6 +127,9 @@ konec
 서	O	서	O
 ```
 
+### klue-konec span 불일치? (konec은 조사 경계를 잘 파악하지 못하는 경향이 보임)
+
+```
 8	B-QT	8	B-QT_MAN_COUNT
 만	I-QT	만	I-QT_MAN_COUNT
  	I-QT	 	I-QT_MAN_COUNT
@@ -136,7 +139,6 @@ konec
 인	O	인	O
 파	O	파	O
 ```
-
 
 ### konec 태그 오류 
 
