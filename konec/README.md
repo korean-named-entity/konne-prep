@@ -158,10 +158,3 @@ konec
 저	O	저	I-PS_NAME
 씨	O	씨	O
 ```
-
-월	B-OG	월	B-AFA_VIDEO
-트	I-OG	트	I-AFA_VIDEO
-디	I-OG	디	I-AFA_VIDEO
-즈	I-OG	즈	I-AFA_VIDEO
-니	I-OG	니	O
-```
