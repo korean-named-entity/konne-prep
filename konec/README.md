@@ -104,3 +104,25 @@ konec
 화	O	화	I-CV_ART
 는	O	는	O
 ```
+
+
+### klue-konec span 불일치? 
+
+```
+2	B-QT	2	B-QT_LENGTH
+1	I-QT	1	I-QT_LENGTH
+8	I-QT	8	I-QT_LENGTH
+야	I-QT	야	I-QT_LENGTH
+드	I-QT	드	I-QT_LENGTH
+로	O	로	I-QT_LENGTH
+ 	O	 	O
+세	O	세	O
+팅	O	팅	O
+된	O	된	O
+ 	O	 	O
+8	B-QT	8	B-QT_ORDER
+번	I-QT	번	I-QT_ORDER
+홀	O	홀	I-QT_ORDER
+에	O	에	O
+서	O	서	O
+```
