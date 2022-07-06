@@ -3,6 +3,7 @@ konec
 # 한국어 개체명 말뭉치 
 
 - [ne-150-char-bio](../ne-150-char-bio)의 결과에서 시작
+- [work01-checkbio](#work01-checkbio): BIO 태그 형식 오류 수정
 
 계획
 
@@ -12,10 +13,14 @@ konec
 - span이 일치하면서 대부류 태그가 불일치하는 경우 확인
 - span이 불일치하는 경우 확인
 
-## konec 자체 오류 수정
-### 형식 오류 수정
+## 작업
 
-- I 태그가 B 태그 없이 나타난 오류가 상당수 존재한다.
+<a name="work01-checkbio"></a>
+
+### BIO 태그 형식 오류 수정
+
+- I 태그가 B 태그 없이 나타난 오류가 2097건 존재한다.
+- 단순히 I 태그를 B 태그로 수정하는 것으로는 적절하지 않은 경우가 많다.
 
 ```
 ## klue-ner-v1_train_00000_wikitree	특히 영동고속도로 강릉 방향 문막휴게소에서 만종분기점까지 5km 구간에는 승용차 전용 임시 갓길차로제를 운영하기로 했다.
@@ -30,7 +35,7 @@ konec
 임	O
 시	O
  	O
-갓	I-CV_POLICY             <-- ERROR: B-CV_POLICY
+갓	I-CV_POLICY             <-- ERROR:?B-CV_POLICY
 길	I-CV_POLICY
 차	I-CV_POLICY
 로	I-CV_POLICY
