@@ -104,3 +104,57 @@ konec
 화	O	화	I-CV_ART
 는	O	는	O
 ```
+
+
+### klue-konec span 불일치? (konec은 조사 경계를 잘 파악하지 못하는 경향이 보임)
+
+```
+2	B-QT	2	B-QT_LENGTH
+1	I-QT	1	I-QT_LENGTH
+8	I-QT	8	I-QT_LENGTH
+야	I-QT	야	I-QT_LENGTH
+드	I-QT	드	I-QT_LENGTH
+로	O	로	I-QT_LENGTH
+ 	O	 	O
+세	O	세	O
+팅	O	팅	O
+된	O	된	O
+ 	O	 	O
+8	B-QT	8	B-QT_ORDER
+번	I-QT	번	I-QT_ORDER
+홀	O	홀	I-QT_ORDER
+에	O	에	O
+서	O	서	O
+```
+
+### klue-konec span 불일치? (konec은 조사 경계를 잘 파악하지 못하는 경향이 보임)
+
+```
+8	B-QT	8	B-QT_MAN_COUNT
+만	I-QT	만	I-QT_MAN_COUNT
+ 	I-QT	 	I-QT_MAN_COUNT
+명	I-QT	명	I-QT_MAN_COUNT
+의	O	의	I-QT_MAN_COUNT
+ 	O	 	O
+인	O	인	O
+파	O	파	O
+```
+
+### konec 태그 오류 
+
+```
+걘	O	걘	B-AFA_VIDEO
+적	O	적	I-AFA_VIDEO
+으	O	으	I-AFA_VIDEO
+로	O	로	I-AFA_VIDEO
+ 	O	 	O
+```  
+
+### konec 태그 범위와 분류 복합적 오류
+
+```
+톰	B-PS	톰	B-PS_NAME
+아	O	아	I-PS_NAME
+저	O	저	I-PS_NAME
+씨	O	씨	O
+```
