@@ -276562,10 +276562,10 @@ m	I-QT_SPEED
 
 ## klue-ner-v1_dev_04672-nsmc	2~7까지 다 1점 줬으나 이건 2점 준다.
 2	B-QT_ORDER	
-~	I-QT_OTHERS	ERROR:?B-QT_OTHERS
-7	I-QT_OTHERS	
-까	I-QT_OTHERS	
-지	I-QT_OTHERS	
+~	I-QT_ORDER	ERROR:?B-QT_OTHERS
+7	I-QT_ORDER	
+까	I-QT_ORDER	
+지	I-QT_ORDER	
  	O	
 다	O	
  	O	
