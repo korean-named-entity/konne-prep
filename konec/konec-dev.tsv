@@ -76,7 +76,7 @@
 .	O
 
 ## klue-ner-v1_dev_00001-wikitree	B 씨는 사법시험 합격증이 위조된 것인지 알 수 없었고, 아들이 좋은 대학에 들어갈 수 있기만을 바라던터라 A 씨를 더 의심하지 않았다.
-B	O
+B	B-PS_NAME
  	O
 씨	O
 는	O
@@ -136,7 +136,7 @@ B	O
 터	O
 라	O
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 를	O
@@ -1702,7 +1702,7 @@ t	I-QT_WEIGHT
 찰	I-OGG_POLITICS
 은	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
  	O
 부	B-CV_RELATION
@@ -2460,8 +2460,8 @@ V	I-TMI_HW
 화	O
 든	O
  	O
-시	O
-원	O
+시	B-PS_NAME
+원	I-PS_NAME
 처	O
 럼	O
  	O
@@ -3564,7 +3564,7 @@ C	I-LCP_CAPITALCITY
 르	O
 면	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -3607,7 +3607,7 @@ A	O
 조	B-CV_RELATION
 카	I-CV_RELATION
  	O
-B	O
+B	B-PS_NAME
 씨	O
 의	O
  	O
@@ -3629,7 +3629,7 @@ B	O
 걸	O
 쳐	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
 를	O
  	O
@@ -5256,7 +5256,7 @@ A	I-OGG_MEDIA
 앞	O
 서	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -5509,7 +5509,7 @@ N	I-OGG_MEDIA
 하	O
 는	O
  	O
-K	O
+K	B-PS_NAME
 기	B-CV_OCCUPATION
 자	I-CV_OCCUPATION
 는	O
@@ -5718,7 +5718,7 @@ X	I-AF_TRANSPORT
 .	O
 
 ## klue-ner-v1_dev_00091-wikitree	A씨는 경찰의 추적을 피해 중국으로 도주, 수개월 뒤 한국으로 입국해 자신이 출국금지된 사실을 알고 의정부경찰서를 방문했다가 잠복 경찰에 붙잡혔다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -6453,9 +6453,9 @@ m	I-QT_LENGTH
 .	O
 .	O
  	O
-장	O
-백	O
-지	O
+장	B-PS_NAME
+백	I-PS_NAME
+지	I-PS_NAME
 에	O
  	O
 빠	O
@@ -6904,9 +6904,9 @@ J	I-OGG_ECONOMY
 .	O
 
 ## klue-ner-v1_dev_00111-nsmc	송새벽은 거품인듯... 주인공은 아닌거같아요
-송	O
-새	B-TI_DURATION
-벽	I-TI_DURATION
+송	B-PS_NAME
+새	I-PS_NAME
+벽	I-PS_NAME
 은	O
  	O
 거	O
@@ -6930,7 +6930,7 @@ J	I-OGG_ECONOMY
 요	O
 
 ## klue-ner-v1_dev_00112-wikitree	A씨는 지난 10일 수원지법 평택지원에 친권자 및 양육자 변경신청을 냈다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -7573,8 +7573,8 @@ S	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_00125-nsmc	다이땜에 봤는데 좀 유치하긴 했음; CG도 안습이고;; 원작 안봐서 비교는 몬하겠지만 일단 미야비 포쓰가 바닥을 침. 등장하기만 하면 그냥 웃겨ㅠㅠ;; 이 영화 패인의 가장 큰 요인 아닐까 싶을 정도임;;
-다	O
-이	O
+다	B-PS_NAME
+이	I-PS_NAME
 땜	O
 에	O
  	O
@@ -9222,9 +9222,9 @@ Z	I-OGG_MEDIA
 .	O
 .	O
  	O
-텟	O
-페	O
-이	O
+텟	B-PS_NAME
+페	I-PS_NAME
+이	I-PS_NAME
 와	O
  	O
 사	B-PS_NAME
@@ -9434,8 +9434,8 @@ Z	I-OGG_MEDIA
 사	I-CV_POSITION
 가	O
  	O
-직	O
-쏘	O
+직	B-PS_NAME
+쏘	I-PS_NAME
  	O
 공	O
 범	O
@@ -9471,8 +9471,8 @@ Z	I-OGG_MEDIA
 프	I-PS_CHARACTER
 만	I-PS_CHARACTER
 &	O
-직	O
-쏘	O
+직	B-PS_NAME
+쏘	I-PS_NAME
  	O
 첫	O
 만	O
@@ -9953,9 +9953,9 @@ Z	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_00165-nsmc	해드윅 이후 첨보는 존 캐머런 밋첼의 영화지만 일단 오래 남을거 같다.
-해	O
-드	O
-윅	O
+해	B-PS_NAME
+드	I-PS_NAME
+윅	I-PS_NAME
  	O
 이	O
 후	O
@@ -10668,9 +10668,9 @@ V	I-TMI_HW
 수	O
 록	O
  	O
-바	O
-스	O
-코	O
+바	B-PS_NAME
+스	I-PS_NAME
+코	I-PS_NAME
 !	O
 1	B-DT_DURATION
 4	I-DT_DURATION
@@ -14458,9 +14458,9 @@ S	I-OGG_MILITARY
 항	I-LC_OTHERS
 도	O
  	O
-견	O
-자	O
-단	O
+견	B-PS_NAME
+자	I-PS_NAME
+단	I-PS_NAME
  	O
 삘	O
 이	O
@@ -15483,8 +15483,8 @@ J	I-OGG_ECONOMY
 ㅎ	O
 전	O
  	O
-바	O
-나	O
+바	B-PS_NAME
+나	I-PS_NAME
 라	O
 서	O
  	O
@@ -15980,8 +15980,8 @@ S	O
 아	O
 ,	O
  	O
-마	O
-니	O
+마	B-PS_NAME
+니	I-PS_NAME
 가	O
  	O
 있	O
@@ -18625,7 +18625,7 @@ y	I-OGG_MEDIA
 등	O
  	O
 비	O
-박	O
+박	B-PS_NAME
 계	O
 와	O
  	O
@@ -19027,12 +19027,12 @@ O	I-OGG_MILITARY
 .	O
 
 ## klue-ner-v1_dev_00313-nsmc	크리스챤 슬레이터를 청춘스타 반열에 올려놓은 풋풋한 영화
-크	O
-리	O
-스	O
-챤	O
- 	O
-슬	B-PS_NAME
+크	B-PS_NAME
+리	I-PS_NAME
+스	I-PS_NAME
+챤	I-PS_NAME
+ 	I-PS_NAME
+슬	I-PS_NAME
 레	I-PS_NAME
 이	I-PS_NAME
 터	I-PS_NAME
@@ -19203,9 +19203,9 @@ O	I-OGG_MILITARY
 랑	I-LCP_COUNTRY
 스	I-LCP_COUNTRY
  	O
-페	B-CV_FOOD_DRINK
-리	I-CV_FOOD_DRINK
-에	I-CV_FOOD_DRINK
+페	B-CV-FOOD_DRINK
+리	I-CV-FOOD_DRINK
+에	I-CV-FOOD_DRINK
 는	O
  	O
 3	B-QT_PERCENTAGE
@@ -19933,11 +19933,11 @@ S	I-EV_OTHERS
 갈	I-PS_CHARACTER
 현	I-PS_CHARACTER
  	O
-모	O
-두	O
-루	O
-약	O
-연	O
+모	B-PS_NAME
+두	I-PS_NAME
+루	I-PS_NAME
+약	B-PS_NAME
+연	I-PS_NAME
  	O
 고	B-LCP_COUNTY
 창	I-LCP_COUNTY
@@ -20249,7 +20249,7 @@ S	I-EV_OTHERS
 .	O
 
 ## klue-ner-v1_dev_00336-wikitree	A군 어머니는 지난 1월 포털사이트 다음 아고라 게시판에 '아들이 친구들에게 1년간 학교폭력을 당했다'는 글을 올려 피해 사실을 알렸고 경찰에 고소했다.
-A	O
+A	B-PS_NAME
 군	O
  	O
 어	B-CV_RELATION
@@ -20448,9 +20448,9 @@ C	I-OGG_MEDIA
 있	O
 는	O
  	O
-노	O
-다	O
-메	O
+노	B-PS_NAME
+다	I-PS_NAME
+메	I-PS_NAME
 !	O
 !	O
  	O
@@ -20485,9 +20485,9 @@ C	I-OGG_MEDIA
 직	O
 도	O
  	O
-노	O
-다	O
-메	O
+노	B-PS_NAME
+다	I-PS_NAME
+메	I-PS_NAME
 의	O
 여	O
 운	O
@@ -22337,12 +22337,12 @@ m	O
 특	O
 히	O
  	O
-이	O
-신	O
+이	B-PS_NAME
+신	I-PS_NAME
 이	O
 와	O
-규	O
-원	O
+규	B-PS_NAME
+원	I-PS_NAME
 이	O
 ㅋ	O
 ㅋ	O
@@ -22634,7 +22634,7 @@ m	O
 르	O
 면	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 5	B-QT_AGE
 7	I-QT_AGE
@@ -23963,8 +23963,8 @@ m	I-QT_LENGTH
 뭐	O
 하	O
 나	O
-춘	O
-자	O
+춘	B-PS_NAME
+자	I-PS_NAME
 가	O
  	O
 이	B-PS_NAME
@@ -24975,8 +24975,8 @@ M	I-OGG_ECONOMY
 그	O
 냥	O
  	O
-조	O
-안	O
+조	B-PS_NAME
+안	I-PS_NAME
 을	O
  	O
 찍	O
@@ -25975,8 +25975,8 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_00439-nsmc	햅번의 미소가 너무 아름답다 로마에 가보고 싶은 생각도 들게끔 만든 영화같ㄷ
-햅	O
-번	O
+햅	B-PS_NAME
+번	I-PS_NAME
 의	O
  	O
 미	O
@@ -29216,8 +29216,8 @@ C	I-OGG_SPORTS
 다	O
 른	O
  	O
-시	O
-걸	O
+시	B-PS_NAME
+걸	I-PS_NAME
  	O
 형	O
 님	O
@@ -29784,7 +29784,7 @@ T	I-OGG_ECONOMY
 목	B-CV_OCCUPATION
 사	I-CV_OCCUPATION
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 를	O
@@ -30676,8 +30676,8 @@ N	I-PS_NAME
 봤	O
 음	O
  	O
-엽	O
-문	O
+엽	B-PS_NAME
+문	I-PS_NAME
 ,	O
 사	O
 망	O
@@ -31037,21 +31037,21 @@ N	I-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_00525-nsmc	육덕이 왕콩이 혁띠 차돌백이 망가지는거 두려워 하지않고 적극적으로 임해서 보기좋아요.
-육	O
-덕	O
-이	O
+육	B-PS_NAME
+덕	I-PS_NAME
+이	I-PS_NAME
  	O
-왕	O
-콩	O
-이	O
+왕	B-PS_NAME
+콩	I-PS_NAME
+이	I-PS_NAME
  	O
-혁	O
-띠	O
+혁	B-PS_NAME
+띠	I-PS_NAME
  	O
-차	O
-돌	O
-백	O
-이	O
+차	B-PS_NAME
+돌	I-PS_NAME
+백	I-PS_NAME
+이	I-PS_NAME
  	O
 망	O
 가	O
@@ -31140,9 +31140,9 @@ N	I-PS_NAME
 다	O
 
 ## klue-ner-v1_dev_00527-nsmc	에미넴 예전부터 좋아했는데 이영화는 오늘 처음봄 와 근데 스토리도 좋고 랩배틀도 멋있고!!
-에	O
-미	O
-넴	O
+에	B-PS_NAME
+미	I-PS_NAME
+넴	I-PS_NAME
  	O
 예	O
 전	O
@@ -32048,9 +32048,9 @@ I	I-TMM_DISEASE
 .	O
 
 ## klue-ner-v1_dev_00543-nsmc	조니뎁 영화중 가장 기억에 남는 로맨티시즘
-조	O
-니	O
-뎁	O
+조	B-PS_NAME
+니	I-PS_NAME
+뎁	I-PS_NAME
  	O
 영	O
 화	O
@@ -32353,12 +32353,12 @@ I	I-TMM_DISEASE
 4	I-AFA_VIDEO
 세	I-AFA_VIDEO
  	O
-에	O
-드	O
-워	O
-드	O
-노	O
-튼	O
+에	B-PS_NAME
+드	I-PS_NAME
+워	I-PS_NAME
+드	I-PS_NAME
+노	I-PS_NAME
+튼	I-PS_NAME
 ㄷ	O
 ㄷ	O
 .	O
@@ -32741,8 +32741,8 @@ I	I-TMM_DISEASE
 오	O
 른	O
  	O
-선	O
-조	O
+선	B-PS_NAME
+조	I-PS_NAME
 의	O
  	O
 불	O
@@ -35577,9 +35577,9 @@ S	I-OGG_ECONOMY
 ## klue-ner-v1_dev_00604-nsmc	역시신동엽ㅋ순간 캐치 탁!얄밉게 웃긴 미워할수없고감탄!이영자랑 함 대박일텐데 왠이동욱?
 역	O
 시	O
-신	O
-동	O
-엽	O
+신	B-PS_NAME
+동	I-PS_NAME
+엽	I-PS_NAME
 ㅋ	O
 순	O
 간	O
@@ -36769,8 +36769,8 @@ S	O
 .	O
 .	O
  	O
-후	O
-크	O
+후	B-PS_NAME
+크	I-PS_NAME
 !	O
 
 ## klue-ner-v1_dev_00623-wikitree	조인성의 소속사 IOK컴퍼니 관계자는 24일 스타뉴스에 "조인성은 공효진과 드라마 촬영을 하며 친한 친구로서 인연을 이어가고 있다”고 전했다.
@@ -37510,7 +37510,7 @@ K	I-OGG_ECONOMY
 !	O
 
 ## klue-ner-v1_dev_00636-wikitree	A씨는 특히 이중 학생 한 명을 샤워실까지 데리고 가서 추행한 것으로 알려졌다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -38438,9 +38438,9 @@ C	I-AF_BUILDING
  	O
 온	O
  	O
-고	O
-아	O
-라	O
+고	B-PS_NAME
+아	I-PS_NAME
+라	I-PS_NAME
 도	O
  	O
 포	O
@@ -39665,7 +39665,7 @@ T	O
 존	O
 자	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
  	O
 측	O
@@ -39961,8 +39961,8 @@ V	I-AFA_VIDEO
 .	O
 
 ## klue-ner-v1_dev_00678-nsmc	아윱과 로진이 주는 감동이 좋았습니다.
-아	O
-윱	O
+아	B-PS_NAME
+윱	I-PS_NAME
 과	O
  	O
 로	B-PS_NAME
@@ -42365,7 +42365,7 @@ n	I-OGG_OTHERS
 교	B-CV_OCCUPATION
 사	I-CV_OCCUPATION
  	O
-A	O
+A	B-PS_NAME
 (	O
 4	B-QT_AGE
 4	I-QT_AGE
@@ -42380,7 +42380,7 @@ A	O
 남	B-CV_RELATION
 편	I-CV_RELATION
  	O
-B	O
+B	B-PS_NAME
 (	O
 4	B-QT_AGE
 4	I-QT_AGE
@@ -42631,7 +42631,7 @@ B	O
 중	O
 인	O
  	O
-A	O
+A	B-PS_NAME
 군	O
 은	O
  	O
@@ -43859,8 +43859,8 @@ C	O
 뒤	O
 ,	O
  	O
-엠	O
-버	O
+엠	B-PS_NAME
+버	I-PS_NAME
 가	O
  	O
 오	O
@@ -47208,7 +47208,7 @@ P	I-OGG_ECONOMY
 유	O
 한	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -47273,7 +47273,7 @@ A	O
 머	O
 지	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 를	O
  	O
@@ -47605,7 +47605,7 @@ A	O
 지	O
 만	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -48645,7 +48645,7 @@ d	O
 ㅋ	O
 
 ## klue-ner-v1_dev_00830-wikitree	A 원사의 메르스 양성 판정과 관련해 자택과 생활관 등에서 격리 조치를 받은 오산공군기지 부대원은 당초 알려진 100여명이 아니라 60여명이라고 국방부 관계자는 설명했다.
-A	O
+A	B-PS_NAME
  	O
 원	B-CV_POSITION
 사	I-CV_POSITION
@@ -49870,7 +49870,7 @@ B	I-OGG_SPORTS
 르	O
 면	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -50325,7 +50325,7 @@ F	I-OGG_OTHERS
 채	O
 로	O
  	O
-A	O
+A	B-PS_NAME
  	O
 여	O
 성	O
@@ -51825,8 +51825,8 @@ K	I-OGG_ECONOMY
 쫌	O
 ㄷ	O
 ㄷ	O
-유	O
-리	O
+유	B-PS_NAME
+리	I-PS_NAME
 연	O
 기	O
 가	O
@@ -54360,7 +54360,7 @@ S	I-OGG_ECONOMY
 원	O
 인	O
  	O
-Y	O
+Y	B-PS_NAME
 씨	O
 에	O
 게	O
@@ -54761,8 +54761,8 @@ p	I-QT_ORDER
 하	O
 고	O
  	O
-강	O
-풀	O
+강	B-PS_NAME
+풀	I-PS_NAME
 의	O
  	O
 따	O
@@ -56120,10 +56120,10 @@ p	I-QT_ORDER
 .	O
 
 ## klue-ner-v1_dev_00955-nsmc	에디머피식 액션 코미디 좋아하는 사람은 볼만할지도...
-에	O
-디	O
-머	O
-피	O
+에	B-PS_NAME
+디	I-PS_NAME
+머	I-PS_NAME
+피	I-PS_NAME
 식	O
  	O
 액	O
@@ -56461,8 +56461,8 @@ p	I-QT_ORDER
 .	O
 
 ## klue-ner-v1_dev_00960-nsmc	태상몰래 강제키스하고 셔츠찢을때가 스릴있고엄청 재밌었는데.키스신보고 잠못이뤘다.ㅋㅋㅋ
-태	O
-상	O
+태	B-PS_NAME
+상	I-PS_NAME
 몰	O
 래	O
  	O
@@ -57490,7 +57490,7 @@ S	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_00977-wikitree	A씨는 지난 2009년 아내와 두 아들이 유학생활을 위해 미국으로 간 이후 혼자 살면서 외로움을 느낀 것으로 알려졌다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -58473,8 +58473,8 @@ t	I-QT_WEIGHT
 주	O
 던	O
  	O
-수	O
-강	O
+수	B-PS_NAME
+강	I-PS_NAME
 의	O
  	O
 눈	O
@@ -59614,7 +59614,7 @@ H	I-OGG_ECONOMY
 .	O
 
 ## klue-ner-v1_dev_01017-wikitree	A씨 가족은 이미 수년 전부터 기초생활 수급지원 대상으로 제도권 내에 있었지만 교육·행정당국 공무원은 호적에 없던 아이나 호적에 있었지만 학교에 다니지 않고 집에만 있는 아이들에 대해 아무런 관심을 갖지 않은 허점을 드러냈다.
-A	O
+A	B-PS_NAME
 씨	O
  	O
 가	B-CV_RELATION
@@ -60329,13 +60329,13 @@ m	I-QT_LENGTH
 특	O
 히	O
  	O
-고	O
-이	O
-즈	O
-미	O
- 	O
-쿄	O
-코	O
+고	B-PS_NAME
+이	I-PS_NAME
+즈	I-PS_NAME
+미	I-PS_NAME
+ 	I-PS_NAME
+쿄	I-PS_NAME
+코	I-PS_NAME
 는	O
  	O
 완	O
@@ -61446,8 +61446,8 @@ S	O
 기	O
 고	O
  	O
-갓	O
-키	O
+갓	B-PS_NAME
+키	I-PS_NAME
  	O
 완	O
 전	O
@@ -62802,11 +62802,11 @@ m	I-QT_LENGTH
 다	O
 운	O
  	O
-아	O
-네	O
-트	O
-베	O
-닝	O
+아	B-PS_NAME
+네	I-PS_NAME
+트	I-PS_NAME
+베	I-PS_NAME
+닝	I-PS_NAME
 의	O
  	O
 매	O
@@ -62950,7 +62950,7 @@ m	I-QT_LENGTH
 찰	I-OGG_POLITICS
 이	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
  	O
 자	O
@@ -63022,7 +63022,7 @@ A	O
  	O
 채	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 만	O
  	O
@@ -63970,9 +63970,9 @@ C	I-OGG_MEDIA
 쯔	I-PS_NAME
 이	I-PS_NAME
  	O
-방	O
-백	O
-지	O
+방	B-PS_NAME
+백	I-PS_NAME
+지	I-PS_NAME
 떄	O
 문	O
 에	O
@@ -64175,7 +64175,7 @@ C	I-OGG_MEDIA
 치	O
 된	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 2	B-QT_AGE
 7	I-QT_AGE
@@ -64191,7 +64191,7 @@ A	O
 죽	O
 은	O
  	O
-B	O
+B	B-PS_NAME
 (	O
 3	B-QT_AGE
 )	O
@@ -64575,7 +64575,7 @@ T	O
 )	O
 로	O
  	O
-K	O
+K	B-PS_NAME
 군	O
 을	O
  	O
@@ -64887,12 +64887,12 @@ M	I-OGG_ECONOMY
 4	I-QT_ORDER
 대	I-QT_ORDER
  	O
-달	O
-라	O
-이	O
- 	O
-라	O
-마	O
+달	B-PS_NAME
+라	I-PS_NAME
+이	I-PS_NAME
+ 	I-PS_NAME
+라	I-PS_NAME
+마	I-PS_NAME
  	O
 7	B-QT_ORDER
 7	I-QT_ORDER
@@ -65050,7 +65050,7 @@ M	I-OGG_ECONOMY
 인	O
 이	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -65091,7 +65091,7 @@ A	O
 당	O
 시	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -65116,7 +65116,7 @@ A	O
 0	I-DT_DAY
 일	I-DT_DAY
  	O
-A	O
+A	B-PS_NAME
 (	O
 1	B-QT_AGE
 0	I-QT_AGE
@@ -65148,7 +65148,7 @@ A	O
 있	O
 는	O
  	O
-A	O
+A	B-PS_NAME
 군	O
 은	O
  	O
@@ -65184,11 +65184,11 @@ A	O
 친	O
 구	O
  	O
-B	O
+B	B-PS_NAME
 군	O
 과	O
  	O
-C	O
+C	B-PS_NAME
 군	O
 에	O
 게	O
@@ -66203,9 +66203,9 @@ C	I-PS_NAME
 은	O
  	O
 "	O
-최	O
-연	O
-승	O
+최	B-PS_NAME
+연	I-PS_NAME
+승	I-PS_NAME
 을	O
  	O
 (	O
@@ -66819,13 +66819,13 @@ D	O
 나	I-PS_NAME
 와	I-PS_NAME
  	O
-프	O
-로	O
-스	O
-트	O
- 	O
-만	O
-쎌	O
+프	B-PS_NAME
+로	I-PS_NAME
+스	I-PS_NAME
+트	I-PS_NAME
+ 	I-PS_NAME
+만	I-PS_NAME
+쎌	I-PS_NAME
 이	O
  	O
 F	B-EV_SPORTS
@@ -67215,7 +67215,7 @@ F	B-EV_SPORTS
 .	O
 
 ## klue-ner-v1_dev_01141-wikitree	A씨는 18일 현재 열이 조금 내리는 등 차츰 안정을 찾아가고 있는 것으로 알려졌다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -68330,9 +68330,9 @@ _	O
 출	O
 신	O
  	O
-후	O
- 	O
-에	B-PS_NAME
+후	B-PS_NAME
+ 	I-PS_NAME
+에	I-PS_NAME
 이	I-PS_NAME
  	I-PS_NAME
 한	I-PS_NAME
@@ -68830,8 +68830,8 @@ _	O
 득	O
 한	O
  	O
-비	O
-이	O
+비	B-PS_NAME
+이	I-PS_NAME
 의	O
  	O
 부	O
@@ -70099,11 +70099,11 @@ _	O
  	O
 &	O
  	O
-로	O
-리	O
- 	O
-페	O
-티	O
+로	B-PS_NAME
+리	I-PS_NAME
+ 	I-PS_NAME
+페	I-PS_NAME
+티	I-PS_NAME
  	O
 너	O
 무	O
@@ -70155,7 +70155,7 @@ _	O
 에	O
 서	O
  	O
-한	O
+한	B-PS_NAME
 의	O
  	O
 죽	O
@@ -70741,7 +70741,7 @@ C	O
 에	O
 서	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 를	O
  	O
@@ -71009,9 +71009,9 @@ t	O
 륜	I-PS_NAME
 미	I-PS_NAME
  	O
-짱	O
-짱	O
-걸	O
+짱	B-PS_NAME
+짱	I-PS_NAME
+걸	I-PS_NAME
  	O
 으	O
 힛	O
@@ -73250,7 +73250,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_01241-wikitree	A씨는 10월 말부터 지난달까지 자신이 일하는 인천시 계산동의 한 편의점에서 판매할 500원짜리 즉석복권을 미리 긁어본 뒤 당첨되지 않은 복권 18장을 손님 B(22)씨에게 판매한 혐의를 받고 있다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -73338,7 +73338,7 @@ A	O
 손	O
 님	O
  	O
-B	O
+B	B-PS_NAME
 (	O
 2	B-QT_AGE
 2	I-QT_AGE
@@ -74918,7 +74918,7 @@ g	O
 원	B-CV_POSITION
 장	I-CV_POSITION
  	O
-A	O
+A	B-PS_NAME
 씨	O
 (	O
 3	B-QT_AGE
@@ -76004,7 +76004,7 @@ T	O
 정	I-PS_NAME
 이	O
  	O
-탑	O
+탑	B-PS_NAME
  	O
 팬	O
 이	O
@@ -76143,11 +76143,11 @@ E	B-AF_TRANSPORT
 .	O
 .	O
  	O
-마	O
-이	O
-클	O
- 	O
-잭	B-PS_NAME
+마	B-PS_NAME
+이	I-PS_NAME
+클	I-PS_NAME
+ 	I-PS_NAME
+잭	I-PS_NAME
 슨	I-PS_NAME
 은	O
 .	O
@@ -77087,7 +77087,7 @@ C	I-OGG_MEDICINE
 측	O
 은	O
  	O
-양	O
+양	B-PS_NAME
  	O
 선	B-CV_OCCUPATION
 수	I-CV_OCCUPATION
@@ -77137,7 +77137,7 @@ C	I-OGG_MEDICINE
 .	O
 
 ## klue-ner-v1_dev_01296-wikitree	A씨는 당황과 분노 속에 꽁초를 던진 사람을 확인하려 했으나 찾지 못했고, 결국 경찰에 신고했다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -78173,8 +78173,8 @@ m	I-QT_SPEED
 .	O
 .	O
  	O
-차	O
-애	O
+차	B-PS_NAME
+애	I-PS_NAME
 가	O
  	O
 카	B-PS_CHARACTER
@@ -82115,7 +82115,7 @@ O	O
 소	O
 된	O
  	O
-P	O
+P	B-PS_NAME
 (	O
 3	B-QT_AGE
 9	I-QT_AGE
@@ -82233,9 +82233,9 @@ P	O
 이	O
 랑	O
  	O
-스	O
-타	O
-뎀	O
+스	B-PS_NAME
+타	I-PS_NAME
+뎀	I-PS_NAME
  	O
 표	O
 창	O
@@ -82910,9 +82910,9 @@ m	I-QT_LENGTH
 시	O
 봄	O
 ,	O
-중	O
-추	O
-훙	O
+중	B-PS_NAME
+추	I-PS_NAME
+훙	I-PS_NAME
  	O
 박	B-PS_NAME
 선	I-PS_NAME
@@ -83089,7 +83089,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_01394-wikitree	이 간호사는 이날 오전 고열 증상을 보여 마드리드 교외 알코콘 병원의 격리병동에 입원해 치료를 받고 있다.
-이	O
+이	B-PS_NAME
  	O
 간	B-CV_OCCUPATION
 호	I-CV_OCCUPATION
@@ -83821,11 +83821,11 @@ X	B-AFA_VIDEO
 .	O
 
 ## klue-ner-v1_dev_01406-nsmc	실버 서퍼의 위협은 5점대가 아니라 7점이 딱 적절하다
-실	O
-버	O
- 	O
-서	O
-퍼	O
+실	B-PS_NAME
+버	I-PS_NAME
+ 	I-PS_NAME
+서	I-PS_NAME
+퍼	I-PS_NAME
 의	O
  	O
 위	O
@@ -85166,7 +85166,7 @@ G	I-OGG_ECONOMY
 서	I-CV_OCCUPATION
 가	O
  	O
-A	O
+A	B-PS_NAME
  	O
 기	B-CV_OCCUPATION
 자	I-CV_OCCUPATION
@@ -85360,7 +85360,7 @@ K	I-OGG_ECONOMY
 학	O
 생	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 1	B-QT_AGE
 4	I-QT_AGE
@@ -86920,8 +86920,8 @@ A	I-OGG_MEDIA
 부	O
 터	O
  	O
-알	O
-바	O
+알	B-PS_NAME
+바	I-PS_NAME
 가	O
  	O
 좋	O
@@ -86956,7 +86956,7 @@ A	I-OGG_MEDIA
 오	O
 던	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -88530,7 +88530,7 @@ S	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_01487-wikitree	A군이 선거 벽보를 훼손하는 모습은 학교 주변에 설치된 CC(폐쇄회로)TV에 고스란히 담겼다고 경찰은 밝혔다.
-A	O
+A	B-PS_NAME
 군	O
 이	O
  	O
@@ -89052,21 +89052,21 @@ V	I-TMI_HW
 에	O
 는	O
  	O
-달	O
-라	O
-이	O
- 	O
-라	O
-마	O
+달	B-PS_NAME
+라	I-PS_NAME
+이	I-PS_NAME
+ 	I-PS_NAME
+라	I-PS_NAME
+마	I-PS_NAME
  	O
 귀	O
 국	O
 과	O
  	O
-판	O
-첸	O
-라	O
-마	O
+판	B-PS_NAME
+첸	I-PS_NAME
+라	I-PS_NAME
+마	I-PS_NAME
  	O
 석	O
 방	O
@@ -91396,10 +91396,10 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_01536-nsmc	최강 창민의 새로운 발견~!!!! 한국에서도 새로운 작품에서 볼수있길~
-최	O
-강	O
- 	O
-창	B-PS_NAME
+최	B-PS_NAME
+강	I-PS_NAME
+ 	I-PS_NAME
+창	I-PS_NAME
 민	I-PS_NAME
 의	O
  	O
@@ -91512,7 +91512,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_01539-wikitree	A양의 딱한 처지가 전해지자 연합뉴스에는 크리스마스 선물이라도 보내주고 싶다는 연락이 쇄도했다.
-A	O
+A	B-PS_NAME
 양	O
 의	O
  	O
@@ -92724,7 +92724,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_01561-wikitree	A양은 경기도 부천의 한 초등학교에서 2학년 1학기까지 다니다가 2013년께 인천시 연수구로 이사한 뒤 학업을 잇지 못했다.
-A	O
+A	B-PS_NAME
 양	O
 은	O
  	O
@@ -95880,7 +95880,7 @@ m	I-QT_LENGTH
 노	O
 는	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 의	O
  	O
@@ -96069,7 +96069,7 @@ A	O
 점	I-QT_OTHERS
 ,	O
  	O
-한	O
+한	B-PS_NAME
  	O
 배	B-CV_OCCUPATION
 우	I-CV_OCCUPATION
@@ -96713,7 +96713,7 @@ A	O
 다	O
 가	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -97752,9 +97752,9 @@ V	I-TMI_SERVICE
 .	O
 .	O
  	O
-짐	O
-캐	O
-리	O
+짐	B-PS_NAME
+캐	I-PS_NAME
+리	I-PS_NAME
 의	O
  	O
 소	O
@@ -99097,9 +99097,9 @@ V	I-TMI_SERVICE
 진	O
 짜	O
  	O
-리	O
-리	O
-코	O
+리	B-PS_NAME
+리	I-PS_NAME
+코	I-PS_NAME
 심	O
 정	O
 가	O
@@ -99457,12 +99457,12 @@ C	I-OGG_SPORTS
 두	O
 탄	O
  	O
-케	O
-이	O
-트	O
-블	O
-란	O
-쳇	O
+케	B-PS_NAME
+이	I-PS_NAME
+트	I-PS_NAME
+블	I-PS_NAME
+란	I-PS_NAME
+쳇	I-PS_NAME
 !	O
 !	O
 
@@ -100307,9 +100307,9 @@ C	I-OGG_SPORTS
  	O
 ㅎ	O
 ㅎ	O
-스	O
-텔	O
-론	O
+스	B-PS_NAME
+텔	I-PS_NAME
+론	I-PS_NAME
  	O
 행	O
 님	O
@@ -100725,9 +100725,9 @@ m	I-QT_LENGTH
 보	O
 고	O
  	O
-가	O
-정	O
-문	O
+가	B-PS_NAME
+정	I-PS_NAME
+문	I-PS_NAME
 을	O
  	O
 좋	O
@@ -102576,10 +102576,10 @@ S	O
 짐	O
 .	O
  	O
-리	O
-페	O
-이	O
-스	O
+리	B-PS_NAME
+페	I-PS_NAME
+이	I-PS_NAME
+스	I-PS_NAME
 도	O
  	O
 멋	O
@@ -104118,10 +104118,10 @@ S	O
 자	O
 살	O
 (	O
-베	O
-르	O
-테	O
-르	O
+베	B-PS_NAME
+르	I-PS_NAME
+테	I-PS_NAME
+르	I-PS_NAME
  	O
 효	O
 과	O
@@ -104403,8 +104403,8 @@ m	I-QT_LENGTH
 야	I-LCP_COUNTY
 의	O
  	O
-하	O
-치	O
+하	B-PS_NAME
+치	I-PS_NAME
 를	O
  	O
 또	O
@@ -104660,9 +104660,9 @@ C	O
 있	O
 음	O
  	O
-갓	O
-무	O
-스	O
+갓	B-PS_NAME
+무	I-PS_NAME
+스	I-PS_NAME
 ㅜ	O
 ㅜ	O
 ㅜ	O
@@ -106549,9 +106549,9 @@ C	I-OGG_MEDIA
 자	I-PS_NAME
 경	I-PS_NAME
  	O
-나	O
-부	O
-락	O
+나	B-PS_NAME
+부	I-PS_NAME
+락	I-PS_NAME
 의	O
  	O
 빛	O
@@ -107987,10 +107987,10 @@ N	I-OGG_MEDIA
 말	O
  	O
 이	O
-도	O
-라	O
-에	O
-몽	O
+도	B-PS_NAME
+라	I-PS_NAME
+에	I-PS_NAME
+몽	I-PS_NAME
  	O
 스	O
 탠	O
@@ -108663,8 +108663,8 @@ K	I-OGG_ECONOMY
  	O
 나	O
  	O
-코	O
-똔	O
+코	B-PS_NAME
+똔	I-PS_NAME
  	O
 갖	O
 고	O
@@ -109744,9 +109744,9 @@ G	I-OGG_ECONOMY
 엽	O
 고	O
  	O
-존	O
-쿠	O
-삭	O
+존	B-PS_NAME
+쿠	I-PS_NAME
+삭	I-PS_NAME
  	O
 귀	O
 여	O
@@ -109948,7 +109948,7 @@ D	I-TR_SCIENCE
 .	O
 
 ## klue-ner-v1_dev_01852-wikitree	A 씨에게 과외를 받은 B씨 아들은 2011년 서울의 모 대학에 입학했지만, 재수하면 더 좋은 대학에 갈 수 있다는 A 씨의 말에 속아 재수와 3수를 거듭했고, 지금은 군대에 가 있다.
-A	O
+A	B-PS_NAME
  	O
 씨	O
 에	O
@@ -109961,7 +109961,7 @@ A	O
 받	O
 은	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
  	O
 아	B-CV_RELATION
@@ -110013,7 +110013,7 @@ B	O
 다	O
 는	O
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 의	O
@@ -111731,7 +111731,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_01880-nsmc	비 연기 오글거려서 5분 보다가 돌렸네요 ...
-비	O
+비	B-PS_NAME
  	O
 연	O
 기	O
@@ -111953,7 +111953,7 @@ m	I-QT_LENGTH
 존	O
 자	O
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 가	O
@@ -114231,7 +114231,7 @@ _	O
 함	O
 께	O
  	O
-A	O
+A	B-PS_NAME
 양	O
 을	O
  	O
@@ -114484,9 +114484,9 @@ G	I-OGG_ECONOMY
 고	O
 
 ## klue-ner-v1_dev_01924-nsmc	아나킨이 제자를 키운다니 흥미로운 이야기
-아	O
-나	O
-킨	O
+아	B-PS_NAME
+나	I-PS_NAME
+킨	I-PS_NAME
 이	O
  	O
 제	O
@@ -114898,11 +114898,11 @@ G	I-OGG_ECONOMY
 봐	O
 도	O
  	O
-웨	O
-스	O
-앤	O
-더	O
-슨	O
+웨	B-PS_NAME
+스	I-PS_NAME
+앤	I-PS_NAME
+더	I-PS_NAME
+슨	I-PS_NAME
 의	O
 영	O
 화	O
@@ -116009,8 +116009,8 @@ N	I-OGG_MEDIA
 폰	I-TMI_HW
 을	O
  	O
-한	O
-세	B-PS_NAME
+한	B-PS_NAME
+세	I-PS_NAME
 경	I-PS_NAME
 엄	B-CV_RELATION
 마	I-CV_RELATION
@@ -116251,10 +116251,10 @@ N	I-OGG_MEDIA
 !	O
 
 ## klue-ner-v1_dev_01955-nsmc	알파치노는 좀 무리수였던거같지만... 휴그랜트는 정말 비슷했다고 생각한다
-알	O
-파	O
-치	O
-노	O
+알	B-PS_NAME
+파	I-PS_NAME
+치	I-PS_NAME
+노	I-PS_NAME
 는	O
  	O
 좀	O
@@ -117005,9 +117005,9 @@ N	I-OGG_MEDIA
 듦	O
 .	O
  	O
-유	O
-지	O
-태	O
+유	B-PS_NAME
+지	I-PS_NAME
+태	I-PS_NAME
  	O
 최	O
 고	O
@@ -117055,8 +117055,8 @@ N	I-OGG_MEDIA
 절	O
 한	O
  	O
-금	O
-자	O
+금	B-PS_NAME
+자	I-PS_NAME
 씨	O
 에	O
 서	O
@@ -117631,8 +117631,8 @@ X	I-LC_OTHERS
 결	O
 국	O
  	O
-강	O
-호	O
+강	B-PS_NAME
+호	I-PS_NAME
 의	O
  	O
 이	O
@@ -117641,8 +117641,8 @@ X	I-LC_OTHERS
 이	O
 며	O
  	O
-강	O
-호	O
+강	B-PS_NAME
+호	I-PS_NAME
 의	O
  	O
 최	O
@@ -117879,8 +117879,8 @@ X	I-LC_OTHERS
 정	O
 말	O
  	O
-영	O
-우	O
+영	B-PS_NAME
+우	I-PS_NAME
 처	O
 럼	O
  	O
@@ -120649,9 +120649,9 @@ _	O
 잃	O
 은	O
  	O
-도	O
-로	O
-시	O
+도	B-PS_NAME
+로	I-PS_NAME
+시	I-PS_NAME
 가	O
  	O
 된	O
@@ -122421,9 +122421,9 @@ C	I-EV_OTHERS
 .	O
 
 ## klue-ner-v1_dev_02059-nsmc	린즈링 덕분에 간신히 종료버튼을 누르지 않은 영화.
-린	O
-즈	O
-링	O
+린	B-PS_NAME
+즈	I-PS_NAME
+링	I-PS_NAME
  	O
 덕	O
 분	O
@@ -123018,7 +123018,7 @@ C	O
 배	B-CV_OCCUPATION
 우	I-CV_OCCUPATION
  	O
-A	O
+A	B-PS_NAME
 (	O
 2	B-QT_AGE
 3	I-QT_AGE
@@ -127969,7 +127969,7 @@ S	O
 장	O
 면	O
  	O
-죠	O
+죠	B-PS_NAME
  	O
 대	O
 사	O
@@ -128483,7 +128483,7 @@ m	I-QT_LENGTH
 어	O
 진	O
  	O
-A	O
+A	B-PS_NAME
 군	O
 이	O
  	O
@@ -128676,7 +128676,7 @@ A	O
 하	O
 던	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 1	B-QT_AGE
 9	I-QT_AGE
@@ -129393,15 +129393,15 @@ N	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_02170-nsmc	킬러 애쉬튼 커쳐의 무기는 섹시함이었던가.
-킬	O
-러	O
- 	O
-애	B-PS_CHARACTER
-쉬	I-PS_CHARACTER
-튼	I-PS_CHARACTER
- 	I-PS_CHARACTER
-커	I-PS_CHARACTER
-쳐	I-PS_CHARACTER
+킬	B-PS_NAME
+러	I-PS_NAME
+ 	I-PS_NAME
+애	I-PS_NAME
+쉬	I-PS_NAME
+튼	I-PS_NAME
+ 	I-PS_NAME
+커	I-PS_NAME
+쳐	I-PS_NAME
 의	O
  	O
 무	O
@@ -131766,7 +131766,7 @@ g	I-QT_WEIGHT
 일	I-DT_DAY
 은	O
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 가	O
@@ -132628,9 +132628,9 @@ s	O
 약	O
 자	O
  	O
-E	O
-x	O
-o	O
+E	B-PS_NAME
+x	I-PS_NAME
+o	I-PS_NAME
 ,	O
  	O
 그	O
@@ -133434,7 +133434,7 @@ d	O
 .	O
 
 ## klue-ner-v1_dev_02243-wikitree	A씨는 지난 10일 오전 5시 40분께 아산시 인주면 한 도로에서 자신의 SM5 승용차를 몰다가 중앙선을 넘어 또다른 SM5를 들이받고 그대로 달아난 혐의를 받고 있다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -134701,7 +134701,7 @@ D	I-TR_SCIENCE
 한	O
 편	O
  	O
-A	O
+A	B-PS_NAME
 군	O
 의	O
  	O
@@ -134927,10 +134927,10 @@ A	O
 ## klue-ner-v1_dev_02266-nsmc	갓 트래볼타의 진면목....뉴튼존은 덤...순수한 1970년대~ 지구의 최고백미시절~
 갓	O
  	O
-트	O
-래	O
-볼	O
-타	O
+트	B-PS_NAME
+래	I-PS_NAME
+볼	I-PS_NAME
+타	I-PS_NAME
 의	O
  	O
 진	O
@@ -134940,9 +134940,9 @@ A	O
 .	O
 .	O
 .	O
-뉴	O
-튼	O
-존	O
+뉴	B-PS_NAME
+튼	I-PS_NAME
+존	I-PS_NAME
 은	O
  	O
 덤	O
@@ -137312,9 +137312,9 @@ m	I-QT_LENGTH
 다	O
 
 ## klue-ner-v1_dev_02302-wikitree	아키에 페이스북에 올라온 글을 번역한 내용 전문이다.
-아	O
-키	O
-에	O
+아	B-PS_NAME
+키	I-PS_NAME
+에	I-PS_NAME
  	O
 페	B-TMI_SERVICE
 이	I-TMI_SERVICE
@@ -141177,7 +141177,7 @@ V	I-TMI_HW
 병	O
 인	O
  	O
-B	O
+B	B-PS_NAME
  	O
 일	B-CV_POSITION
 병	I-CV_POSITION
@@ -141578,11 +141578,11 @@ m	I-QT_LENGTH
 좋	O
 고	O
  	O
-숀	O
- 	O
-패	O
-리	O
-스	O
+숀	B-PS_NAME
+ 	I-PS_NAME
+패	I-PS_NAME
+리	I-PS_NAME
+스	I-PS_NAME
 라	O
 서	O
  	O
@@ -142240,9 +142240,9 @@ m	I-QT_LENGTH
 뒤	O
 ,	O
  	O
-쥬	O
-얼	O
-리	O
+쥬	B-PS_NAME
+얼	I-PS_NAME
+리	I-PS_NAME
 는	O
  	O
 박	B-PS_NAME
@@ -142268,9 +142268,9 @@ m	I-QT_LENGTH
 로	O
 운	O
  	O
-쥬	O
-얼	O
-리	O
+쥬	B-PS_NAME
+얼	I-PS_NAME
+리	I-PS_NAME
 를	O
  	O
 탄	O
@@ -142383,8 +142383,8 @@ m	I-QT_LENGTH
 위	O
 해	O
  	O
-틴	O
-탑	O
+틴	B-PS_NAME
+탑	I-PS_NAME
 의	O
  	O
 캡	B-PS_NAME
@@ -142832,7 +142832,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_02398-nsmc	희.최다니엘 정소민 진심 다 잘함 . 이 드라마어쩔꺼임 .어쨋든 오늘 끝나고나서 광고 하나 지나갈때까지 멍때렷음.. 어떻게 담주 기다리니.
-희	O
+희	B-PS_NAME
 .	O
 최	B-PS_NAME
 다	I-PS_NAME
@@ -143430,7 +143430,7 @@ d	O
 소	O
 된	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 2	B-QT_AGE
 5	I-QT_AGE
@@ -143703,7 +143703,7 @@ A	O
 남	O
 성	O
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 를	O
@@ -144196,7 +144196,7 @@ A	O
 가	O
 던	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 4	B-QT_AGE
 6	I-QT_AGE
@@ -145005,7 +145005,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_02433-wikitree	B씨로부터 구박과 학대를 당하고 있다는 피해의식에 사로잡혀 있던 그는 지난해 4월 심한 말다툼 끝에 B씨를 살해하기로 마음먹었다.
-B	O
+B	B-PS_NAME
 씨	O
 로	O
 부	O
@@ -145061,7 +145061,7 @@ B	O
 끝	O
 에	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
 를	O
  	O
@@ -146989,7 +146989,7 @@ V	I-TMI_HW
 보	O
 해	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
 의	O
  	O
@@ -148674,7 +148674,7 @@ R	I-AFA_VIDEO
 .	O
 
 ## klue-ner-v1_dev_02494-wikitree	A씨는 경찰에게 8일과 9일에 메르스 확진 환자가 발생한 순창군 순창읍 장덕리에서 일을 했다며 주장했으나, 그 당시 순창군 장덕리는 마을전체가 격리된 상황으로 A씨가 출입할 수 없는 상태였던 것으로 나타났다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -148763,7 +148763,7 @@ A	O
 으	O
 로	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -149195,7 +149195,7 @@ T	O
 하	O
 고	O
  	O
-R	O
+R	B-PS_NAME
 씨	O
 는	O
  	O
@@ -150088,9 +150088,9 @@ K	I-AFA_VIDEO
 는	O
  	O
 '	O
-뽀	O
-빠	O
-이	O
+뽀	B-PS_NAME
+빠	I-PS_NAME
+이	I-PS_NAME
  	O
 아	O
 저	O
@@ -150188,9 +150188,9 @@ K	I-AFA_VIDEO
 .	O
 
 ## klue-ner-v1_dev_02519-nsmc	스타뎀 짱짱맨 ㅋㅋㅋㅋ맨몸액션 중이구요
-스	O
-타	O
-뎀	O
+스	B-PS_NAME
+타	I-PS_NAME
+뎀	I-PS_NAME
  	O
 짱	O
 짱	O
@@ -150259,10 +150259,10 @@ V	I-TMI_HW
 때	O
 의	O
  	O
-독	O
-고	O
-영	O
-재	O
+독	B-PS_NAME
+고	I-PS_NAME
+영	I-PS_NAME
+재	I-PS_NAME
 의	O
  	O
 연	O
@@ -151437,8 +151437,8 @@ B	I-TMI_SW
 엄	B-CV_RELATION
 마	I-CV_RELATION
  	O
-시	O
-나	O
+시	B-PS_NAME
+나	I-PS_NAME
 !	O
 !	O
 !	O
@@ -155042,9 +155042,9 @@ S	O
 나	O
 마	O
  	O
-견	O
-자	O
-단	O
+견	B-PS_NAME
+자	I-PS_NAME
+단	I-PS_NAME
 과	O
 의	O
  	O
@@ -156112,7 +156112,7 @@ S	I-OGG_MEDIA
 려	O
 해	O
  	O
-B	O
+B	B-PS_NAME
  	O
 씨	O
  	O
@@ -156373,8 +156373,8 @@ B	O
 .	O
 
 ## klue-ner-v1_dev_02625-nsmc	볼트를 보면 우리 나라 진도개 백구가 생각나요.
-볼	O
-트	O
+볼	B-PS_NAME
+트	I-PS_NAME
 를	O
  	O
 보	O
@@ -159476,7 +159476,7 @@ K	I-OGG_POLITICS
 이	I-PS_NAME
 랑	O
  	O
-비	O
+비	B-PS_NAME
  	O
 연	O
 기	O
@@ -160716,7 +160716,7 @@ K	I-OGG_POLITICS
 하	O
 는	O
  	O
-A	O
+A	B-PS_NAME
 양	O
 에	O
 게	O
@@ -161294,9 +161294,9 @@ A	O
 ?	O
 
 ## klue-ner-v1_dev_02708-nsmc	조니뎁..역시 날 닮아 더 멋진넘!!
-조	O
-니	O
-뎁	O
+조	B-PS_NAME
+니	I-PS_NAME
+뎁	I-PS_NAME
 .	O
 .	O
 역	O
@@ -161785,7 +161785,7 @@ A	O
 에	O
 서	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 2	B-QT_AGE
 2	I-QT_AGE
@@ -161836,14 +161836,14 @@ A	O
  	O
 왜	O
  	O
-올	O
-란	O
-도	O
+올	B-PS_NAME
+란	I-PS_NAME
+도	I-PS_NAME
 랑	O
  	O
-키	O
-이	O
-라	O
+키	B-PS_NAME
+이	I-PS_NAME
+라	I-PS_NAME
 를	O
  	O
 뺀	O
@@ -162950,7 +162950,7 @@ T	O
 의	O
 자	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 (	O
 3	B-QT_AGE
@@ -163587,9 +163587,9 @@ A	O
 는	O
 데	O
  	O
-부	O
-세	O
-미	O
+부	B-PS_NAME
+세	I-PS_NAME
+미	I-PS_NAME
 는	O
  	O
 진	O
@@ -163619,9 +163619,9 @@ A	O
 ㅠ	O
 ㅠ	O
  	O
-한	O
-진	O
-우	O
+한	B-PS_NAME
+진	I-PS_NAME
+우	I-PS_NAME
 가	O
 지	O
 마	O
@@ -166612,8 +166612,8 @@ x	I-QT_OTHERS
 다	O
 
 ## klue-ner-v1_dev_02803-wikitree	몰리는 딸을 데리고 급히 응급실로 달려가야 했고, 가는 길에 딸의 치아 무려 7개나 뽑힌 사실을 알게 됐다.
-몰	O
-리	O
+몰	B-PS_NAME
+리	I-PS_NAME
 는	O
  	O
 딸	B-CV_RELATION
@@ -166896,11 +166896,11 @@ J	I-OGG_ECONOMY
 
 ## klue-ner-v1_dev_02807-wikitree	'손세이셔널' 손흥민(23·토트넘) 선수가 1골 1도움을 기록하며 펄펄 날았다.
 '	O
-손	O
-세	O
-이	O
-셔	O
-널	O
+손	B-PS_NAME
+세	I-PS_NAME
+이	I-PS_NAME
+셔	I-PS_NAME
+널	I-PS_NAME
 '	O
  	O
 손	B-PS_NAME
@@ -166941,7 +166941,7 @@ J	I-OGG_ECONOMY
 .	O
 
 ## klue-ner-v1_dev_02808-wikitree	A 씨는 지난해 10월 결혼해 오는 4월이면 한 아이의 아빠가 될 몸이었다.
-A	O
+A	B-PS_NAME
  	O
 씨	O
 는	O
@@ -167192,12 +167192,12 @@ A	O
 데	O
 !	O
  	O
-나	O
-이	O
-트	O
-샤	O
-말	O
-론	O
+나	B-PS_NAME
+이	I-PS_NAME
+트	I-PS_NAME
+샤	I-PS_NAME
+말	I-PS_NAME
+론	I-PS_NAME
 감	B-CV_POSITION
 독	I-CV_POSITION
  	O
@@ -167907,7 +167907,7 @@ H	I-OGG_ECONOMY
 친	O
 구	O
  	O
-K	O
+K	B-PS_NAME
 모	O
  	O
 기	B-CV_OCCUPATION
@@ -168761,7 +168761,7 @@ A	I-EV_SPORTS
 에	O
 서	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 1	B-QT_AGE
 6	I-QT_AGE
@@ -168936,11 +168936,11 @@ A	O
 .	O
 .	O
  	O
-멕	O
- 	O
-라	B-PS_CHARACTER
-이	I-PS_CHARACTER
-언	I-PS_CHARACTER
+멕	B-PS_NAME
+ 	I-PS_NAME
+라	I-PS_NAME
+이	I-PS_NAME
+언	I-PS_NAME
  	O
 누	O
 나	O
@@ -169066,8 +169066,8 @@ A	O
 사	I-CV_OCCUPATION
 님	O
  	O
-젬	O
-마	O
+젬	B-PS_NAME
+마	I-PS_NAME
  	O
 아	O
 줌	O
@@ -170392,9 +170392,9 @@ S	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_02864-nsmc	더스티는 레이스에서 우승하기위해 아픈 과거가 있는 훌륭한 지도자를 만나게 되고 맘이 착한 주인공은 어려움을 이겨내지요.
-더	O
-스	O
-티	O
+더	B-PS_NAME
+스	I-PS_NAME
+티	I-PS_NAME
 는	O
  	O
 레	O
@@ -170922,9 +170922,9 @@ l	I-QT_OTHERS
 .	O
 
 ## klue-ner-v1_dev_02873-nsmc	흰수염, 골드로저와 이름을 나란히하는 전설의 해적이 패기도 못쓰고 루피한테 당했다는건 말도 안되는 설정의 오류 너무 억지였습니다
-흰	O
-수	O
-염	O
+흰	B-PS_NAME
+수	I-PS_NAME
+염	I-PS_NAME
 ,	O
  	O
 골	B-PS_CHARACTER
@@ -171099,10 +171099,10 @@ l	I-QT_OTHERS
 .	O
 
 ## klue-ner-v1_dev_02876-nsmc	갱스부르가 정말 매력적으로 나옵니다~
-갱	O
-스	O
-부	O
-르	O
+갱	B-PS_NAME
+스	I-PS_NAME
+부	I-PS_NAME
+르	I-PS_NAME
 가	O
  	O
 정	O
@@ -172126,9 +172126,9 @@ P	I-OGG_ECONOMY
 까	O
 지	O
  	O
-이	O
-용	O
-만	O
+이	B-PS_NAME
+용	I-PS_NAME
+만	I-PS_NAME
 ㅠ	O
  	O
 참	O
@@ -173708,7 +173708,7 @@ S	O
 노	O
 인	O
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 를	O
@@ -174882,7 +174882,7 @@ G	I-OGG_SPORTS
 에	O
 서	O
  	O
-C	O
+C	B-PS_NAME
 씨	O
  	O
 명	O
@@ -174939,7 +174939,7 @@ C	O
 아	O
 져	O
  	O
-D	O
+D	B-PS_NAME
 씨	O
 가	O
  	O
@@ -175127,12 +175127,12 @@ A	I-OGG_POLITICS
 .	O
 
 ## klue-ner-v1_dev_02948-nsmc	료마랑마루이 머싰따능 역시 잘생겨써ㅠㅠ
-료	O
-마	O
+료	B-PS_NAME
+마	I-PS_NAME
 랑	O
-마	O
-루	O
-이	O
+마	B-PS_NAME
+루	I-PS_NAME
+이	I-PS_NAME
  	O
 머	O
 싰	O
@@ -177334,9 +177334,9 @@ B	I-OGG_POLITICS
 .	B-AM_PART
 .	B-AM_PART
 .	B-AM_PART
-쟝	O
-르	O
-노	O
+쟝	B-PS_NAME
+르	I-PS_NAME
+노	I-PS_NAME
 는	O
  	O
 반	O
@@ -180139,8 +180139,8 @@ x	I-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_03027-nsmc	성룡영화중 최고의 작품!! 성룡 원표 홍금보의 캐릭터를 가장잘살린 명작!! 재미있고 가슴떨리도록 액선도 강하다
-성	O
-룡	O
+성	B-PS_NAME
+룡	I-PS_NAME
 영	O
 화	O
 중	O
@@ -180157,8 +180157,8 @@ x	I-PS_NAME
 성	B-AFA_VIDEO
 룡	I-AFA_VIDEO
  	O
-원	O
-표	O
+원	B-PS_NAME
+표	I-PS_NAME
  	O
 홍	B-PS_NAME
 금	I-PS_NAME
@@ -181090,13 +181090,13 @@ x	I-PS_NAME
 나	I-PS_NAME
 가	O
  	O
-손	O
-오	O
-공	O
+손	B-PS_NAME
+오	I-PS_NAME
+공	I-PS_NAME
  	O
-부	O
-르	O
-마	O
+부	B-PS_NAME
+르	I-PS_NAME
+마	I-PS_NAME
 로	O
  	O
 ㅋ	O
@@ -185009,8 +185009,8 @@ G	I-OGG_SPORTS
 에	O
 도	O
  	O
-고	O
-담	O
+고	B-PS_NAME
+담	I-PS_NAME
 은	O
  	O
 넘	O
@@ -187018,14 +187018,14 @@ V	I-OGG_ART
 부	B-CV_RELATION
 인	I-CV_RELATION
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
 남	B-CV_RELATION
 편	I-CV_RELATION
  	O
-B	O
+B	B-PS_NAME
 씨	O
 를	O
  	O
@@ -187741,12 +187741,12 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_03154-nsmc	매뤼 쉘리즈 프랭컨스타인. 정말 재밌는 명작이네유.
-매	O
-뤼	O
- 	O
-쉘	O
-리	O
-즈	O
+매	B-PS_NAME
+뤼	I-PS_NAME
+ 	I-PS_NAME
+쉘	I-PS_NAME
+리	I-PS_NAME
+즈	I-PS_NAME
  	O
 프	B-PS_NAME
 랭	I-PS_NAME
@@ -188547,7 +188547,7 @@ V	I-TMI_SERVICE
 일	I-DT_OTHERS
 ,	O
  	O
-비	O
+비	B-PS_NAME
  	O
 소	O
 유	O
@@ -188595,7 +188595,7 @@ V	I-TMI_SERVICE
 하	O
 여	O
  	O
-비	O
+비	B-PS_NAME
 의	O
  	O
 소	O
@@ -189746,10 +189746,10 @@ J	B-PS_NAME
 2	B-QT_ORDER
 막	I-QT_ORDER
  	O
-아	O
-주	O
-체	O
-나	O
+아	B-PS_NAME
+주	I-PS_NAME
+체	I-PS_NAME
+나	I-PS_NAME
  	O
 노	O
 래	O
@@ -190123,10 +190123,10 @@ J	B-PS_NAME
 ;	O
 
 ## klue-ner-v1_dev_03197-wikitree	알바이락은 혼수상태에 빠져 생명연장 장치에 의존해 지내다 지난달 28일 23세 생일을 맞아 가족들의 결단으로 장치를 떼고 세상과 이별했다.
-알	O
-바	O
-이	O
-락	O
+알	B-PS_NAME
+바	I-PS_NAME
+이	I-PS_NAME
+락	I-PS_NAME
 은	O
  	O
 혼	O
@@ -191444,7 +191444,7 @@ t	I-QT_WEIGHT
 자	O
 는	O
  	O
-S	O
+S	B-PS_NAME
 씨	O
 를	O
  	O
@@ -191692,7 +191692,7 @@ S	O
 화	O
 
 ## klue-ner-v1_dev_03222-wikitree	A씨는 땅속 70cm 깊이에 묻혀 있었으며, 암매장된 곳 표면에는 검은색 가루가 발견됐다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -192774,8 +192774,8 @@ m	I-QT_LENGTH
 워	O
 ㅋ	O
  	O
-엘	O
-더	O
+엘	B-PS_NAME
+더	I-PS_NAME
  	O
 할	B-CV_RELATION
 아	I-CV_RELATION
@@ -193307,7 +193307,7 @@ S	O
 면	O
 ,	O
  	O
-A	O
+A	B-PS_NAME
  	O
 씨	O
 는	O
@@ -193740,9 +193740,9 @@ S	I-AFW_OTHER_PRODUCTS
 하	O
 는	O
  	O
-장	O
-학	O
-우	O
+장	B-PS_NAME
+학	I-PS_NAME
+우	I-PS_NAME
 에	O
  	O
 장	B-AFA_VIDEO
@@ -193956,7 +193956,7 @@ S	I-OGG_MEDIA
 만	O
 ,	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 의	O
  	O
@@ -195700,10 +195700,10 @@ P	I-OGG_OTHERS
 당	O
  	O
 '	O
-형	O
-용	O
-돈	O
-죵	O
+형	B-PS_NAME
+용	I-PS_NAME
+돈	I-PS_NAME
+죵	I-PS_NAME
 '	O
  	O
 커	O
@@ -196898,9 +196898,9 @@ A	I-OGG_POLITICS
 화	O
 .	O
  	O
-프	O
-로	O
-도	O
+프	B-PS_NAME
+로	I-PS_NAME
+도	I-PS_NAME
  	O
 어	O
 린	O
@@ -197385,7 +197385,7 @@ A	I-OGG_POLITICS
 액	O
 은	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -203286,7 +203286,7 @@ M	I-TMI_HW
 .	O
 
 ## klue-ner-v1_dev_03416-wikitree	A 씨는 5일 오후 11시 30분께 부산 부산진구의 한 요양원에서 치매 환자 B(71·여) 씨를 목 졸라 살해한 혐의를 받고 있다.
-A	O
+A	B-PS_NAME
  	O
 씨	O
 는	O
@@ -203329,7 +203329,7 @@ A	O
 환	O
 자	O
  	O
-B	O
+B	B-PS_NAME
 (	O
 7	B-QT_AGE
 1	I-QT_AGE
@@ -203522,7 +203522,7 @@ B	O
 사	O
 는	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 고	B-QT_ORDER
 3	I-QT_ORDER
@@ -204305,9 +204305,9 @@ F	O
 것	O
 은	O
  	O
-수	O
-퍼	O
-맨	O
+수	B-PS_NAME
+퍼	I-PS_NAME
+맨	I-PS_NAME
 이	O
 었	O
 고	O
@@ -205365,7 +205365,7 @@ K	B-AFA_VIDEO
 결	O
 과	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -205383,7 +205383,7 @@ A	O
 위	O
 해	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
 에	O
 게	O
@@ -205786,7 +205786,7 @@ B	O
 아	O
 챈	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
 는	O
  	O
@@ -206006,8 +206006,8 @@ B	O
 수	O
 한	O
  	O
-버	O
-디	O
+버	B-PS_NAME
+디	I-PS_NAME
 .	O
  	O
 나	B-AFA_VIDEO
@@ -206988,7 +206988,7 @@ B	O
 .	O
 
 ## klue-ner-v1_dev_03477-wikitree	이 9단과 알파고의 2차전은 오는 10일 오후 1시 서울 종로구 포시즌스 호텔에서 열린다.
-이	O
+이	B-PS_NAME
  	O
 9	B-QT_ORDER
 단	I-QT_ORDER
@@ -207468,7 +207468,7 @@ B	O
 월	I-DT_DURATION
 간	I-DT_DURATION
  	O
-A	O
+A	B-PS_NAME
 양	O
 과	O
  	O
@@ -207479,7 +207479,7 @@ A	O
 씨	O
 는	O
  	O
-A	O
+A	B-PS_NAME
 양	O
 이	O
  	O
@@ -209902,7 +209902,7 @@ m	I-QT_LENGTH
 맞	O
 서	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 를	O
  	O
@@ -209977,9 +209977,9 @@ A	O
 그	O
 냥	O
  	O
-강	O
-동	O
-원	O
+강	B-PS_NAME
+동	I-PS_NAME
+원	I-PS_NAME
 을	O
  	O
 위	O
@@ -210166,7 +210166,7 @@ S	I-TMI_SW
 찰	I-OGG_POLITICS
 은	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
 를	O
  	O
@@ -211854,7 +211854,7 @@ S	I-OGG_MEDIA
 직	O
 원	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -212233,12 +212233,12 @@ A	O
 한	O
  	O
 '	O
-j	O
-o	O
-r	O
-d	O
-a	O
-n	O
+j	B-PS_NAME
+o	I-PS_NAME
+r	I-PS_NAME
+d	I-PS_NAME
+a	I-PS_NAME
+n	I-PS_NAME
 2	O
 3	O
 '	O
@@ -212309,9 +212309,9 @@ S	I-OGG_MEDIA
 ;	O
 
 ## klue-ner-v1_dev_03559-nsmc	묠니르와 토르의 합 로키와 토르의 합 뭐든다 좋았음!
-묠	O
-니	O
-르	O
+묠	B-PS_NAME
+니	I-PS_NAME
+르	I-PS_NAME
 와	O
  	O
 토	B-PS_CHARACTER
@@ -213218,17 +213218,17 @@ S	I-OGG_MEDIA
 잼	O
 ㅋ	O
 ㅋ	O
-홍	O
-진	O
-호	O
+홍	B-PS_NAME
+진	I-PS_NAME
+호	I-PS_NAME
 도	O
 웃	O
 기	O
 고	O
  	O
-조	O
-세	O
-호	O
+조	B-PS_NAME
+세	I-PS_NAME
+호	I-PS_NAME
 도	O
 웃	O
 기	O
@@ -216168,7 +216168,7 @@ P	I-OGG_ECONOMY
 )	O
 로	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 1	B-QT_AGE
 8	I-QT_AGE
@@ -216200,7 +216200,7 @@ A	O
 .	O
 
 ## klue-ner-v1_dev_03622-wikitree	한 의원이 올린 또 다른 사진 한장입니다.
-한	O
+한	B-PS_NAME
  	O
 의	B-CV_POSITION
 원	I-CV_POSITION
@@ -217981,12 +217981,12 @@ V	I-OGG_ART
 미	O
 와	O
  	O
-힐	O
-다	O
+힐	B-PS_NAME
+다	I-PS_NAME
 와	O
  	O
-히	O
-들	O
+히	B-PS_NAME
+들	I-PS_NAME
 의	O
  	O
 케	O
@@ -218183,8 +218183,8 @@ M	O
  	O
 /	O
  	O
-시	O
-걸	O
+시	B-PS_NAME
+걸	I-PS_NAME
 의	O
  	O
 표	O
@@ -218894,8 +218894,8 @@ M	O
 .	O
 
 ## klue-ner-v1_dev_03676-nsmc	수상동생 남편의 외도장면은 크리스마스가 모두에게 아름다운건아니란거죠
-수	O
-상	O
+수	B-PS_NAME
+상	I-PS_NAME
 동	O
 생	O
  	O
@@ -219340,9 +219340,9 @@ v	I-TMI_HW
 듦	O
 .	O
  	O
-고	O
-경	O
-표	O
+고	B-PS_NAME
+경	I-PS_NAME
+표	I-PS_NAME
 연	O
 기	O
 도	O
@@ -219460,7 +219460,7 @@ b	O
 교	B-CV_OCCUPATION
 수	I-CV_OCCUPATION
  	O
-A	O
+A	B-PS_NAME
 (	O
 4	B-QT_AGE
 3	I-QT_AGE
@@ -219797,7 +219797,7 @@ A	O
 앞	O
 서	O
  	O
-A	O
+A	B-PS_NAME
 양	O
 의	O
  	O
@@ -219816,7 +219816,7 @@ A	O
 리	O
 로	O
  	O
-A	O
+A	B-PS_NAME
 양	O
 이	O
  	O
@@ -220253,10 +220253,10 @@ G	B-EV_OTHERS
 .	O
 
 ## klue-ner-v1_dev_03696-nsmc	에디머피의 베이베베이베베이베 아주 배가 빠짐.
-에	O
-디	O
-머	O
-피	O
+에	B-PS_NAME
+디	I-PS_NAME
+머	I-PS_NAME
+피	I-PS_NAME
 의	O
  	O
 베	O
@@ -225345,9 +225345,9 @@ P	I-OGG_ECONOMY
 다	O
 른	O
  	O
-손	O
-오	O
-공	O
+손	B-PS_NAME
+오	I-PS_NAME
+공	I-PS_NAME
 이	O
 라	O
 .	O
@@ -227033,21 +227033,21 @@ n	O
 .	O
 
 ## klue-ner-v1_dev_03808-nsmc	조로리 꿀잼~ 노시시 이시시 짱 귀욤~
-조	O
-로	O
-리	O
+조	B-PS_NAME
+로	I-PS_NAME
+리	I-PS_NAME
  	O
 꿀	O
 잼	O
 ~	O
  	O
-노	O
-시	O
-시	O
- 	O
-이	O
-시	O
-시	O
+노	B-PS_NAME
+시	I-PS_NAME
+시	I-PS_NAME
+ 	I-PS_NAME
+이	I-PS_NAME
+시	I-PS_NAME
+시	I-PS_NAME
  	O
 짱	O
  	O
@@ -227225,10 +227225,10 @@ S	I-EV_SPORTS
 반	O
 전	O
  	O
-죤	O
+죤	B-PS_NAME
 (	O
-직	O
-쏘	O
+직	B-PS_NAME
+쏘	I-PS_NAME
 )	O
 의	O
  	O
@@ -228884,8 +228884,8 @@ C	I-OGG_SPORTS
 이	O
 룬	O
  	O
-사	O
-야	O
+사	B-PS_NAME
+야	I-PS_NAME
 ,	O
  	O
 이	O
@@ -230431,8 +230431,8 @@ S	I-OGG_MEDIA
 역	O
 시	O
  	O
-헤	O
-더	O
+헤	B-PS_NAME
+더	I-PS_NAME
 가	O
  	O
 나	O
@@ -232414,8 +232414,8 @@ B	I-OGG_ECONOMY
 지	O
 막	O
  	O
-삼	O
-판	O
+삼	B-PS_NAME
+판	I-PS_NAME
 이	O
  	O
 제	B-PS_NAME
@@ -232718,7 +232718,7 @@ B	I-OGG_ECONOMY
 찰	I-OGG_POLITICS
 은	O
  	O
-B	O
+B	B-PS_NAME
 씨	O
 에	O
  	O
@@ -232927,7 +232927,7 @@ C	I-OGG_MEDIA
 ## klue-ner-v1_dev_03914-nsmc	ㅎㅎ잭진짜잘생김.ㅎㅎ나도 더빙한거 절대안보는 주의인데...이건 더빙판 좋더라ㅎㅎ 이제훈 목소리도 훈훈하구ㅎㅎ유해진진짜좋음ㅎㅋㅋㅎ겨울왕국보다 더 낫다.
 ㅎ	O
 ㅎ	O
-잭	O
+잭	B-PS_NAME
 진	O
 짜	O
 잘	O
@@ -232985,9 +232985,9 @@ C	I-OGG_MEDIA
 구	O
 ㅎ	O
 ㅎ	O
-유	O
-해	O
-진	O
+유	B-PS_NAME
+해	I-PS_NAME
+진	I-PS_NAME
 진	O
 짜	O
 좋	O
@@ -234216,9 +234216,9 @@ C	I-OGG_MEDIA
 크	O
 고	O
  	O
-데	O
-일	O
-리	O
+데	B-PS_NAME
+일	I-PS_NAME
+리	I-PS_NAME
 외	O
 모	O
 도	O
@@ -234529,12 +234529,12 @@ t	I-QT_WEIGHT
 .	O
 
 ## klue-ner-v1_dev_03939-nsmc	키아누리브스ㅜㅜ 너무 멋있네요 ㅜㅜ.......
-키	O
-아	O
-누	O
-리	O
-브	O
-스	O
+키	B-PS_NAME
+아	I-PS_NAME
+누	I-PS_NAME
+리	I-PS_NAME
+브	I-PS_NAME
+스	I-PS_NAME
 ㅜ	O
 ㅜ	O
  	O
@@ -234593,7 +234593,7 @@ t	I-QT_WEIGHT
 화	O
 
 ## klue-ner-v1_dev_03941-wikitree	R씨의 계좌 1개를 제외한 타인 명의로 된 계좌 3개는 지난해 출국한 이 사건과 관련이 없는 우즈베키스탄인들의 것으로 R씨는 그동안 이들 명의의 계좌를 사용해온 것으로 조사됐다.
-R	O
+R	B-PS_NAME
 씨	O
 의	O
  	O
@@ -234659,7 +234659,7 @@ R	O
 으	O
 로	O
  	O
-R	O
+R	B-PS_NAME
 씨	O
 는	O
  	O
@@ -236614,10 +236614,10 @@ R	I-OGG_SPORTS
 .	O
 
 ## klue-ner-v1_dev_03975-nsmc	뤽 베쏭이,제5원소 찍고,맛탱이 가기전에 만든,개 명작 니키타나,레옹이 얼마나 잘 만든 영화인지 뼈저리게,깨닫게 해주는 영화.조 라이트가 영원히 예술영화 전문감독으로 남아야만 하는 이유...이 사람에게 절대 맡겨선 안되는 영화란,슈퍼액션 히어로영화이다
-뤽	O
- 	O
-베	O
-쏭	O
+뤽	B-PS_NAME
+ 	I-PS_NAME
+베	I-PS_NAME
+쏭	I-PS_NAME
 이	O
 ,	O
 제	B-AFA_VIDEO
@@ -237433,7 +237433,7 @@ N	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_03986-wikitree	A씨는 지난 10일 오후 8시30분께 고성군 회화면 배둔리 국도 14호선을 달리던 시외버스에서 김모(29·여)씨를 성추행하고 달아난 혐의를 받고 있다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -237561,7 +237561,7 @@ A	O
 아	O
 온	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 에	O
 게	O
@@ -237600,9 +237600,9 @@ A	O
 ~	O
 ㅋ	O
  	O
-스	O
-탤	O
-론	O
+스	B-PS_NAME
+탤	I-PS_NAME
+론	I-PS_NAME
 은	O
  	O
 왜	O
@@ -237805,8 +237805,8 @@ A	O
 더	O
 라	O
  	O
-존	O
-박	O
+존	B-PS_NAME
+박	I-PS_NAME
 이	O
 라	O
 도	O
@@ -238119,7 +238119,7 @@ t	O
 의	O
 로	O
  	O
-A	O
+A	B-PS_NAME
 양	O
 을	O
  	O
@@ -238325,9 +238325,9 @@ A	O
 .	O
 
 ## klue-ner-v1_dev_04005-nsmc	윌리스횽.. 염색머리 넘 잘어울려..
-윌	O
-리	O
-스	O
+윌	B-PS_NAME
+리	I-PS_NAME
+스	I-PS_NAME
 횽	O
 .	O
 .	O
@@ -239076,9 +239076,9 @@ g	I-QT_WEIGHT
 가	O
 로	O
  	O
-조	O
-니	O
-뎁	O
+조	B-PS_NAME
+니	I-PS_NAME
+뎁	I-PS_NAME
 은	O
  	O
 정	O
@@ -239305,10 +239305,10 @@ g	I-QT_WEIGHT
 적	O
 인	O
  	O
-드	O
-라	O
-큘	O
-라	O
+드	B-PS_NAME
+라	I-PS_NAME
+큘	I-PS_NAME
+라	I-PS_NAME
 의	O
  	O
 완	O
@@ -239660,7 +239660,7 @@ L	I-AFA_DOCUMENT
 당	O
 시	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -239686,7 +239686,7 @@ A	O
 점	O
 ,	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -240798,7 +240798,7 @@ R	I-AF_TRANSPORT
 6	B-QT_ORDER
 반	I-QT_ORDER
  	O
-A	O
+A	B-PS_NAME
 군	O
 은	O
  	O
@@ -240871,8 +240871,8 @@ A	O
 계	O
 속	O
  	O
-자	O
-은	O
+자	B-PS_NAME
+은	I-PS_NAME
 a	O
 n	O
 d	O
@@ -241434,9 +241434,9 @@ C	I-OGG_MEDIA
 좋	O
 타	O
  	O
-동	O
-엽	O
-신	O
+동	B-PS_NAME
+엽	I-PS_NAME
+신	I-PS_NAME
 ㅋ	O
 ㅋ	O
 ㅋ	O
@@ -242320,9 +242320,9 @@ V	O
 .	O
 
 ## klue-ner-v1_dev_04083-nsmc	도마안중근이 유오성의 탓으로 생각하지마라
-도	O
-마	O
-안	B-PS_NAME
+도	B-PS_NAME
+마	I-PS_NAME
+안	I-PS_NAME
 중	I-PS_NAME
 근	I-PS_NAME
 이	I-PS_NAME
@@ -242621,7 +242621,7 @@ V	O
 ## klue-ner-v1_dev_04089-wikitree	또 A씨에게 명예훼손을 할 고의성이나 이를 불특정 다수에게 전파하려는 의도 역시 없었다며 이 부분에 대해 원심을 파기하고 무죄를 선고했다.
 또	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 에	O
 게	O
@@ -242837,9 +242837,9 @@ C	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_04093-nsmc	존쿠삭나온 영화들의 한결같은평...영화는 꽝인데 존쿠삭연기가 살렸다...
-존	O
-쿠	O
-삭	O
+존	B-PS_NAME
+쿠	I-PS_NAME
+삭	I-PS_NAME
 나	O
 온	O
  	O
@@ -242864,9 +242864,9 @@ C	I-OGG_MEDIA
 인	O
 데	O
  	O
-존	O
-쿠	O
-삭	O
+존	B-PS_NAME
+쿠	I-PS_NAME
+삭	I-PS_NAME
 연	O
 기	O
 가	O
@@ -243560,9 +243560,9 @@ V	I-OGG_ART
  	O
 다	O
  	O
-부	O
-도	O
-리	O
+부	B-PS_NAME
+도	I-PS_NAME
+리	I-PS_NAME
 의	O
  	O
 꿈	O
@@ -243646,7 +243646,7 @@ V	I-OGG_ART
 간	O
 지	O
  	O
-A	O
+A	B-PS_NAME
  	O
 기	B-CV_OCCUPATION
 자	I-CV_OCCUPATION
@@ -244955,14 +244955,14 @@ m	I-QT_LENGTH
 이	O
 후	O
  	O
-팀	O
-버	O
-튼	O
+팀	B-PS_NAME
+버	I-PS_NAME
+튼	I-PS_NAME
 과	O
  	O
-조	O
-니	O
-뎁	O
+조	B-PS_NAME
+니	I-PS_NAME
+뎁	I-PS_NAME
 의	O
  	O
 시	O
@@ -245074,9 +245074,9 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_04127-nsmc	구지성떄문에 2점준다 ㅡㅡ 감독은 다행인줄알아.
-구	O
-지	O
-성	O
+구	B-PS_NAME
+지	I-PS_NAME
+성	I-PS_NAME
 떄	O
 문	O
 에	O
@@ -245269,7 +245269,7 @@ W	I-PS_NAME
 소	O
 속	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 2	B-QT_AGE
 2	I-QT_AGE
@@ -247363,9 +247363,9 @@ S	I-OGG_MEDIA
 동	I-TI_DURATION
 안	I-TI_DURATION
  	O
-마	O
-음	O
-이	O
+마	B-PS_NAME
+음	I-PS_NAME
+이	I-PS_NAME
 의	O
  	O
 재	O
@@ -248296,9 +248296,9 @@ S	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_04186-nsmc	스웽크도 이영화에 출연한걸 후회했을것이다
-스	O
-웽	O
-크	O
+스	B-PS_NAME
+웽	I-PS_NAME
+크	I-PS_NAME
 도	O
  	O
 이	O
@@ -248320,8 +248320,8 @@ S	I-OGG_MEDIA
 다	O
 
 ## klue-ner-v1_dev_04187-wikitree	신화가 약 7년 만에 공식 팬클럽 '신화창조' 10기를 모집한다.
-신	O
-화	O
+신	B-PS_NAME
+화	I-PS_NAME
 가	O
  	O
 약	B-DT_DURATION
@@ -249104,7 +249104,7 @@ C	O
 '	O
 은	O
  	O
-이	O
+이	B-PS_NAME
  	O
 할	B-CV_RELATION
 머	I-CV_RELATION
@@ -250043,9 +250043,9 @@ K	B-AFA_VIDEO
 지	I-PS_NAME
 상	O
  	O
-바	O
-니	O
-쨩	O
+바	B-PS_NAME
+니	I-PS_NAME
+쨩	I-PS_NAME
  	O
 사	O
 랑	O
@@ -251192,11 +251192,11 @@ Q	O
 에	O
  	O
 '	O
-돈	O
-스	O
-파	O
-이	O
-크	O
+돈	B-PS_NAME
+스	I-PS_NAME
+파	I-PS_NAME
+이	I-PS_NAME
+크	I-PS_NAME
 모	O
 드	O
 ’	O
@@ -252821,10 +252821,10 @@ G	O
  	O
 ㅜ	O
 ㅜ	O
-해	O
-리	O
-포	O
-터	O
+해	B-PS_NAME
+리	I-PS_NAME
+포	I-PS_NAME
+터	I-PS_NAME
 나	O
  	O
 반	B-AFA_VIDEO
@@ -252950,7 +252950,7 @@ G	O
 결	O
 과	O
  	O
-A	O
+A	B-PS_NAME
  	O
 경	B-CV_POSITION
 장	I-CV_POSITION
@@ -253547,7 +253547,7 @@ A	O
 몰	O
 던	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 와	O
  	O
@@ -253576,7 +253576,7 @@ A	O
 잡	O
 아	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -253852,9 +253852,9 @@ A	O
 .	O
 
 ## klue-ner-v1_dev_04276-nsmc	마음이를 보면내내 마음이 정말 깨끗해지는 것 같았다.
-마	O
-음	O
-이	O
+마	B-PS_NAME
+음	I-PS_NAME
+이	I-PS_NAME
 를	O
  	O
 보	O
@@ -255973,8 +255973,8 @@ m	I-QT_LENGTH
 크	I-TMI_HW
 가	O
  	O
-조	O
-단	O
+조	B-PS_NAME
+단	I-PS_NAME
 에	O
 게	O
  	O
@@ -256309,8 +256309,8 @@ a	I-OGG_MEDIA
 들	O
 도	O
  	O
-쯔	O
-위	O
+쯔	B-PS_NAME
+위	I-PS_NAME
  	O
 논	O
 란	O
@@ -258821,9 +258821,9 @@ V	I-OGG_ART
 래	O
 도	O
  	O
-숀	O
- 	O
-펜	O
+숀	B-PS_NAME
+ 	I-PS_NAME
+펜	I-PS_NAME
 을	O
  	O
 믿	O
@@ -260495,8 +260495,8 @@ N	I-AFA_VIDEO
 은	O
 데	O
  	O
-광	O
-수	O
+광	B-PS_NAME
+수	I-PS_NAME
 땜	O
 에	O
  	O
@@ -261485,9 +261485,9 @@ J	I-CV_OCCUPATION
 해	O
 도	O
  	O
-정	O
-난	O
-정	O
+정	B-PS_NAME
+난	I-PS_NAME
+정	I-PS_NAME
 으	O
 로	O
  	O
@@ -261864,7 +261864,7 @@ s	I-DT_YEAR
 .	O
 
 ## klue-ner-v1_dev_04419-wikitree	A씨가 폭행에 심하게 부상을 입자 더 이상 물리적 폭행이 어렵다고 판단한 장씨 일행은 A씨 손발을 묶고 얼굴에 비닐봉지를 씌운 상태에서 캡사이신보다 2~3배 독한 겨자 농축액이 담긴 호신용 스프레이를 40여 차례에 걸쳐 뿌려 화상을 입혔다.
-A	O
+A	B-PS_NAME
 씨	O
 가	O
  	O
@@ -261912,7 +261912,7 @@ A	O
 행	O
 은	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
  	O
 손	B-AM_PART
@@ -262301,8 +262301,8 @@ s	O
 2	I-QT_ORDER
 의	O
  	O
-이	O
-티	O
+이	B-PS_NAME
+티	I-PS_NAME
 라	O
  	O
 하	O
@@ -262719,9 +262719,9 @@ s	O
  	O
 각	O
  	O
-쑨	O
-웨	O
-이	O
+쑨	B-PS_NAME
+웨	I-PS_NAME
+이	I-PS_NAME
 (	O
 2	O
 2	O
@@ -263869,11 +263869,11 @@ C	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_04451-nsmc	로안앳킨슨의 '미스터빈'어리버리 연기가 돋보인 영화! 속편도 잼있음ㅋㅋ
-로	O
-안	O
-앳	O
-킨	O
-슨	O
+로	B-PS_NAME
+안	I-PS_NAME
+앳	I-PS_NAME
+킨	I-PS_NAME
+슨	I-PS_NAME
 의	O
  	O
 '	O
@@ -264158,7 +264158,7 @@ C	I-OGG_MEDIA
 원	O
 생	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 3	B-QT_AGE
 3	I-QT_AGE
@@ -264199,7 +264199,7 @@ A	O
 수	O
 생	O
  	O
-B	O
+B	B-PS_NAME
 (	O
 3	B-QT_AGE
 0	I-QT_AGE
@@ -264329,11 +264329,11 @@ B	O
 .	O
 
 ## klue-ner-v1_dev_04461-nsmc	오드리헵번의 치명적인 매력중 단하나도 보지못함. 비비안리와 그레이스켈리의 매력에 따라가지 못하는..1人 하지만 고전영화에 있어서 그녀는 전설이라불리우고있다.
-오	O
-드	O
-리	O
-헵	O
-번	O
+오	B-PS_NAME
+드	I-PS_NAME
+리	I-PS_NAME
+헵	I-PS_NAME
+번	I-PS_NAME
 의	O
  	O
 치	O
@@ -265704,7 +265704,7 @@ C	I-CV_OCCUPATION
 무	I-CV_OCCUPATION
 사	I-CV_OCCUPATION
  	O
-A	O
+A	B-PS_NAME
 (	O
 2	B-QT_AGE
 4	I-QT_AGE
@@ -266783,10 +266783,10 @@ A	O
 은	O
  	O
 '	O
-개	O
-미	O
-부	B-CV_RELATION
-부	I-CV_RELATION
+개	B-PS_CHARACTER
+미	I-PS_CHARACTER
+부	I-PS_CHARACTER
+부	I-PS_CHARACTER
 '	O
 라	O
 고	O
@@ -270460,7 +270460,7 @@ C	I-OGG_MEDIA
 학	B-CV_OCCUPATION
 생	I-CV_OCCUPATION
  	O
-A	O
+A	B-PS_NAME
 (	O
 1	B-QT_AGE
 7	I-QT_AGE
@@ -270884,7 +270884,7 @@ A	B-EV_SPORTS
 잼	O
 
 ## klue-ner-v1_dev_04568-wikitree	A씨는 2014년 중국인 여자친구와 함께 중국을 방문했다가 범행을 계획한 현지인B씨를 만났다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -270928,7 +270928,7 @@ A	O
 현	O
 지	O
 인	O
-B	O
+B	B-PS_NAME
 씨	O
 를	O
  	O
@@ -271081,8 +271081,8 @@ B	O
 스	I-TM_SPORTS
 를	O
  	O
-뮐	O
-러	O
+뮐	B-PS_NAME
+러	I-PS_NAME
 가	O
  	O
 왼	B-AM_PART
@@ -271648,7 +271648,7 @@ B	O
 업	I-CV_OCCUPATION
 자	I-CV_OCCUPATION
  	O
-A	O
+A	B-PS_NAME
 (	O
 4	B-QT_AGE
 8	I-QT_AGE
@@ -271665,14 +271665,14 @@ A	O
 을	O
 ,	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 의	O
  	O
 아	B-CV_RELATION
 내	I-CV_RELATION
  	O
-B	O
+B	B-PS_NAME
 (	O
 3	B-QT_AGE
 6	I-QT_AGE
@@ -273589,8 +273589,8 @@ C	I-OGG_SPORTS
 .	O
 
 ## klue-ner-v1_dev_04615-nsmc	칠득이 하나로 명성을 날리던 90년대의 은든고수 !!
-칠	O
-득	O
+칠	B-PS_NAME
+득	I-PS_NAME
 이	O
  	O
 하	B-QT_COUNT
@@ -274302,7 +274302,7 @@ s	I-EV_FESTIVAL
 결	O
 국	O
  	O
-A	O
+A	B-PS_NAME
 양	O
  	O
 부	B-CV_RELATION
@@ -276146,7 +276146,7 @@ K	I-OGG_SPORTS
 ㅋ	O
 
 ## klue-ner-v1_dev_04663-nsmc	벨도 너무 예쁘고 디즈니 작품들 중에서 ost는 가장 좋은 듯해요
-벨	O
+벨	B-PS_NAME
 도	O
  	O
 너	O
@@ -276632,8 +276632,8 @@ m	I-QT_SPEED
 기	O
 고	O
  	O
-바	O
-다	O
+바	B-PS_NAME
+다	I-PS_NAME
 는	O
  	O
 이	O
@@ -280212,8 +280212,8 @@ K	I-OGG_MEDIA
 도	O
 된	O
  	O
-신	O
-화	O
+신	B-PS_NAME
+화	I-PS_NAME
 의	O
  	O
 멤	O
@@ -281587,8 +281587,8 @@ H	I-AF_TRANSPORT
 .	O
 .	O
  	O
-코	O
-엔	O
+코	B-PS_NAME
+엔	I-PS_NAME
 이	O
 였	O
 어	O
@@ -281832,10 +281832,10 @@ m	I-QT_LENGTH
 지	O
 막	O
  	O
-팀	O
-로	O
-빈	O
-스	O
+팀	B-PS_NAME
+로	I-PS_NAME
+빈	I-PS_NAME
+스	I-PS_NAME
 가	O
  	O
 b	O
@@ -283765,7 +283765,7 @@ I	I-OGG_OTHERS
 소	O
 된	O
  	O
-A	O
+A	B-PS_NAME
 씨	O
 에	O
  	O
@@ -284906,7 +284906,7 @@ _	O
 가	O
 는	O
  	O
-A	O
+A	B-PS_NAME
 군	O
 을	O
  	O
@@ -285149,9 +285149,9 @@ A	O
 용	O
 해	O
  	O
-스	O
-마	O
-프	O
+스	B-PS_NAME
+마	I-PS_NAME
+프	I-PS_NAME
 가	O
  	O
 존	O
@@ -285810,8 +285810,8 @@ m	I-QT_LENGTH
 로	I-PS_NAME
 랑	O
  	O
-상	O
-디	O
+상	B-PS_NAME
+디	I-PS_NAME
 작	O
 화	O
 가	O
@@ -286576,9 +286576,9 @@ S	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_04842-nsmc	마음이2만보구 1편은 안봤었는데완전 슬픔ㅜㅜ 마음아~~~~ㅠㅠ
-마	O
-음	O
-이	O
+마	B-PS_NAME
+음	I-PS_NAME
+이	I-PS_NAME
 2	B-QT_COUNT
 만	I-QT_COUNT
 보	O
@@ -286601,8 +286601,8 @@ S	I-OGG_MEDIA
 ㅜ	O
 ㅜ	O
  	O
-마	O
-음	O
+마	B-PS_NAME
+음	I-PS_NAME
 아	O
 ~	O
 ~	O
@@ -287132,7 +287132,7 @@ S	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_04850-wikitree	A씨는 18일 오후 9시께 군포시 영동고속도로 갓길에서 차를 세워놓고 필로폰을 투약하는 등 지난해 9월부터 수십차례에 걸쳐 필로폰을 투약한 혐의를 받고 있다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -289599,13 +289599,13 @@ P	I-OGG_MEDIA
 래	O
 도	O
  	O
-쇼	O
-타	O
+쇼	B-PS_NAME
+타	I-PS_NAME
 의	O
 스	O
 시	O
-쇼	O
-타	O
+쇼	B-PS_NAME
+타	I-PS_NAME
 하	O
 고	O
  	O
@@ -293689,7 +293689,7 @@ A	I-OGG_POLITICS
 르	O
 면	O
  	O
-A	O
+A	B-PS_NAME
 (	O
 2	B-QT_AGE
 8	I-QT_AGE
@@ -294851,8 +294851,8 @@ A	O
 .	O
 
 ## klue-ner-v1_dev_04983-nsmc	초원이는 달리는 게 좋은 게 아니라 행복하더고 느끼는 순수한 마음이 담겨진다
-초	O
-원	O
+초	B-PS_NAME
+원	I-PS_NAME
 이	O
 는	O
  	O
@@ -294895,7 +294895,7 @@ A	O
 다	O
 
 ## klue-ner-v1_dev_04984-wikitree	A씨는 폭행을 당한 직후 혼자 인근 하단지구대까지 걸어가 신고했고, 약 1시간 뒤인 오전 6시께 A씨를 찾아 경찰서로 온 일행의 도움으로 귀가했다.
-A	O
+A	B-PS_NAME
 씨	O
 는	O
  	O
@@ -294949,7 +294949,7 @@ A	O
 시	I-TI_HOUR
 께	I-TI_HOUR
  	O
-A	O
+A	B-PS_NAME
 씨	O
 를	O
  	O
