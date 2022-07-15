@@ -10,5 +10,5 @@
 원천 데이터인 KLUE-NER [klue-benchmark](https://klue-benchmark.com/tasks/69/overview/description)에서 데이터를 삭제하거나 추가하지 않고 주석 오류 수정, 150개의 부류로 확장 등의 추가 주석 작업을 통해 구축된 말뭉치
 
 
-#개체명 태그 세트 비교표       
+# 개체명 태그 세트 비교표       
 https://docs.google.com/spreadsheets/d/1k6eFkYMQl9UAhf5xT31-_BNQ5kMVZJZwMVhS6yAxRzk/edit?usp=sharing
