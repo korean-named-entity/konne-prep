@@ -995,11 +995,11 @@ P	I-EV_OTHERS
 에	O
 서	O
  	O
-국	O
-악	O
-예	O
-술	O
-단	O
+국	B-OGG_ART
+악	I-OGG_ART
+예	I-OGG_ART
+술	I-OGG_ART
+단	I-OGG_ART
  	O
 단	B-CV_POSITION
 장	I-CV_POSITION
@@ -2783,9 +2783,9 @@ C	I-OGG_MEDIA
 다	O
 운	O
  	O
-첫	O
-걸	O
-음	O
+첫	B-QT_ORDER
+걸	I-QT_ORDER
+음	I-QT_ORDER
  	O
 .	O
 .	O
@@ -6159,8 +6159,8 @@ A	B-PS_NAME
 말	O
 !	O
  	O
-3	O
-D	O
+3	B-QT_OTHERS
+D	I-QT_OTHERS
 여	O
 서	O
  	O
@@ -6606,10 +6606,10 @@ m	I-QT_LENGTH
 된	O
  	O
 '	O
-타	O
-마	O
-로	O
-드	O
+타	B-OGG_POLITICS
+마	I-OGG_POLITICS
+로	I-OGG_POLITICS
+드	I-OGG_POLITICS
 '	O
 (	O
 반	O
@@ -6819,11 +6819,11 @@ J	I-OGG_ECONOMY
 난	I-DT_YEAR
 해	I-DT_YEAR
  	O
-사	O
-이	O
-버	O
-의	O
-병	O
+사	B-OGG_OTHERS
+이	I-OGG_OTHERS
+버	I-OGG_OTHERS
+의	I-OGG_OTHERS
+병	I-OGG_OTHERS
 의	O
  	O
 8	B-EV_ACTIVITY
@@ -7787,10 +7787,10 @@ G	O
 면	O
 ,	O
  	O
-종	O
-교	O
-빌	O
-딩	O
+종	B-AF_BUILDING
+교	I-AF_BUILDING
+빌	I-AF_BUILDING
+딩	I-AF_BUILDING
  	O
 자	O
 리	O
@@ -7842,9 +7842,9 @@ G	O
 에	O
 서	O
  	O
-장	O
-마	O
-철	O
+장	B-DT_SEASON
+마	I-DT_SEASON
+철	I-DT_SEASON
 에	O
  	O
 비	O
@@ -7955,11 +7955,11 @@ G	O
 미	B-LCP_COUNTRY
 국	I-LCP_COUNTRY
  	O
-사	O
-법	O
- 	O
-당	O
-국	O
+사	B-OGG_LAW
+법	I-OGG_LAW
+ 	I-OGG_LAW
+당	I-OGG_LAW
+국	I-OGG_LAW
 은	O
  	O
 도	O
@@ -8774,9 +8774,9 @@ Z	I-OGG_MEDIA
 .	O
 
 ## klue-ner-v1_dev_00143-wikitree	비대위는 개인투자자 4천여명(투자금액 3천억원)이 서명한 탄원서를 서울중앙지법에 냈다.
-비	O
-대	O
-위	O
+비	B-OGG_OTHERS
+대	I-OGG_OTHERS
+위	I-OGG_OTHERS
 는	O
  	O
 개	O
@@ -9268,9 +9268,9 @@ Z	I-OGG_MEDIA
 임	O
 한	O
  	O
-두	O
-세	O
-번	O
+두	B-QT_COUNT
+세	I-QT_COUNT
+번	I-QT_COUNT
 밨	O
 는	O
 데	O
@@ -11784,8 +11784,8 @@ C	I-OGG_SPORTS
 례	I-QT_COUNT
 에	O
  	O
-한	O
-해	O
+한	B-DT_DURATION
+해	I-DT_DURATION
  	O
 4	B-DT_DURATION
 년	I-DT_DURATION
@@ -16237,8 +16237,8 @@ S	O
 사	O
 람	O
 )	O
-삼	O
-풍	O
+삼	B-AF_BUILDING
+풍	I-AF_BUILDING
  	O
 에	O
 피	O
@@ -18982,20 +18982,20 @@ V	I-TMI_HW
 심	O
 은	O
  	O
-재	O
-판	O
-부	O
+재	B-OGG_LAW
+판	I-OGG_LAW
+부	I-OGG_LAW
 가	O
  	O
-지	O
-하	O
-혁	O
-명	O
-조	O
-직	O
- 	O
-R	B-OGG_MILITARY
-O	I-OGG_MILITARY
+지	B-OGG_POLITICS
+하	I-OGG_POLITICS
+혁	I-OGG_POLITICS
+명	I-OGG_POLITICS
+조	I-OGG_POLITICS
+직	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+R	I-OGG_POLITICS
+O	I-OGG_POLITICS
 (	O
 이	O
 하	O
@@ -20544,11 +20544,11 @@ C	I-OGG_MEDIA
 다	O
 
 ## klue-ner-v1_dev_00340-wikitree	전력거래소는 필요할 경우 추가 수급대책을 시행하겠다고 말했다.
-전	O
-력	O
-거	O
-래	O
-소	O
+전	B-OGG_ECONOMY
+력	I-OGG_ECONOMY
+거	I-OGG_ECONOMY
+래	I-OGG_ECONOMY
+소	I-OGG_ECONOMY
 는	O
  	O
 필	O
@@ -21020,7 +21020,7 @@ O	I-CV_POSITION
 마	O
 다	O
  	O
-밤	O
+밤	B-TI_DURATION
 잠	O
  	O
 설	O
@@ -21814,17 +21814,17 @@ O	I-CV_POSITION
 쁨	O
 '	O
 (	O
-8	O
-1	O
-∼	O
-1	O
-2	O
-0	O
-μ	O
-g	O
-/	O
-m	O
-3	O
+8	B-QT_OTHERS
+1	I-QT_OTHERS
+∼	I-QT_OTHERS
+1	I-QT_OTHERS
+2	I-QT_OTHERS
+0	I-QT_OTHERS
+μ	I-QT_OTHERS
+g	I-QT_OTHERS
+/	I-QT_OTHERS
+m	I-QT_OTHERS
+3	I-QT_OTHERS
 )	O
  	O
 수	O
@@ -22597,10 +22597,10 @@ m	O
 불	O
 어	O
  	O
-아	O
-카	O
-데	O
-미	O
+아	B-OGG_ART
+카	I-OGG_ART
+데	I-OGG_ART
+미	I-OGG_ART
  	O
 1	B-QT_COUNT
 1	I-QT_COUNT
@@ -25316,9 +25316,9 @@ S	O
 뷔	O
 해	O
  	O
-이	O
-듬	O
-해	O
+이	B-DT_YEAR
+듬	I-DT_YEAR
+해	I-DT_YEAR
  	O
 투	B-AFA_VIDEO
 니	I-AFA_VIDEO
@@ -25481,8 +25481,8 @@ S	O
 되	O
 는	O
  	O
-미	O
-국	O
+미	B-LCP_COUNTRY
+국	I-LCP_COUNTRY
 식	O
  	O
 코	O
@@ -25720,8 +25720,8 @@ S	O
 .	O
 
 ## klue-ner-v1_dev_00435-nsmc	3D는 무슨ㅋㅋㅋㅋㅋㅋㅋ 넣을데가 없어서 막 창문 깨부술때나 손나올때가3d지, 그리고 사다코 CG 겁나 이상해ㅠㅠ전혀 무섭지 않았다.
-3	O
-D	O
+3	B-QT_OTHERS
+D	I-QT_OTHERS
 는	O
  	O
 무	O
@@ -25759,8 +25759,8 @@ D	O
 올	O
 때	O
 가	O
-3	O
-d	O
+3	B-QT_OTHERS
+d	I-QT_OTHERS
 지	O
 ,	O
  	O
@@ -27238,14 +27238,14 @@ X	I-AF_TRANSPORT
 최	O
 악	O
  	O
-초	O
-반	O
- 	O
-1	B-TI_DURATION
-0	I-TI_DURATION
-여	I-TI_DURATION
-분	I-TI_DURATION
-만	I-TI_DURATION
+초	B-TI_MINUTE
+반	I-TI_MINUTE
+ 	I-TI_MINUTE
+1	I-TI_MINUTE
+0	I-TI_MINUTE
+여	I-TI_MINUTE
+분	I-TI_MINUTE
+만	I-TI_MINUTE
  	O
 볼	O
 만	O
@@ -28964,8 +28964,8 @@ o	I-AFA_MUSIC
 에	O
 서	O
  	O
-새	O
-해	O
+새	B-DT_YEAR
+해	I-DT_YEAR
 맞	O
 이	O
  	O
@@ -29046,9 +29046,9 @@ o	I-AFA_MUSIC
 지	O
 금	O
  	O
-케	O
-이	O
-블	O
+케	B-OGG_MEDIA
+이	I-OGG_MEDIA
+블	I-OGG_MEDIA
 에	O
 서	O
  	O
@@ -30612,9 +30612,9 @@ T	O
 못	O
 한	O
  	O
-코	O
-스	O
-닥	O
+코	B-OGG_ECONOMY
+스	I-OGG_ECONOMY
+닥	I-OGG_ECONOMY
 시	O
 장	O
 이	O
@@ -33569,10 +33569,10 @@ P	O
 .	O
 
 ## klue-ner-v1_dev_00570-wikitree	저축은행 등으로부터 불법자금을 수수한 혐의로 구속기소돼 실형을 선고받고 수감 중인 이상득 전 새누리당 의원과 정두언 새누리당 의원이 낸 보석신청이 모두 기각됐다.
-저	O
-축	O
-은	O
-행	O
+저	B-OGG_ECONOMY
+축	I-OGG_ECONOMY
+은	I-OGG_ECONOMY
+행	I-OGG_ECONOMY
  	O
 등	O
 으	O
@@ -35517,10 +35517,10 @@ S	I-OGG_ECONOMY
 다	O
 
 ## klue-ner-v1_dev_00603-wikitree	감찰본부는 김광수 부장검사가 이중희 비서관과 연락을 주고받았다는 일부 정황을 확보한 것으로 확인됐다.
-감	O
-찰	O
-본	O
-부	O
+감	B-OGG_POLITICS
+찰	I-OGG_POLITICS
+본	I-OGG_POLITICS
+부	I-OGG_POLITICS
 는	O
  	O
 김	B-PS_NAME
@@ -35681,8 +35681,8 @@ S	I-OGG_ECONOMY
 려	O
 는	O
  	O
-공	O
-항	O
+공	B-LC_OTHERS
+항	I-LC_OTHERS
 에	O
 서	O
 ,	O
@@ -37131,10 +37131,10 @@ K	I-OGG_ECONOMY
 까	I-DT_DURATION
 지	I-DT_DURATION
  	O
-매	O
-주	O
- 	O
-금	B-DT_DAY
+매	B-DT_DAY
+주	I-DT_DAY
+ 	I-DT_DAY
+금	I-DT_DAY
 요	I-DT_DAY
 일	I-DT_DAY
  	O
@@ -37712,13 +37712,13 @@ C	I-AF_BUILDING
 의	O
  	O
 '	O
-무	O
-비	O
- 	O
-트	O
-레	O
-일	O
-러	O
+무	B-TMI_SERVICE
+비	I-TMI_SERVICE
+ 	I-TMI_SERVICE
+트	I-TMI_SERVICE
+레	I-TMI_SERVICE
+일	I-TMI_SERVICE
+러	I-TMI_SERVICE
 '	O
  	O
 홈	O
@@ -40004,8 +40004,8 @@ V	I-AFA_VIDEO
 보	O
 면	O
  	O
-B	O
-급	O
+B	B-QT_ORDER
+급	I-QT_ORDER
 영	O
 환	O
 줄	O
@@ -40702,9 +40702,9 @@ n	I-OGG_ECONOMY
  	O
 등	O
  	O
-유	O
-로	O
-존	O
+유	B-LC_OTHERS
+로	I-LC_OTHERS
+존	I-LC_OTHERS
  	O
 지	O
 도	O
@@ -41541,9 +41541,9 @@ t	O
 .	O
 
 ## klue-ner-v1_dev_00709-nsmc	헐리웃 액션과 스토리 러브라인의 3박자가 다 들어가 있다.
-헐	O
-리	O
-웃	O
+헐	B-LC_OTHERS
+리	I-LC_OTHERS
+웃	I-LC_OTHERS
  	O
 액	O
 션	O
@@ -43569,9 +43569,9 @@ Z	I-AF_TRANSPORT
 '	O
 는	O
  	O
-4	O
-°	O
-C	O
+4	B-QT_OTHERS
+°	I-QT_OTHERS
+C	I-QT_OTHERS
 에	O
 서	O
  	O
@@ -43592,9 +43592,9 @@ C	O
 남	B-TM_DIRECTION
 부	I-TM_DIRECTION
  	O
-콤	O
-파	O
-냐	O
+콤	B-LCP_PROVINCE
+파	I-LCP_PROVINCE
+냐	I-LCP_PROVINCE
  	O
 산	O
  	O
@@ -45406,12 +45406,12 @@ C	I-EV_SPORTS
 업	O
 체	O
  	O
-커	O
-플	O
-예	O
-감	O
- 	O
-필	B-OGG_ECONOMY
+커	B-OGG_ECONOMY
+플	I-OGG_ECONOMY
+예	I-OGG_ECONOMY
+감	I-OGG_ECONOMY
+ 	I-OGG_ECONOMY
+필	I-OGG_ECONOMY
 링	I-OGG_ECONOMY
 유	I-OGG_ECONOMY
 와	O
@@ -45992,8 +45992,8 @@ C	I-EV_SPORTS
 체	O
 인	O
  	O
-B	O
-사	O
+B	B-OGG_ECONOMY
+사	I-OGG_ECONOMY
 는	O
  	O
 당	O
@@ -47578,10 +47578,10 @@ A	B-PS_NAME
 의	O
 는	O
  	O
-매	O
-주	O
- 	O
-목	B-DT_DAY
+매	B-DT_DAY
+주	I-DT_DAY
+ 	I-DT_DAY
+목	I-DT_DAY
 요	I-DT_DAY
 일	I-DT_DAY
  	O
@@ -48087,14 +48087,14 @@ R	I-AFW_OTHER_PRODUCTS
 하	O
 며	O
  	O
-일	O
-일	O
+일	B-DT_DURATION
+일	I-DT_DURATION
  	O
-박	O
-스	O
-오	O
-피	O
-스	O
+박	B-TMI_SERVICE
+스	I-TMI_SERVICE
+오	I-TMI_SERVICE
+피	I-TMI_SERVICE
+스	I-TMI_SERVICE
  	O
 1	B-QT_ORDER
 위	I-QT_ORDER
@@ -49841,14 +49841,14 @@ B	I-OGG_SPORTS
 승	I-QT_SPORTS
 과	O
  	O
-방	O
-어	O
-율	O
- 	O
-3	B-QT_PERCENTAGE
-.	I-QT_PERCENTAGE
-0	I-QT_PERCENTAGE
-0	I-QT_PERCENTAGE
+방	B-QT_OTHERS
+어	I-QT_OTHERS
+율	I-QT_OTHERS
+ 	I-QT_OTHERS
+3	I-QT_OTHERS
+.	I-QT_OTHERS
+0	I-QT_OTHERS
+0	I-QT_OTHERS
 을	O
  	O
 기	O
@@ -50307,8 +50307,8 @@ F	I-OGG_OTHERS
 당	O
 일	O
  	O
-대	O
-낮	O
+대	B-TI_DURATION
+낮	I-TI_DURATION
 에	O
  	O
 호	O
@@ -55730,13 +55730,13 @@ p	I-QT_ORDER
 이	B-DT_DAY
 날	I-DT_DAY
  	O
-늦	O
-은	O
- 	O
-오	B-TI_DURATION
-후	I-TI_DURATION
-부	I-TI_DURATION
-터	I-TI_DURATION
+늦	B-TI_OTHERS
+은	I-TI_OTHERS
+ 	I-TI_OTHERS
+오	I-TI_OTHERS
+후	I-TI_OTHERS
+부	I-TI_OTHERS
+터	I-TI_OTHERS
  	O
 밤	B-TI_DURATION
  	O
@@ -56243,8 +56243,8 @@ p	I-QT_ORDER
 률	O
 이	O
  	O
-매	O
-년	O
+매	B-DT_YEAR
+년	I-DT_YEAR
  	O
 3	B-QT_PERCENTAGE
 %	I-QT_PERCENTAGE
@@ -59658,13 +59658,13 @@ A	B-PS_NAME
 지	O
 만	O
  	O
-교	O
-육	O
-·	O
-행	O
-정	O
-당	O
-국	O
+교	B-OGG_POLITICS
+육	I-OGG_POLITICS
+·	I-OGG_POLITICS
+행	I-OGG_POLITICS
+정	I-OGG_POLITICS
+당	I-OGG_POLITICS
+국	I-OGG_POLITICS
  	O
 공	B-CV_OCCUPATION
 무	I-CV_OCCUPATION
@@ -60436,10 +60436,10 @@ m	I-QT_LENGTH
 금	O
 이	O
  	O
-우	O
-리	O
-나	O
-라	O
+우	B-LCP_COUNTRY
+리	I-LCP_COUNTRY
+나	I-LCP_COUNTRY
+라	I-LCP_COUNTRY
  	O
 돈	O
 으	O
@@ -62412,8 +62412,8 @@ C	I-OGG_MEDIA
 특	O
 별	O
  	O
-희	O
-년	O
+희	B-DT_YEAR
+년	I-DT_YEAR
 의	O
  	O
 최	O
@@ -62559,10 +62559,10 @@ P	I-OGG_MEDIA
 었	O
 고	O
  	O
-A	O
-어	O
-학	O
-원	O
+A	B-OGG_EDUCATION
+어	I-OGG_EDUCATION
+학	I-OGG_EDUCATION
+원	I-OGG_EDUCATION
  	O
 측	O
 은	O
@@ -65436,9 +65436,9 @@ d	O
 2	I-DT_YEAR
 년	I-DT_YEAR
  	O
-한	O
-일	B-EV_SPORTS
-월	I-EV_SPORTS
+한	B-LCP_COUNTRY
+일	B-LCP_COUNTRY
+월	B-EV_SPORTS
 드	I-EV_SPORTS
 컵	I-EV_SPORTS
 에	O
@@ -66587,10 +66587,10 @@ D	O
 1	B-DT_DAY
 일	I-DT_DAY
  	O
-쾰	O
-른	O
- 	O
-경	B-OGG_POLITICS
+쾰	B-OGG_POLITICS
+른	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+경	I-OGG_POLITICS
 찰	I-OGG_POLITICS
 은	O
  	O
@@ -66804,16 +66804,16 @@ D	O
 .	O
 
 ## klue-ner-v1_dev_01133-nsmc	중학교 고등학교시절 세나와 프로스트 만쎌이 F1레이스를 다투던 기사를 보던게 생생하다..
-중	O
-학	O
-교	O
- 	O
-고	O
-등	O
-학	O
-교	O
-시	O
-절	O
+중	B-DT_DURATION
+학	I-DT_DURATION
+교	I-DT_DURATION
+ 	I-DT_DURATION
+고	I-DT_DURATION
+등	I-DT_DURATION
+학	I-DT_DURATION
+교	I-DT_DURATION
+시	I-DT_DURATION
+절	I-DT_DURATION
  	O
 세	B-PS_NAME
 나	I-PS_NAME
@@ -66864,21 +66864,21 @@ F	B-EV_SPORTS
 에	O
  	O
 '	O
-불	O
-법	O
-폭	O
-력	O
-시	O
-위	O
- 	O
-대	O
-응	O
- 	O
-태	O
-스	O
-크	O
-포	O
-스	O
+불	B-OGG_POLITICS
+법	I-OGG_POLITICS
+폭	I-OGG_POLITICS
+력	I-OGG_POLITICS
+시	I-OGG_POLITICS
+위	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+대	I-OGG_POLITICS
+응	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+태	I-OGG_POLITICS
+스	I-OGG_POLITICS
+크	I-OGG_POLITICS
+포	I-OGG_POLITICS
+스	I-OGG_POLITICS
 '	O
 를	O
  	O
@@ -66898,17 +66898,17 @@ F	B-EV_SPORTS
 에	O
  	O
 '	O
-불	O
-법	O
-폭	O
-력	O
-시	O
-위	O
- 	O
-수	O
-사	O
-본	O
-부	O
+불	B-OGG_POLITICS
+법	I-OGG_POLITICS
+폭	I-OGG_POLITICS
+력	I-OGG_POLITICS
+시	I-OGG_POLITICS
+위	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+수	I-OGG_POLITICS
+사	I-OGG_POLITICS
+본	I-OGG_POLITICS
+부	I-OGG_POLITICS
 '	O
 를	O
  	O
@@ -67473,10 +67473,10 @@ A	B-PS_NAME
 무	O
 슨	O
  	O
-1	O
-0	O
-글	O
-자	O
+1	B-QT_OTHERS
+0	I-QT_OTHERS
+글	I-QT_OTHERS
+자	I-QT_OTHERS
 ㅡ	O
 ㅡ	O
 
@@ -68137,8 +68137,8 @@ T	I-CV_LAW
 ㅜ	O
 
 ## klue-ner-v1_dev_01157-wikitree	우본은 우편물 다량접수처와 택배업계 등의 내부 시스템 개선을 돕기 위해 새 우편번호 데이터베이스와 전환 프로그램을 무상으로 지원할 계획이다.
-우	O
-본	O
+우	B-OGG_OTHERS
+본	I-OGG_OTHERS
 은	O
  	O
 우	O
@@ -69389,8 +69389,8 @@ _	O
 임	O
 한	O
  	O
-3	O
-성	O
+3	B-QT_OTHERS
+성	I-QT_OTHERS
  	O
 장	B-CV_POSITION
 군	I-CV_POSITION
@@ -71493,16 +71493,16 @@ t	O
 롯	O
 한	O
  	O
-지	O
-주	O
- 	O
-산	O
-하	O
- 	O
-금	O
-융	O
-회	O
-사	O
+지	B-OGG_ECONOMY
+주	I-OGG_ECONOMY
+ 	I-OGG_ECONOMY
+산	I-OGG_ECONOMY
+하	I-OGG_ECONOMY
+ 	I-OGG_ECONOMY
+금	I-OGG_ECONOMY
+융	I-OGG_ECONOMY
+회	I-OGG_ECONOMY
+사	I-OGG_ECONOMY
  	O
 사	B-CV_POSITION
 장	I-CV_POSITION
@@ -72259,8 +72259,8 @@ t	O
 지	O
 만	O
  	O
-매	O
-일	O
+매	B-DT_DAY
+일	I-DT_DAY
  	O
 조	O
 금	O
@@ -72459,8 +72459,8 @@ t	O
 채	B-PS_NAME
 수	I-PS_NAME
 빈	I-PS_NAME
-(	O
-2	B-QT_AGE
+(	B-QT_AGE
+2	I-QT_AGE
 1	I-QT_AGE
 )	O
 씨	O
@@ -72508,8 +72508,8 @@ t	O
  	O
 귀	B-AM_PART
  	O
-투	O
-샷	O
+투	B-QT_OTHERS
+샷	I-QT_OTHERS
  	O
 많	O
 이	O
@@ -74428,35 +74428,35 @@ g	O
 통	O
 해	O
  	O
-경	O
-제	O
-복	O
-지	O
-정	O
-책	O
-팀	O
+경	B-OGG_POLITICS
+제	I-OGG_POLITICS
+복	I-OGG_POLITICS
+지	I-OGG_POLITICS
+정	I-OGG_POLITICS
+책	I-OGG_POLITICS
+팀	I-OGG_POLITICS
 ,	O
  	O
-통	O
-일	O
-외	O
-교	O
-안	O
-보	O
-정	O
-책	O
-팀	O
+통	B-OGG_POLITICS
+일	I-OGG_POLITICS
+외	I-OGG_POLITICS
+교	I-OGG_POLITICS
+안	I-OGG_POLITICS
+보	I-OGG_POLITICS
+정	I-OGG_POLITICS
+책	I-OGG_POLITICS
+팀	I-OGG_POLITICS
 ,	O
  	O
-단	O
-일	O
-화	O
-방	O
-식	O
- 	O
-협	O
-의	O
-팀	O
+단	B-OGG_POLITICS
+일	I-OGG_POLITICS
+화	I-OGG_POLITICS
+방	I-OGG_POLITICS
+식	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+협	I-OGG_POLITICS
+의	I-OGG_POLITICS
+팀	I-OGG_POLITICS
  	O
 등	O
  	O
@@ -74703,8 +74703,8 @@ g	O
 자	I-PS_CHARACTER
 랑	O
  	O
-투	O
-톱	O
+투	B-QT_OTHERS
+톱	I-QT_OTHERS
 임	O
  	O
 역	O
@@ -78037,9 +78037,9 @@ m	I-QT_SPEED
 ㅋ	O
 .	O
 ㅋ	O
-1	O
-0	O
-점	O
+1	B-QT_OTHERS
+0	I-QT_OTHERS
+점	I-QT_OTHERS
 이	O
 라	O
  	O
@@ -79167,12 +79167,12 @@ _	O
 ;	O
 
 ## klue-ner-v1_dev_01332-wikitree	달인지하철퀵'은 65세 이상 노인들이 오토바이가 아닌 지하철을 이용해 수도권 전 지역을 기준으로 배달 서비스를 실시한다고 하는데요.
-달	O
-인	O
-지	O
-하	O
-철	O
-퀵	O
+달	B-OGG_ECONOMY
+인	I-OGG_ECONOMY
+지	I-OGG_ECONOMY
+하	I-OGG_ECONOMY
+철	I-OGG_ECONOMY
+퀵	I-OGG_ECONOMY
 '	O
 은	O
  	O
@@ -79539,9 +79539,9 @@ D	I-QT_OTHERS
 지	O
 만	O
  	O
-재	O
-판	O
-부	O
+재	B-OGG_LAW
+판	I-OGG_LAW
+부	I-OGG_LAW
 는	O
  	O
 김	B-PS_NAME
@@ -80403,10 +80403,10 @@ S	O
 우	O
  	O
 그	O
-다	O
-음	O
- 	O
-날	O
+다	B-DT_DAY
+음	I-DT_DAY
+ 	I-DT_DAY
+날	I-DT_DAY
 로	O
  	O
 소	O
@@ -80521,11 +80521,11 @@ t	O
 러	I-PS_NAME
 와	O
  	O
-이	O
- 	O
-대	O
- 	O
-일	O
+이	B-QT_OTHERS
+ 	I-QT_OTHERS
+대	I-QT_OTHERS
+ 	I-QT_OTHERS
+일	I-QT_OTHERS
  	O
 패	B-TM_SPORTS
 스	I-TM_SPORTS
@@ -81752,12 +81752,12 @@ s	I-AFA_MUSIC
 .	O
 
 ## klue-ner-v1_dev_01371-wikitree	사단법인 전국재해구호협회는 모집 목표액을 700억원이라고 밝혔다.
-사	O
-단	O
-법	O
-인	O
- 	O
-전	B-OGG_OTHERS
+사	B-OGG_OTHERS
+단	I-OGG_OTHERS
+법	I-OGG_OTHERS
+인	I-OGG_OTHERS
+ 	I-OGG_OTHERS
+전	I-OGG_OTHERS
 국	I-OGG_OTHERS
 재	I-OGG_OTHERS
 해	I-OGG_OTHERS
@@ -83999,16 +83999,16 @@ X	B-AFA_VIDEO
 안	O
 든	O
  	O
-네	O
- 	O
-신	O
-사	O
+네	B-QT_MAN_COUNT
+ 	I-QT_MAN_COUNT
+신	I-QT_MAN_COUNT
+사	I-QT_MAN_COUNT
 와	O
  	O
-네	O
- 	O
-신	O
-사	O
+네	B-QT_MAN_COUNT
+ 	I-QT_MAN_COUNT
+신	I-QT_MAN_COUNT
+사	I-QT_MAN_COUNT
 를	O
  	O
 성	O
@@ -84873,10 +84873,10 @@ S	O
 최	O
 근	O
  	O
-의	O
-무	O
-경	O
-찰	O
+의	B-OGG_POLITICS
+무	I-OGG_POLITICS
+경	I-OGG_POLITICS
+찰	I-OGG_POLITICS
 에	O
  	O
 지	O
@@ -84926,9 +84926,9 @@ S	O
 서	I-OGG_POLITICS
 에	O
  	O
-S	O
-병	O
-원	O
+S	B-OGG_MEDICINE
+병	I-OGG_MEDICINE
+원	I-OGG_MEDICINE
 을	O
  	O
 형	O
@@ -85706,9 +85706,9 @@ C	I-OGG_SPORTS
 정	I-AF_TRANSPORT
 이	O
  	O
-N	O
-L	O
-L	O
+N	B-LC_OTHERS
+L	I-LC_OTHERS
+L	I-LC_OTHERS
 을	O
  	O
 침	O
@@ -85758,9 +85758,9 @@ m	I-QT_LENGTH
 동	I-TI_DURATION
 안	I-TI_DURATION
  	O
-N	O
-L	O
-L	O
+N	B-LC_OTHERS
+L	I-LC_OTHERS
+L	I-LC_OTHERS
  	O
 남	B-TM_DIRECTION
 쪽	I-TM_DIRECTION
@@ -89261,10 +89261,10 @@ V	I-TMI_HW
 역	O
 시	O
  	O
-헐	O
-리	O
-우	O
-드	O
+헐	B-LC_OTHERS
+리	I-LC_OTHERS
+우	I-LC_OTHERS
+드	I-LC_OTHERS
 급	O
 
 ## klue-ner-v1_dev_01499-nsmc	초반부 보고 재밌을줄알았더니 -_- 무슨 670년대영화도 아니고..
@@ -89509,11 +89509,11 @@ T	I-OGG_MEDIA
 사	O
 상	O
  	O
-첫	O
- 	O
-1	B-EV_SPORTS
-6	I-EV_SPORTS
-강	I-EV_SPORTS
+첫	B-QT_OTHERS
+ 	I-QT_OTHERS
+1	I-QT_OTHERS
+6	I-QT_OTHERS
+강	I-QT_OTHERS
  	O
 진	O
 출	O
@@ -89611,10 +89611,10 @@ T	I-OGG_MEDIA
 며	O
 ,	O
  	O
-교	O
-육	O
-당	O
-국	O
+교	B-OGG_EDUCATION
+육	I-OGG_EDUCATION
+당	I-OGG_EDUCATION
+국	I-OGG_EDUCATION
 이	O
  	O
 긴	O
@@ -89748,7 +89748,7 @@ t	I-QT_ORDER
  	O
 매	O
 력	O
-0	O
+0	B-QT_OTHERS
 
 ## klue-ner-v1_dev_01508-nsmc	주인공 여민이의 믿음직한 연기가돋보입니다
 주	O
@@ -90640,15 +90640,15 @@ V	I-AFA_VIDEO
 5	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
 (	O
-민	O
-주	O
+민	B-OGG_POLITICS
+주	I-OGG_POLITICS
  	O
 1	B-QT_MAN_COUNT
 8	I-QT_MAN_COUNT
 ,	O
  	O
-공	O
-화	O
+공	B-OGG_POLITICS
+화	I-OGG_POLITICS
  	O
 7	B-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
@@ -96069,7 +96069,7 @@ A	B-PS_NAME
 점	I-QT_OTHERS
 ,	O
  	O
-한	O
+한	B-QT_MAN_COUNT
  	O
 배	B-CV_OCCUPATION
 우	I-CV_OCCUPATION
@@ -96743,8 +96743,8 @@ A	B-PS_NAME
 고	O
 ,	O
  	O
-A	O
-4	O
+A	B-QT_OTHERS
+4	I-QT_OTHERS
 용	O
 지	O
  	O
@@ -96985,12 +96985,12 @@ V	I-TMI_SERVICE
 드	O
 와	O
  	O
-대	O
- 	O
-몽	B-LCP_COUNTRY
-골	I-LCP_COUNTRY
-제	I-LCP_COUNTRY
-국	I-LCP_COUNTRY
+대	B-OGG_POLITICS
+ 	I-OGG_POLITICS
+몽	I-OGG_POLITICS
+골	I-OGG_POLITICS
+제	I-OGG_POLITICS
+국	I-OGG_POLITICS
 의	O
  	O
 부	O
@@ -97693,9 +97693,9 @@ S	I-OGG_MILITARY
 )	O
 의	O
  	O
-종	O
-교	O
-부	O
+종	B-OGG_POLITICS
+교	I-OGG_POLITICS
+부	I-OGG_POLITICS
 가	O
  	O
 발	O
@@ -99864,7 +99864,7 @@ C	I-OGG_SPORTS
 랑	I-LCP_COUNTRY
 스	I-LCP_COUNTRY
  	O
-둘	O
+둘	B-QT_OTHERS
 다	O
 봤	O
 는	O
@@ -100586,8 +100586,8 @@ m	I-QT_LENGTH
 서	O
  	O
 별	O
-두	O
-개	O
+두	B-QT_OTHERS
+개	I-QT_OTHERS
 는	O
 서	O
 비	O
@@ -102399,10 +102399,10 @@ S	O
 !	O
 
 ## klue-ner-v1_dev_01719-nsmc	중학시절의 꿈을 갖게해준영화..셀린디옹과 미셸레드포드를 알게해준..감동적인 영화
-중	O
-학	O
-시	O
-절	O
+중	B-DT_DURATION
+학	I-DT_DURATION
+시	I-DT_DURATION
+절	I-DT_DURATION
 의	O
  	O
 꿈	O
@@ -103872,13 +103872,13 @@ C	I-OGG_SPORTS
 에	O
 게	O
  	O
-후	O
-쿠	O
-시	O
-마	O
- 	O
-원	O
-전	O
+후	B-AF_BUILDING
+쿠	I-AF_BUILDING
+시	I-AF_BUILDING
+마	I-AF_BUILDING
+ 	I-AF_BUILDING
+원	I-AF_BUILDING
+전	I-AF_BUILDING
  	O
 오	O
 염	O
@@ -105260,8 +105260,8 @@ C	O
 호	I-QT_ORDER
 기	I-QT_ORDER
 ·	O
-고	O
-리	O
+고	B-LCP_COUNTY
+리	I-LCP_COUNTY
  	O
 1	B-QT_ORDER
 호	I-QT_ORDER
@@ -105320,19 +105320,19 @@ C	O
 '	O
 는	O
  	O
-스	O
-트	O
-레	O
-스	O
-테	O
-스	O
-트	O
- 	O
-민	O
-간	O
-검	O
-증	O
-단	O
+스	B-OGG_OTHERS
+트	I-OGG_OTHERS
+레	I-OGG_OTHERS
+스	I-OGG_OTHERS
+테	I-OGG_OTHERS
+스	I-OGG_OTHERS
+트	I-OGG_OTHERS
+ 	I-OGG_OTHERS
+민	I-OGG_OTHERS
+간	I-OGG_OTHERS
+검	I-OGG_OTHERS
+증	I-OGG_OTHERS
+단	I-OGG_OTHERS
 의	O
  	O
 지	O
@@ -108138,8 +108138,8 @@ N	I-OGG_MEDIA
 점	O
 이	O
  	O
-8	O
-점	O
+8	B-QT_OTHERS
+점	I-QT_OTHERS
 대	O
 ㅋ	O
 ㅋ	O
@@ -108878,8 +108878,8 @@ K	I-OGG_ECONOMY
 연	O
 성	O
  	O
-제	O
-로	O
+제	B-QT_OTHERS
+로	I-QT_OTHERS
 인	O
  	O
 영	O
@@ -109680,8 +109680,8 @@ G	I-OGG_ECONOMY
 이	I-PS_NAME
 랑	O
  	O
-투	O
-탑	O
+투	B-QT_OTHERS
+탑	I-QT_OTHERS
 이	O
 고	O
  	O
@@ -112524,8 +112524,8 @@ C	I-OGG_MEDIA
 당	O
 은	O
  	O
-전	O
-일	O
+전	B-DT_DAY
+일	I-DT_DAY
  	O
 기	B-OGG_ECONOMY
 업	I-OGG_ECONOMY
@@ -113302,10 +113302,10 @@ l	O
 찰	I-OGG_POLITICS
 과	O
  	O
-교	O
-정	O
-당	O
-국	O
+교	B-OGG_POLITICS
+정	I-OGG_POLITICS
+당	I-OGG_POLITICS
+국	I-OGG_POLITICS
 은	O
  	O
 1	B-QT_PRICE
@@ -114262,9 +114262,9 @@ A	B-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_01920-wikitree	교류사의 직원은 주로 명문대인 김일성종합대학, 김책공업종합대학을 갓 졸업한 젊은 기술자들인 것으로 전해졌다.
-교	O
-류	O
-사	O
+교	B-OGG_ECONOMY
+류	I-OGG_ECONOMY
+사	I-OGG_ECONOMY
 의	O
  	O
 직	B-CV_POSITION
@@ -115057,10 +115057,10 @@ G	I-OGG_ECONOMY
 지	O
 고	O
  	O
-몇	O
-천	O
-년	O
-간	O
+몇	B-DT_DURATION
+천	I-DT_DURATION
+년	I-DT_DURATION
+간	I-DT_DURATION
  	O
 지	O
 속	O
@@ -116623,8 +116623,8 @@ N	I-OGG_MEDIA
 정	O
 한	O
  	O
-투	O
-샷	O
+투	B-QT_OTHERS
+샷	I-QT_OTHERS
  	O
 셀	O
 카	O
@@ -116762,9 +116762,9 @@ N	I-OGG_MEDIA
 3	B-QT_ORDER
 .	O
  	O
-평	O
-점	O
-7	B-QT_OTHERS
+평	B-QT_OTHERS
+점	I-QT_OTHERS
+7	I-QT_OTHERS
 .	I-QT_OTHERS
 4	I-QT_OTHERS
 는	O
@@ -117560,9 +117560,9 @@ X	I-LC_OTHERS
 래	O
 서	O
  	O
-1	O
-0	O
-점	O
+1	B-QT_OTHERS
+0	I-QT_OTHERS
+점	I-QT_OTHERS
 ㅋ	O
 
 ## klue-ner-v1_dev_01976-nsmc	그보다 탕웨이의 탱탱한 젊음과 장백지의 한물간 미모를 비교해보며 씁쓸함을 느꼈다.
@@ -118794,10 +118794,10 @@ C	I-OGG_SPORTS
 '	O
 는	O
  	O
-사	O
-법	O
-당	O
-국	O
+사	B-OGG_POLITICS
+법	I-OGG_POLITICS
+당	I-OGG_POLITICS
+국	I-OGG_POLITICS
 의	O
  	O
 방	O
@@ -122710,11 +122710,11 @@ C	O
 이	O
 어	O
  	O
-이	O
-번	O
- 	O
-시	O
-즌	O
+이	B-DT_DURATION
+번	I-DT_DURATION
+ 	I-DT_DURATION
+시	I-DT_DURATION
+즌	I-DT_DURATION
  	O
 2	B-QT_ORDER
 ,	I-QT_ORDER
@@ -124256,16 +124256,16 @@ g	I-QT_WEIGHT
 을	B-AF_ROAD
 지	I-AF_ROAD
 로	I-AF_ROAD
- 	O
-2	B-AF_ROAD
+ 	I-AF_ROAD
+2	I-AF_ROAD
 가	I-AF_ROAD
 ,	O
  	O
 퇴	B-AF_ROAD
 계	I-AF_ROAD
 로	I-AF_ROAD
- 	O
-2	B-AF_ROAD
+ 	I-AF_ROAD
+2	I-AF_ROAD
 가	I-AF_ROAD
 ,	O
  	O
@@ -125578,10 +125578,10 @@ C	I-OGG_MEDIA
 주	I-LCP_CITY
 의	O
  	O
-분	O
-원	O
-관	O
-요	O
+분	B-OGG_ECONOMY
+원	I-OGG_ECONOMY
+관	I-OGG_ECONOMY
+요	I-OGG_ECONOMY
 에	O
 서	O
  	O
@@ -130451,13 +130451,13 @@ S	I-OGG_MEDIA
 회	O
 는	O
  	O
-비	O
-상	O
-대	O
-책	O
-위	O
-원	O
-회	O
+비	B-OGG_OTHERS
+상	I-OGG_OTHERS
+대	I-OGG_OTHERS
+책	I-OGG_OTHERS
+위	I-OGG_OTHERS
+원	I-OGG_OTHERS
+회	I-OGG_OTHERS
  	O
 체	O
 제	O
@@ -130480,9 +130480,9 @@ S	I-OGG_MEDIA
 법	O
 은	O
  	O
-비	O
-대	O
-위	O
+비	B-OGG_OTHERS
+대	I-OGG_OTHERS
+위	I-OGG_OTHERS
 에	O
  	O
 일	O
@@ -130985,8 +130985,8 @@ S	I-OGG_MEDIA
 연	O
 출	O
 력	O
--	O
-1	B-QT_OTHERS
+-	B-QT_OTHERS
+1	I-QT_OTHERS
 
 ## klue-ner-v1_dev_02198-nsmc	관장님께서 제자가 1인자가 되기를 바라는 이유를 듣고 현실을 다시금 깨닫게 되었다.
 관	B-CV_POSITION
@@ -131358,14 +131358,14 @@ C	I-OGG_MEDIA
 .	O
 .	O
  	O
-2	O
-시	O
-간	O
-3	O
-0	O
-분	O
-동	O
-안	O
+2	B-TI_DURATION
+시	I-TI_DURATION
+간	I-TI_DURATION
+3	I-TI_DURATION
+0	I-TI_DURATION
+분	I-TI_DURATION
+동	I-TI_DURATION
+안	I-TI_DURATION
  	O
 지	O
 루	O
@@ -132377,10 +132377,10 @@ H	B-TMM_DISEASE
 v	O
 s	O
  	O
-S	O
-W	O
-A	O
-T	O
+S	B-OGG_POLITICS
+W	I-OGG_POLITICS
+A	I-OGG_POLITICS
+T	I-OGG_POLITICS
  	O
 !	O
 !	O
@@ -132930,8 +132930,8 @@ o	I-PS_NAME
 혼	O
 식	O
  	O
-전	O
-날	O
+전	B-DT_DAY
+날	I-DT_DAY
  	O
 파	O
 티	O
@@ -134653,13 +134653,13 @@ D	I-TR_SCIENCE
 다	O
 
 ## klue-ner-v1_dev_02262-wikitree	주 오사카 한국총영사관과 외교 당국은 현지에 영사를 급파해 사실 관계를 파악하는 한편 A군의 가족의 일본 입국과 장례에 필요한 절차를 지원할 예정이다.
-주	O
- 	O
-오	B-LCP_CITY
-사	I-LCP_CITY
-카	I-LCP_CITY
- 	O
-한	B-OGG_POLITICS
+주	B-OGG_POLITICS
+ 	I-OGG_POLITICS
+오	I-OGG_POLITICS
+사	I-OGG_POLITICS
+카	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+한	I-OGG_POLITICS
 국	I-OGG_POLITICS
 총	I-OGG_POLITICS
 영	I-OGG_POLITICS
@@ -134667,11 +134667,11 @@ D	I-TR_SCIENCE
 관	I-OGG_POLITICS
 과	O
  	O
-외	O
-교	O
- 	O
-당	O
-국	O
+외	B-OGG_POLITICS
+교	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+당	I-OGG_POLITICS
+국	I-OGG_POLITICS
 은	O
  	O
 현	O
@@ -137804,9 +137804,9 @@ K	I-OGG_MEDIA
 육	O
 과	O
  	O
-진	O
-학	O
-사	O
+진	B-OGG_EDUCATION
+학	I-OGG_EDUCATION
+사	I-OGG_EDUCATION
 는	O
  	O
 서	B-OGG_EDUCATION
@@ -148062,10 +148062,10 @@ X	I-OGG_ECONOMY
 )	O
 와	O
  	O
-법	O
-률	O
-신	O
-문	O
+법	B-OGG_MEDIA
+률	I-OGG_MEDIA
+신	I-OGG_MEDIA
+문	I-OGG_MEDIA
 이	O
  	O
 함	O
@@ -149007,9 +149007,9 @@ A	B-PS_NAME
  	O
 된	O
  	O
-보	O
-도	O
-국	O
+보	B-OGG_MEDIA
+도	I-OGG_MEDIA
+국	I-OGG_MEDIA
  	O
 간	B-CV_POSITION
 부	I-CV_POSITION
@@ -149921,10 +149921,10 @@ K	I-AFA_VIDEO
 위	O
 해	O
  	O
-아	O
-일	O
-랜	O
-드	O
+아	B-LCP_COUNTRY
+일	I-LCP_COUNTRY
+랜	I-LCP_COUNTRY
+드	I-LCP_COUNTRY
  	O
 미	O
 션	O
@@ -150050,11 +150050,11 @@ K	I-AFA_VIDEO
 현	O
 지	O
  	O
-재	O
-난	O
-대	O
-응	O
-팀	O
+재	B-OGG_OTHERS
+난	I-OGG_OTHERS
+대	I-OGG_OTHERS
+응	I-OGG_OTHERS
+팀	I-OGG_OTHERS
 에	O
  	O
 의	O
@@ -151360,7 +151360,7 @@ B	I-TMI_SW
 어	O
 서	O
  	O
-밤	O
+밤	B-TI_DURATION
 새	O
 면	O
 서	O
@@ -155904,8 +155904,8 @@ S	I-OGG_MEDIA
  	O
 새	O
  	O
-월	O
-화	O
+월	B-DT_DAY
+화	B-DT_DAY
 드	O
 라	O
 마	O
@@ -159066,17 +159066,17 @@ T	I-CV_OCCUPATION
 .	O
 
 ## klue-ner-v1_dev_02665-wikitree	남자 팀 추월 대표팀은 이제 겨울올림픽 3회 연속 종합순위 10위 이내 진입을 목표로 한 우리나라 선수단의 기대를 한몸에 받게 됐다.
-남	O
-자	O
- 	O
-팀	O
- 	O
-추	O
-월	O
- 	O
-대	O
-표	O
-팀	O
+남	B-OGG_SPORTS
+자	I-OGG_SPORTS
+ 	I-OGG_SPORTS
+팀	I-OGG_SPORTS
+ 	I-OGG_SPORTS
+추	I-OGG_SPORTS
+월	I-OGG_SPORTS
+ 	I-OGG_SPORTS
+대	I-OGG_SPORTS
+표	I-OGG_SPORTS
+팀	I-OGG_SPORTS
 은	O
  	O
 이	O
@@ -159960,8 +159960,8 @@ K	I-OGG_POLITICS
 으	O
 로	O
  	O
-동	O
-계	O
+동	B-DT_DURATION
+계	I-DT_DURATION
 훈	O
 련	O
 기	O
@@ -163627,9 +163627,9 @@ A	B-PS_NAME
 마	O
 ㅠ	O
 ㅠ	O
-시	O
-즌	O
-5	O
+시	B-QT_OTHERS
+즌	I-QT_OTHERS
+5	I-QT_OTHERS
  	O
 쭉	O
 ~	O
@@ -163905,10 +163905,10 @@ A	B-PS_NAME
 모	O
 든	O
  	O
-세	O
-주	O
-인	O
-공	O
+세	B-QT_MAN_COUNT
+주	I-QT_MAN_COUNT
+인	I-QT_MAN_COUNT
+공	I-QT_MAN_COUNT
 은	O
  	O
 자	O
@@ -165082,9 +165082,9 @@ S	I-OGG_MILITARY
 측	O
 의	O
  	O
-편	O
-집	O
-국	O
+편	B-OGG_OTHERS
+집	I-OGG_OTHERS
+국	I-OGG_OTHERS
  	O
 점	O
 령	O
@@ -167819,11 +167819,11 @@ H	I-OGG_ECONOMY
 렇	O
 게	O
  	O
-동	O
-경	O
-이	O
-야	O
-기	O
+동	B-AFA_DOCUMENT
+경	I-AFA_DOCUMENT
+이	I-AFA_DOCUMENT
+야	I-AFA_DOCUMENT
+기	I-AFA_DOCUMENT
 를	O
  	O
 고	O
@@ -168912,10 +168912,10 @@ A	B-PS_NAME
 련	O
 을	O
  	O
-상	O
-급	O
-부	O
-대	O
+상	B-OGG_MILITARY
+급	I-OGG_MILITARY
+부	I-OGG_MILITARY
+대	I-OGG_MILITARY
  	O
 사	B-CV_POSITION
 단	I-CV_POSITION
@@ -169154,10 +169154,10 @@ D	I-AFA_VIDEO
 각	O
 각	O
  	O
-매	O
-주	O
- 	O
-일	B-DT_DAY
+매	B-DT_DAY
+주	I-DT_DAY
+ 	I-DT_DAY
+일	I-DT_DAY
 요	I-DT_DAY
 일	I-DT_DAY
  	O
@@ -172591,8 +172591,8 @@ V	I-OGG_ART
 .	O
 
 ## klue-ner-v1_dev_02902-wikitree	경찰조사결과 7월 초 무음카메라 앱을 이용해 동영상을 몰래 촬영하였으며 유럽행 비행기티켓을 알아본 정황이 경찰조사결과 포착되었고 50억을 담기 위해 여행가방까지 준비하는 등 수사의 정황상 계획적인 의도가 있었다고 해석할 수 밖에 없습니다.
-경	O
-찰	O
+경	B-OGG_POLITICS
+찰	I-OGG_POLITICS
 조	O
 사	O
 결	O
@@ -172631,8 +172631,8 @@ V	I-OGG_ART
 으	O
 며	O
  	O
-유	O
-럽	O
+유	B-LCG_CONTINENT
+럽	I-LCG_CONTINENT
 행	O
  	O
 비	B-AF_TRANSPORT
@@ -172650,8 +172650,8 @@ V	I-OGG_ART
 황	O
 이	O
  	O
-경	O
-찰	O
+경	B-OGG_POLITICS
+찰	I-OGG_POLITICS
 조	O
 사	O
 결	O
@@ -175535,8 +175535,8 @@ C	I-AFA_VIDEO
 지	O
 
 ## klue-ner-v1_dev_02956-nsmc	저녘에 일끝나고 조금씩 사십분 정도 끈어서 봣는데리더쉽에 대해서 조금더 생각하게 되었다
-저	O
-녘	O
+저	B-TI_OTHERS
+녘	I-TI_OTHERS
 에	O
  	O
 일	O
@@ -178598,8 +178598,8 @@ D	I-TR_SCIENCE
 씨	O
 는	O
  	O
-야	O
-간	O
+야	B-TI_DURATION
+간	I-TI_DURATION
 에	O
  	O
 포	O
@@ -178774,10 +178774,10 @@ A	O
  	O
 내	O
  	O
-유	O
-년	O
-시	O
-절	O
+유	B-DT_OTHERS
+년	I-DT_OTHERS
+시	I-DT_OTHERS
+절	I-DT_OTHERS
 의	O
  	O
 최	O
@@ -181457,8 +181457,8 @@ A	O
 보	I-OGG_MEDIA
 가	O
  	O
-매	O
-년	O
+매	B-DT_YEAR
+년	I-DT_YEAR
  	O
 실	O
 시	O
@@ -183281,8 +183281,8 @@ F	O
 고	O
 도	O
  	O
-권	O
-부	O
+권	B-OGG_POLITICS
+부	I-OGG_POLITICS
 에	O
 서	O
 는	O
@@ -183598,8 +183598,8 @@ F	O
 .	O
 
 ## klue-ner-v1_dev_03090-nsmc	3D영화 보는 건 좋아하지만 이건 정말 아니다
-3	O
-D	O
+3	B-QT_OTHERS
+D	I-QT_OTHERS
 영	O
 화	O
  	O
@@ -183868,8 +183868,8 @@ m	I-QT_LENGTH
 궁	O
 과	O
  	O
-종	O
-묘	O
+종	B-LC_OTHERS
+묘	I-LC_OTHERS
 ,	O
  	O
 조	B-AF_CULTURAL_ASSET
@@ -184385,10 +184385,10 @@ G	I-OGG_SPORTS
 태	I-PS_NAME
 우	I-PS_NAME
  	O
-초	O
-딩	O
-시	O
-절	O
+초	B-DT_OTHERS
+딩	I-DT_OTHERS
+시	I-DT_OTHERS
+절	I-DT_OTHERS
 을	O
  	O
 볼	O
@@ -185069,9 +185069,9 @@ G	I-OGG_SPORTS
 이	O
 며	O
  	O
-나	O
-홋	O
-카	O
+나	B-LCP_CITY
+홋	I-LCP_CITY
+카	I-LCP_CITY
  	O
 주	O
 재	O
@@ -186102,9 +186102,9 @@ S	I-LC_OTHERS
 태	O
 워	O
  	O
-소	O
-방	O
-서	O
+소	B-OGG_POLITICS
+방	I-OGG_POLITICS
+서	I-OGG_POLITICS
  	O
 추	O
 산	O
@@ -186139,8 +186139,8 @@ S	I-LC_OTHERS
 .	O
 
 ## klue-ner-v1_dev_03131-wikitree	군부에 의해 지난 3일 축출당한 무르시는 현재 공화국수비대의 병영 시설에 머무는 것으로 알려졌다.
-군	O
-부	O
+군	B-OGG_MILITARY
+부	I-OGG_MILITARY
 에	O
  	O
 의	O
@@ -186559,8 +186559,8 @@ S	I-LC_OTHERS
 어	O
  	O
 한	B-OGG_POLITICS
-미	I-OGG_POLITICS
-중	O
+미	B-OGG_POLITICS
+중	B-OGG_POLITICS
  	O
 3	B-QT_COUNT
 국	I-QT_COUNT
@@ -187584,11 +187584,11 @@ S	I-OGG_MEDIA
 성	O
 된	O
  	O
-합	O
-동	O
-감	O
-식	O
-반	O
+합	B-OGG_OTHERS
+동	I-OGG_OTHERS
+감	I-OGG_OTHERS
+식	I-OGG_OTHERS
+반	I-OGG_OTHERS
 은	O
  	O
 이	B-DT_DAY
@@ -189783,16 +189783,16 @@ J	B-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_03192-wikitree	꽃동네 '희망의 집'에서 장애아동 40명을 비롯 성인 장애인 20명, 노인 환자 8명, 입양 대기 아기 8명, 호스피스 환자 4명 등 80여명을 만난 교황은 낙태된 아기들을 기리는 '태아동산'을 방문해 기도를 마쳤습니다.
-꽃	O
-동	O
-네	O
+꽃	B-LC_OTHERS
+동	I-LC_OTHERS
+네	I-LC_OTHERS
  	O
 '	O
-희	O
-망	O
-의	O
- 	O
-집	O
+희	B-OGG_OTHERS
+망	I-OGG_OTHERS
+의	I-OGG_OTHERS
+ 	I-OGG_OTHERS
+집	I-OGG_OTHERS
 '	O
 에	O
 서	O
@@ -190076,8 +190076,8 @@ J	B-PS_NAME
 ㅋ	O
 
 ## klue-ner-v1_dev_03196-nsmc	맨날 악역한테 당하기만해서 보면서 열받음 ㅡㅡ;; 별로 재밌지도 않고 박민영싫음;
-맨	O
-날	O
+맨	B-DT_DAY
+날	I-DT_DAY
  	O
 악	O
 역	O
@@ -191803,8 +191803,8 @@ m	I-QT_LENGTH
 이	I-TMI_SERVICE
 보	I-TMI_SERVICE
 (	O
-중	O
-국	O
+중	B-LCP_COUNTRY
+국	I-LCP_COUNTRY
 판	O
  	O
 트	B-TMI_SERVICE
@@ -193699,9 +193699,9 @@ S	I-AFW_OTHER_PRODUCTS
 천	I-AFA_DOCUMENT
 리	I-AFA_DOCUMENT
 (	O
-삼	O
-만	O
-리	O
+삼	B-QT_LENGTH
+만	I-QT_LENGTH
+리	I-QT_LENGTH
 인	O
 가	O
 ?	O
@@ -194901,11 +194901,11 @@ D	I-OGG_ECONOMY
 !	O
 
 ## klue-ner-v1_dev_03271-wikitree	재해복구팀은 영하 20도 이하인 현지 날씨를 고려해 우선 창문 등이 깨진 건물 3천여 곳을 수리하는 작업을 벌일 것이라고 현지 당국이 밝혔다.
-재	O
-해	O
-복	O
-구	O
-팀	O
+재	B-OGG_OTHERS
+해	I-OGG_OTHERS
+복	I-OGG_OTHERS
+구	I-OGG_OTHERS
+팀	I-OGG_OTHERS
 은	O
  	O
 영	B-QT_TEMPERATURE
@@ -195122,8 +195122,8 @@ D	I-OGG_ECONOMY
 엄	B-CV_RELATION
 마	I-CV_RELATION
  	O
-커	O
-플	O
+커	B-QT_MAN_COUNT
+플	I-QT_MAN_COUNT
  	O
 .	O
  	O
@@ -195572,13 +195572,13 @@ P	I-OGG_OTHERS
 .	O
 
 ## klue-ner-v1_dev_03280-wikitree	정책조정협회의는 정책의 수립-집행-변경-발표 과정에서 문제점이 없도록 조율과 조정을 거치고 정책성과의 극대화를 도모하기 위해 마련됐다.
-정	O
-책	O
-조	O
-정	O
-협	O
-회	O
-의	O
+정	B-OGG_OTHERS
+책	I-OGG_OTHERS
+조	I-OGG_OTHERS
+정	I-OGG_OTHERS
+협	I-OGG_OTHERS
+회	I-OGG_OTHERS
+의	I-OGG_OTHERS
 는	O
  	O
 정	O
@@ -197157,8 +197157,8 @@ A	I-OGG_POLITICS
 현	O
 재	O
  	O
-여	O
-당	O
+여	B-OGG_POLITICS
+당	I-OGG_POLITICS
  	O
 일	O
 각	O
@@ -197915,8 +197915,8 @@ S	I-OGG_MILITARY
 천	B-DT_DURATION
 년	I-DT_DURATION
  	O
-만	O
-년	O
+만	B-DT_DURATION
+년	I-DT_DURATION
  	O
 사	O
 랑	O
@@ -199173,11 +199173,11 @@ S	I-OGG_MILITARY
 .	O
 
 ## klue-ner-v1_dev_03344-wikitree	전력거래소는 4일 오후 2∼3시에 최대 전력수요가 평균 6천320만kW에 달할 것으로 예보했다.
-전	B-OGG_POLITICS
-력	I-OGG_POLITICS
-거	I-OGG_POLITICS
-래	I-OGG_POLITICS
-소	I-OGG_POLITICS
+전	B-OGG_ECONOMY
+력	I-OGG_ECONOMY
+거	I-OGG_ECONOMY
+래	I-OGG_ECONOMY
+소	I-OGG_ECONOMY
 는	O
  	O
 4	B-DT_DAY
@@ -199992,9 +199992,9 @@ W	I-QT_OTHERS
 .	O
 
 ## klue-ner-v1_dev_03360-nsmc	평점7.5정도가 적당.내 정서엔,맞지않는영화/ 정신 사나운 영화.갠적 평점은 0점
-평	O
-점	O
-7	B-QT_OTHERS
+평	B-QT_OTHERS
+점	I-QT_OTHERS
+7	I-QT_OTHERS
 .	I-QT_OTHERS
 5	I-QT_OTHERS
 정	I-QT_OTHERS
@@ -202042,10 +202042,10 @@ m	I-QT_SIZE
 .	O
 
 ## klue-ner-v1_dev_03397-wikitree	국책은행의 직접 투자 등을 통해 30조원 규모의 신규투자가 유도되며 거래 편의와 전문성 등을 위해 외국환거래법령과 국민연금이 개편된다.
-국	O
-책	O
-은	O
-행	O
+국	B-OGG_ECONOMY
+책	I-OGG_ECONOMY
+은	I-OGG_ECONOMY
+행	I-OGG_ECONOMY
 의	O
  	O
 직	O
@@ -202652,8 +202652,8 @@ I	I-QT_ORDER
 맨	I-PS_NAME
 신	I-PS_NAME
 (	O
-민	O
-주	O
+민	B-OGG_POLITICS
+주	I-OGG_POLITICS
 ᆞ	O
 웨	B-LCP_PROVINCE
 스	I-LCP_PROVINCE
@@ -204840,7 +204840,7 @@ m	I-QT_LENGTH
 팔	O
 면	O
  	O
-월	O
+월	B-DT_MONTH
  	O
 3	B-QT_PRICE
 4	I-QT_PRICE
@@ -205301,8 +205301,8 @@ K	B-AFA_VIDEO
 라	I-TMI_HW
 가	O
  	O
-제	O
-3	O
+제	B-QT_OTHERS
+3	I-QT_OTHERS
 자	O
 의	O
  	O
@@ -205428,8 +205428,8 @@ B	B-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_03451-wikitree	석산 소유기관인 인천도시공사는 재정 건전화를 위해 석산 매각을 추진했지만 수년째 성과를 거두지 못하고 있다.
-석	O
-산	O
+석	B-LC_OTHERS
+산	I-LC_OTHERS
  	O
 소	O
 유	O
@@ -205456,8 +205456,8 @@ B	B-PS_NAME
 위	O
 해	O
  	O
-석	O
-산	O
+석	B-LC_OTHERS
+산	I-LC_OTHERS
  	O
 매	O
 각	O
@@ -207970,11 +207970,11 @@ F	I-OGG_MEDIA
 경	O
 해	O
  	O
-당	O
- 	O
-선	B-OGG_POLITICS
-대	I-OGG_POLITICS
-위	I-OGG_POLITICS
+당	B-OGG_OTHERS
+ 	I-OGG_OTHERS
+선	I-OGG_OTHERS
+대	I-OGG_OTHERS
+위	I-OGG_OTHERS
 의	O
  	O
 선	O
@@ -210653,8 +210653,8 @@ m	I-QT_LENGTH
 구	I-LCP_CITY
 ,	O
  	O
-경	O
-전	O
+경	B-LCP_COUNTY
+전	I-LCP_COUNTY
 ,	O
  	O
 동	B-AF_ROAD
@@ -211187,11 +211187,11 @@ S	O
 방	O
 향	O
  	O
-대	O
-저	O
-분	O
-기	O
-점	O
+대	B-LC_OTHERS
+저	I-LC_OTHERS
+분	I-LC_OTHERS
+기	I-LC_OTHERS
+점	I-LC_OTHERS
 에	O
 서	O
  	O
@@ -212233,12 +212233,12 @@ A	B-PS_NAME
 한	O
  	O
 '	O
-j	B-PS_NAME
-o	I-PS_NAME
-r	I-PS_NAME
-d	I-PS_NAME
-a	I-PS_NAME
-n	I-PS_NAME
+j	O
+o	O
+r	O
+d	O
+a	O
+n	O
 2	O
 3	O
 '	O
@@ -213208,10 +213208,10 @@ S	I-OGG_MEDIA
 ㅋ	O
 ㅋ	O
 ㅋ	O
-선	O
-사	O
-시	O
-대	O
+선	B-DT_GEOAGE
+사	I-DT_GEOAGE
+시	I-DT_GEOAGE
+대	I-DT_GEOAGE
  	O
 개	O
 꿀	O
@@ -222915,9 +222915,9 @@ S	O
 중	B-LCP_COUNTRY
 국	I-LCP_COUNTRY
  	O
-군	O
+군	B-OGG_MILITARY
 ·	O
-경	O
+경	B-OGG_POLITICS
 에	O
  	O
 붙	O
@@ -223611,11 +223611,11 @@ G	I-PS_NAME
 입	O
 고	O
  	O
-잠	O
-심	O
- 	O
-구	O
-장	O
+잠	B-LC_OTHERS
+심	I-LC_OTHERS
+ 	I-LC_OTHERS
+구	I-LC_OTHERS
+장	I-LC_OTHERS
 을	O
  	O
 누	O
@@ -227484,8 +227484,8 @@ N	I-OGG_ECONOMY
 비	I-PS_NAME
 는	O
  	O
-매	O
-해	O
+매	B-DT_YEAR
+해	I-DT_YEAR
  	O
 2	B-QT_PRICE
 5	I-QT_PRICE
@@ -229528,7 +229528,7 @@ S	I-OGG_MEDIA
 와	O
 의	O
  	O
-첫	O
+첫	B-QT_ORDER
 만	O
 남	O
  	O
@@ -230270,19 +230270,19 @@ S	I-OGG_MEDIA
 판	O
 한	O
  	O
-도	O
-서	O
-출	O
-판	O
- 	O
-동	B-OGG_ECONOMY
-녘	I-OGG_ECONOMY
+도	B-OGG_MEDIA
+서	I-OGG_MEDIA
+출	I-OGG_MEDIA
+판	I-OGG_MEDIA
+ 	I-OGG_MEDIA
+동	I-OGG_MEDIA
+녘	I-OGG_MEDIA
 (	O
 이	O
 하	O
  	O
-동	B-OGG_ECONOMY
-녘	I-OGG_ECONOMY
+동	B-OGG_MEDIA
+녘	I-OGG_MEDIA
 )	O
 이	O
  	O
@@ -230990,10 +230990,10 @@ S	I-OGG_MEDIA
 오	O
 고	O
  	O
-I	O
-M	O
-D	O
-B	O
+I	B-TMI_SERVICE
+M	I-TMI_SERVICE
+D	I-TMI_SERVICE
+B	I-TMI_SERVICE
 에	O
 서	O
  	O
@@ -234746,9 +234746,9 @@ R	B-PS_NAME
 9	I-TI_HOUR
 시	I-TI_HOUR
  	O
-편	O
-집	O
-국	O
+편	B-OGG_OTHERS
+집	I-OGG_OTHERS
+국	I-OGG_OTHERS
  	O
 봉	O
 쇄	O
@@ -234836,11 +234836,11 @@ R	B-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_03945-wikitree	부패척결단은 지난 8∼10월 정부부처 합동으로 전국 32개 화력발전소의 2008년 이후 부품사용 실태를 전수조사한 결과를 18일 공개하고, 부품시험성적서를 위조해 모두 13억원의 납품대금을 빼돌린 업체 12곳을 적발했다고 밝혔다.
-부	O
-패	O
-척	O
-결	O
-단	O
+부	B-OGG_OTHERS
+패	I-OGG_OTHERS
+척	I-OGG_OTHERS
+결	I-OGG_OTHERS
+단	I-OGG_OTHERS
 은	O
  	O
 지	B-DT_DURATION
@@ -237204,11 +237204,11 @@ R	I-OGG_SPORTS
 일	O
 단	O
  	O
-언	O
-론	O
-중	O
-재	O
-위	O
+언	B-OGG_OTHERS
+론	I-OGG_OTHERS
+중	I-OGG_OTHERS
+재	I-OGG_OTHERS
+위	I-OGG_OTHERS
 로	O
  	O
 불	O
@@ -238973,8 +238973,8 @@ g	I-QT_WEIGHT
 다	O
 른	O
  	O
-주	O
-말	O
+주	B-DT_DAY
+말	I-DT_DAY
 드	O
 라	O
 마	O
@@ -239008,8 +239008,8 @@ g	I-QT_WEIGHT
 봤	O
 던	O
  	O
-주	O
-말	O
+주	B-DT_DAY
+말	I-DT_DAY
 드	O
 라	O
 마	O
@@ -240751,9 +240751,9 @@ R	I-AF_TRANSPORT
 다	O
 고	O
  	O
-중	O
-신	O
-넷	O
+중	B-OGG_MEDIA
+신	I-OGG_MEDIA
+넷	I-OGG_MEDIA
 이	O
  	O
 1	B-DT_DAY
@@ -241461,8 +241461,8 @@ C	I-OGG_MEDIA
 점	O
 이	O
  	O
-1	O
-0	O
+1	B-QT_OTHERS
+0	I-QT_OTHERS
 이	O
 라	O
 니	O
@@ -242508,8 +242508,8 @@ V	O
 요	O
 금	O
 (	O
-주	O
-중	O
+주	B-DT_DURATION
+중	I-DT_DURATION
 ·	O
 주	B-DT_DURATION
 말	I-DT_DURATION
@@ -242533,8 +242533,8 @@ V	O
 요	O
 금	O
 (	O
-주	O
-중	O
+주	B-DT_DURATION
+중	I-DT_DURATION
  	O
 9	B-QT_PRICE
 천	I-QT_PRICE
@@ -245327,8 +245327,8 @@ A	B-PS_NAME
 욕	I-LCP_CITY
 발	O
  	O
-인	O
-천	O
+인	B-LCP_CITY
+천	I-LCP_CITY
 행	O
  	O
 항	B-AF_TRANSPORT
@@ -248149,9 +248149,9 @@ S	I-OGG_MEDIA
 께	O
 한	O
  	O
-핼	O
-로	O
-윈	O
+핼	B-DT_DAY
+로	I-DT_DAY
+윈	I-DT_DAY
  	O
 파	O
 티	O
@@ -248170,8 +248170,8 @@ S	I-OGG_MEDIA
 어	B-DT_DAY
 제	I-DT_DAY
  	O
-이	O
-수	O
+이	B-LC_OTHERS
+수	I-LC_OTHERS
 가	O
 서	O
  	O
@@ -251325,10 +251325,10 @@ Q	O
 에	O
 서	O
  	O
-고	O
-교	O
-시	O
-절	O
+고	B-DT_OTHERS
+교	I-DT_OTHERS
+시	I-DT_OTHERS
+절	I-DT_OTHERS
 부	O
 터	O
  	O
@@ -251858,10 +251858,10 @@ Q	O
 .	O
 
 ## klue-ner-v1_dev_04241-nsmc	학창시절 난 무엇인가에 순수했었던가? 라는 생각을 기정이가 떠올려주었다.
-학	O
-창	O
-시	O
-절	O
+학	B-DT_DURATION
+창	I-DT_DURATION
+시	I-DT_DURATION
+절	I-DT_DURATION
  	O
 난	O
  	O
@@ -253232,11 +253232,11 @@ A	B-PS_NAME
 시	O
 즌	O
  	O
-베	O
-스	O
-트	O
-1	B-QT_COUNT
-1	I-QT_COUNT
+베	B-QT_OTHERS
+스	I-QT_OTHERS
+트	I-QT_OTHERS
+1	I-QT_OTHERS
+1	I-QT_OTHERS
  	O
 수	B-CV_SPORTS_POSITION
 비	I-CV_SPORTS_POSITION
@@ -254918,14 +254918,14 @@ A	I-OGG_SPORTS
  	O
 한	O
  	O
-정	O
-신	O
-여	O
-자	O
-고	O
-등	O
-하	O
-교	O
+정	B-OGG_EDUCATION
+신	I-OGG_EDUCATION
+여	I-OGG_EDUCATION
+자	I-OGG_EDUCATION
+고	I-OGG_EDUCATION
+등	I-OGG_EDUCATION
+하	I-OGG_EDUCATION
+교	I-OGG_EDUCATION
  	O
 2	B-QT_ORDER
 학	I-QT_ORDER
@@ -255854,8 +255854,8 @@ m	I-QT_LENGTH
 짜	I-QT_PRICE
 리	I-QT_PRICE
  	O
-아	O
-침	O
+아	B-TI_DURATION
+침	I-TI_DURATION
  	O
 식	O
 사	O
@@ -256222,10 +256222,10 @@ C	O
 점	I-QT_OTHERS
 
 ## klue-ner-v1_dev_04318-wikitree	대책본부는 승객이 있을 것으로 예상되는 객실 64곳 중 38곳에 대한 수색을 완료했다고 밝혔다.
-대	O
-책	O
-본	O
-부	O
+대	B-OGG_OTHERS
+책	I-OGG_OTHERS
+본	I-OGG_OTHERS
+부	I-OGG_OTHERS
 는	O
  	O
 승	O
@@ -258695,11 +258695,11 @@ V	I-OGG_ART
 대	O
 한	O
  	O
-인	O
-사	O
-청	O
-문	O
-회	O
+인	B-EV_OTHERS
+사	I-EV_OTHERS
+청	I-EV_OTHERS
+문	I-EV_OTHERS
+회	I-EV_OTHERS
 에	O
 서	O
  	O
@@ -260282,8 +260282,8 @@ C	I-OGG_MEDIA
  	O
 등	O
  	O
-야	O
-당	O
+야	B-OGG_POLITICS
+당	I-OGG_POLITICS
 이	O
  	O
 일	O
@@ -262723,11 +262723,11 @@ s	O
 웨	I-PS_NAME
 이	I-PS_NAME
 (	O
-2	O
-2	O
+2	B-QT_AGE
+2	I-QT_AGE
 ·	O
-중	O
-국	O
+중	B-LCP_COUNTRY
+국	I-LCP_COUNTRY
 )	O
 와	O
  	O
@@ -264054,17 +264054,17 @@ C	I-OGG_MEDIA
 마	O
 
 ## klue-ner-v1_dev_04456-nsmc	라스트포원 겜블러크루도 좋은모습 많이 보여줬음 좋겠다
-라	B-AFA_VIDEO
-스	I-AFA_VIDEO
-트	I-AFA_VIDEO
-포	I-AFA_VIDEO
-원	I-AFA_VIDEO
+라	B-OGG_ART
+스	I-OGG_ART
+트	I-OGG_ART
+포	I-OGG_ART
+원	I-OGG_ART
  	O
-겜	O
-블	O
-러	O
-크	O
-루	O
+겜	B-OGG_ART
+블	I-OGG_ART
+러	I-OGG_ART
+크	I-OGG_ART
+루	I-OGG_ART
 도	O
  	O
 좋	O
@@ -266975,19 +266975,19 @@ A	B-PS_NAME
 에	O
 는	O
  	O
-낮	B-TI_OTHERS
-부	I-TI_OTHERS
-터	I-TI_OTHERS
- 	O
-늦	O
-은	O
- 	O
-오	B-TI_DURATION
+낮	B-TI_DURATION
+부	I-TI_DURATION
+터	I-TI_DURATION
+ 	I-TI_DURATION
+늦	I-TI_DURATION
+은	I-TI_DURATION
+ 	I-TI_DURATION
+오	I-TI_DURATION
 후	I-TI_DURATION
- 	O
-사	O
-이	O
-에	O
+ 	I-TI_DURATION
+사	I-TI_DURATION
+이	I-TI_DURATION
+에	I-TI_DURATION
  	O
 산	O
 발	O
@@ -268291,16 +268291,16 @@ C	I-OGG_MEDIA
 지	O
 는	O
  	O
-한	O
-보	O
-탄	O
-광	O
- 	O
-통	O
-보	O
-광	O
-업	O
-소	O
+한	B-OGG_ECONOMY
+보	I-OGG_ECONOMY
+탄	I-OGG_ECONOMY
+광	I-OGG_ECONOMY
+ 	I-OGG_ECONOMY
+통	I-OGG_ECONOMY
+보	I-OGG_ECONOMY
+광	I-OGG_ECONOMY
+업	I-OGG_ECONOMY
+소	I-OGG_ECONOMY
 만	O
 이	O
  	O
@@ -268445,9 +268445,9 @@ C	I-OGG_MEDIA
 화	O
 !	O
  	O
--	O
- 	O
-1	O
+-	B-QT_OTHERS
+ 	I-QT_OTHERS
+1	I-QT_OTHERS
 
 ## klue-ner-v1_dev_04528-nsmc	그냥 처음부터 끝까지 길예르모 델 토로가 맡았더라면
 그	O
@@ -268579,12 +268579,12 @@ C	I-OGG_MEDIA
 한	O
 편	O
  	O
-탈	O
-북	O
-자	O
- 	O
-단	O
-체	O
+탈	B-OGG_OTHERS
+북	I-OGG_OTHERS
+자	I-OGG_OTHERS
+ 	I-OGG_OTHERS
+단	I-OGG_OTHERS
+체	I-OGG_OTHERS
 들	O
 은	O
  	O
@@ -270153,10 +270153,10 @@ C	I-OGG_MEDIA
 최	O
 근	O
  	O
-소	O
-셜	O
-매	O
-틱	O
+소	B-OGG_MEDIA
+셜	I-OGG_MEDIA
+매	I-OGG_MEDIA
+틱	I-OGG_MEDIA
 이	O
  	O
 폴	B-OGG_ECONOMY
@@ -270684,10 +270684,10 @@ A	I-EV_FESTIVAL
 에	O
 는	O
  	O
-월	O
-성	O
-본	O
-부	O
+월	B-OGG_OTHERS
+성	I-OGG_OTHERS
+본	I-OGG_OTHERS
+부	I-OGG_OTHERS
 가	O
  	O
 참	B-AM_FISH
@@ -270715,14 +270715,14 @@ A	I-EV_FESTIVAL
 를	O
 ,	O
  	O
-고	O
-리	O
+고	B-LCP_COUNTY
+리	I-LCP_COUNTY
 와	O
  	O
-한	O
-울	O
-본	O
-부	O
+한	B-OGG_OTHERS
+울	I-OGG_OTHERS
+본	I-OGG_OTHERS
+부	I-OGG_OTHERS
 가	O
  	O
 참	B-AM_FISH
@@ -273550,12 +273550,12 @@ C	I-OGG_SPORTS
 열	O
 린	O
  	O
-통	O
-신	O
-심	O
-의	O
-소	O
-위	O
+통	B-OGG_OTHERS
+신	I-OGG_OTHERS
+심	I-OGG_OTHERS
+의	I-OGG_OTHERS
+소	I-OGG_OTHERS
+위	I-OGG_OTHERS
 에	O
 서	O
  	O
@@ -273732,9 +273732,9 @@ C	I-OGG_SPORTS
 년	I-DT_YEAR
 대	I-DT_YEAR
  	O
-헐	O
-리	O
-웃	O
+헐	B-LC_OTHERS
+리	I-LC_OTHERS
+웃	I-LC_OTHERS
  	O
 코	O
 메	O
@@ -278658,9 +278658,9 @@ E	I-PS_NAME
 의	O
  	O
 '	O
-후	O
-속	O
-편	O
+후	B-QT_OTHERS
+속	I-QT_OTHERS
+편	I-QT_OTHERS
 '	O
 이	O
 란	O
@@ -282448,9 +282448,9 @@ b	O
 국	O
 정	O
  	O
-2	O
-인	O
-자	O
+2	B-QT_OTHERS
+인	I-QT_OTHERS
+자	I-QT_OTHERS
 이	O
 자	O
  	O
@@ -282747,11 +282747,11 @@ b	O
 하	O
 는	O
  	O
-공	O
-동	O
-선	O
-대	O
-위	O
+공	B-OGG_POLITICS
+동	I-OGG_POLITICS
+선	I-OGG_POLITICS
+대	I-OGG_POLITICS
+위	I-OGG_POLITICS
  	O
 구	O
 성	O
@@ -283208,10 +283208,10 @@ c	I-AFA_VIDEO
 에	O
  	O
 '	O
-신	O
-화	O
-창	O
-조	O
+신	B-OGG_OTHERS
+화	I-OGG_OTHERS
+창	I-OGG_OTHERS
+조	I-OGG_OTHERS
 '	O
  	O
 모	O
@@ -284614,8 +284614,8 @@ C	I-OGG_MEDIA
 사	O
 고	O
  	O
-당	O
-일	O
+당	B-DT_DAY
+일	I-DT_DAY
  	O
 오	B-TI_OTHERS
 전	I-TI_OTHERS
@@ -289958,8 +289958,8 @@ m	I-QT_LENGTH
  	O
 내	O
  	O
-반	O
-군	O
+반	B-OGG_MILITARY
+군	I-OGG_MILITARY
 에	O
  	O
 무	B-CV_POSITION
@@ -293758,8 +293758,8 @@ A	B-PS_NAME
 에	O
 서	O
  	O
-저	O
-녁	O
+저	B-TI_DURATION
+녁	I-TI_DURATION
 식	O
 사	O
 를	O
@@ -294162,10 +294162,10 @@ A	B-PS_NAME
 중	O
 에	O
  	O
-주	O
-중	O
- 	O
-한	B-OGG_POLITICS
+주	B-OGG_POLITICS
+중	I-OGG_POLITICS
+ 	I-OGG_POLITICS
+한	I-OGG_POLITICS
 국	I-OGG_POLITICS
 대	I-OGG_POLITICS
 사	I-OGG_POLITICS
@@ -295279,7 +295279,7 @@ A	B-PS_NAME
 두	I-PS_NAME
 환	I-PS_NAME
  	O
-전	O
+전	B-DT_OTHERS
  	O
 대	B-CV_POSITION
 통	I-CV_POSITION
