@@ -18706,9 +18706,9 @@ y	I-OGG_MEDIA
  	O
 난	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 를	O
  	O
 보	O
@@ -39984,8 +39984,8 @@ V	I-AFA_VIDEO
 .	O
 
 ## klue-ner-v1_dev_00679-nsmc	명성때문에 봤는데 진짜 포스터만보면 B급영환줄 .. 명불허전 갓하균과 배우들 연기력 좋고 생각했던 내용이랑 뭔가 달랐지만 볼만했네요
-명	B-AFA_VIDEO
-성	I-AFA_VIDEO
+명	O
+성	O
 때	O
 문	O
 에	O
@@ -42717,9 +42717,9 @@ A	B-PS_NAME
 람	O
 은	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
  	O
 안	O
 보	O
@@ -44455,9 +44455,9 @@ m	I-QT_LENGTH
 공	O
 존	O
  	O
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
  	O
 4	B-QT_COUNT
 번	I-QT_COUNT
@@ -47114,8 +47114,8 @@ P	I-OGG_ECONOMY
 인	O
 지	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
+이	O
+영	O
 화	O
 를	O
  	O
@@ -47867,7 +47867,7 @@ A	B-PS_NAME
  	O
 본	O
  	O
-영	B-PS_NAME
+영	O
 환	O
 데	O
 .	O
@@ -50974,7 +50974,7 @@ m	I-QT_LENGTH
 인	O
 기	O
  	O
-걸	B-CV_OCCUPATION
+걸	O
 그	O
 룹	O
  	O
@@ -56473,8 +56473,8 @@ p	I-QT_ORDER
 하	O
 고	O
  	O
-셔	B-CV_CLOTHING
-츠	I-CV_CLOTHING
+셔	O
+츠	O
 찢	O
 을	O
 때	O
@@ -57132,9 +57132,9 @@ S	I-OGG_MEDIA
 ㅋ	O
 
 ## klue-ner-v1_dev_00971-nsmc	이영화 평점이 7점대인게 놀랍다 ㅋㅋㅋㅋ 3점대예상했건만
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
  	O
 평	O
 점	O
@@ -57240,9 +57240,9 @@ S	I-OGG_MEDIA
 예	O
 쁨	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 는	O
  	O
 이	B-PS_NAME
@@ -60147,9 +60147,9 @@ A	B-PS_NAME
 당	O
 시	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
  	O
 평	O
 에	O
@@ -82969,9 +82969,9 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_01391-nsmc	이영화 10점준사람은 알바가아니면 독수리오형제를 좋아했던 사람뿐일것이다
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
  	O
 1	B-QT_OTHERS
 0	I-QT_OTHERS
@@ -88213,7 +88213,7 @@ S	I-OGG_MEDIA
 상	O
 한	O
  	O
-시	B-CV_CLOTHING
+시	O
 옷	O
  	O
 발	O
@@ -96035,8 +96035,8 @@ A	B-PS_NAME
 라	I-TM_COLOR
 색	I-TM_COLOR
  	O
-재	B-CV_CLOTHING
-킷	I-CV_CLOTHING
+재	O
+킷	O
 을	O
  	O
 입	O
@@ -136528,9 +136528,9 @@ m	I-QT_LENGTH
 터	O
 가	O
  	O
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
 의	O
  	O
 포	O
@@ -136545,9 +136545,9 @@ m	I-QT_LENGTH
 .	O
 .	O
  	O
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
 에	O
 서	O
  	O
@@ -136654,9 +136654,9 @@ m	I-QT_LENGTH
 번	O
 이	O
  	O
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
  	O
 3	B-QT_ORDER
 번	I-QT_ORDER
@@ -147054,9 +147054,9 @@ B	B-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_02468-nsmc	이영화를 보지 않았지만 송슨헌의 연기가 상상된다....
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
 를	O
  	O
 보	O
@@ -149414,9 +149414,9 @@ R	B-PS_NAME
 지	O
 만	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 는	O
  	O
 자	O
@@ -150234,8 +150234,8 @@ V	I-TMI_HW
  	O
 전	B-EV_WAR_REVOLUTION
 쟁	I-EV_WAR_REVOLUTION
-영	B-CV_ART
-화	I-CV_ART
+영	O
+화	O
  	O
 수	O
 작	O
@@ -173776,12 +173776,12 @@ M	I-OGG_ECONOMY
 화	O
 
 ## klue-ner-v1_dev_02922-nsmc	그것이진리역시 이범수 코믹연기 지존 ㅋㅋ
-그	B-AFA_VIDEO
-것	I-AFA_VIDEO
-이	I-AFA_VIDEO
-진	I-AFA_VIDEO
-리	I-AFA_VIDEO
-역	I-AFA_VIDEO
+그	O
+것	O
+이	O
+진	O
+리	O
+역	O
 시	O
  	O
 이	B-PS_NAME
@@ -180250,9 +180250,9 @@ x	I-PS_NAME
 당	O
 시	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 로	O
  	O
 인	O
@@ -192075,7 +192075,7 @@ m	I-QT_LENGTH
 다	O
 
 ## klue-ner-v1_dev_03231-wikitree	걸그룹 여자친구가 지난 5일 공중파 첫 1위를 기록하며 화제가 된 가운데 멤버 은하(정은비·19)씨의 과거 아역시절 모습이 관심을 모으고 있다.
-걸	B-CV_OCCUPATION
+걸	O
 그	O
 룹	O
  	O
@@ -194658,8 +194658,8 @@ D	I-OGG_ECONOMY
 점	I-QT_OTHERS
 ,	O
  	O
-영	B-CV_LANGUAGE
-어	I-CV_LANGUAGE
+영	O
+어	O
 영	O
 문	O
  	O
@@ -194720,8 +194720,8 @@ D	I-OGG_ECONOMY
 점	I-QT_OTHERS
 ,	O
  	O
-영	B-CV_LANGUAGE
-어	I-CV_LANGUAGE
+영	O
+어	O
 영	O
 문	O
  	O
@@ -199095,9 +199095,9 @@ S	I-OGG_MILITARY
  	O
 왜	O
  	O
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
 를	O
  	O
 보	O
@@ -202260,8 +202260,8 @@ m	I-QT_SIZE
 지	O
 만	O
  	O
-이	B-AFA_DOCUMENT
-영	I-AFA_DOCUMENT
+이	O
+영	O
 화	O
 가	O
  	O
@@ -209609,7 +209609,7 @@ N	I-OGG_MEDIA
 )	O
 가	O
  	O
-걸	B-CV_OCCUPATION
+걸	O
 그	O
 룹	O
  	O
@@ -217149,9 +217149,9 @@ s	O
 독	I-CV_POSITION
 이	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 로	O
 인	O
 해	O
@@ -226378,9 +226378,9 @@ G	I-TMI_HW
 는	O
 데	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 는	O
  	O
 1	B-QT_OTHERS
@@ -227820,8 +227820,8 @@ I	I-TR_SCIENCE
 됐	O
 고	O
  	O
-간	B-TR_MEDICINE
-이	I-TR_MEDICINE
+간	O
+이	O
  	O
 검	O
 사	O
@@ -239378,9 +239378,9 @@ g	I-QT_WEIGHT
 오	O
 가	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 에	O
  	O
 제	O
@@ -246123,9 +246123,9 @@ K	I-OGG_ECONOMY
 지	O
 만	O
  	O
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
  	O
 전	O
 체	O
@@ -249604,7 +249604,7 @@ C	O
  	O
 주	B-CV_POSITION
 석	I-CV_POSITION
--	B-PS_NAME
+-	O
  	O
 원	B-PS_NAME
 자	I-PS_NAME
@@ -250374,7 +250374,7 @@ C	I-OGG_MEDIA
 하	O
 고	O
  	O
-시	B-CV_ART
+시	O
 같	O
 은	O
  	O
@@ -256664,9 +256664,9 @@ a	I-OGG_MEDIA
 들	O
 아	O
  	O
-이	B-AFA_DOCUMENT
-영	I-AFA_DOCUMENT
-화	I-AFA_DOCUMENT
+이	O
+영	O
+화	O
  	O
 1	B-DT_OTHERS
 0	I-DT_OTHERS
@@ -271826,9 +271826,9 @@ B	B-PS_NAME
 대	I-QT_OTHERS
 면	O
  	O
-이	B-AFA_VIDEO
-영	I-AFA_VIDEO
-화	I-AFA_VIDEO
+이	O
+영	O
+화	O
 는	O
  	O
 8	B-QT_OTHERS
@@ -274784,9 +274784,9 @@ A	B-PS_NAME
 로	O
 도	O
  	O
-이	B-PS_NAME
-영	I-PS_NAME
-화	I-PS_NAME
+이	O
+영	O
+화	O
 를	O
  	O
 잊	O
@@ -277228,9 +277228,9 @@ m	I-QT_SPEED
 께	O
 서	O
  	O
-성	B-PS_NAME
-은	I-PS_NAME
-이	I-PS_NAME
+성	O
+은	O
+이	O
  	O
 망	O
 극	O
@@ -278452,7 +278452,7 @@ m	I-QT_LENGTH
 .	O
 
 ## klue-ner-v1_dev_04703-wikitree	걸그룹 2NE1 씨엘이 아버지 이기진 서강대 물리학과 교수(사진 오른쪽)와 2015 세계과학정상회의 홍보대사로 선정됐다.
-걸	B-CV_OCCUPATION
+걸	O
 그	O
 룹	O
  	O
