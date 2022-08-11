@@ -17,6 +17,9 @@
 URL: https://corpus.korean.go.kr         
 
 
+# Reference
+If you find this dataset useful, please cite the following:
+
  정유남, 송영숙, 유현조(2022), 2022년 세계 한국어 한마당 학술대회 발표자료집, 국어학회(발표 예정)
   Yunam Cheong, Yongsook Song, Hyun-Jo You(2022), konne: A Korean Nested Named Entity Corpus, World convention of the Korean language, The Society of Korean Linguistics
                
