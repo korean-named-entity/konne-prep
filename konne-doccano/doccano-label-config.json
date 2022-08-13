@@ -1,0 +1,1202 @@
+[
+ {
+  "id": 1,
+  "text": "PS_NAME",
+  "backgroundColor": "#9f0500",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 2,
+  "text": "PS_CHARACTER",
+  "backgroundColor": "#9f0500",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 3,
+  "text": "PS_PET",
+  "backgroundColor": "#9f0500",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 4,
+  "text": "FD_SCIENCE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 5,
+  "text": "FD_SOCIAL_SCIENCE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 6,
+  "text": "FD_MEDICINE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 7,
+  "text": "FD_ART",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 8,
+  "text": "FD_HUMANITIES",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 9,
+  "text": "FD_OTHERS",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 10,
+  "text": "TR_SCIENCE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 11,
+  "text": "TR_SOCIAL_SCIENCE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 12,
+  "text": "TR_MEDICINE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 13,
+  "text": "TR_ART",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 14,
+  "text": "TR_HUMANITIES",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 15,
+  "text": "TR_OTHERS",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 16,
+  "text": "AF_BUILDING",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 17,
+  "text": "AF_CULTURAL_ASSET",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 18,
+  "text": "AF_ROAD",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 19,
+  "text": "AF_TRANSPORT",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 20,
+  "text": "AF_MUSICAL_INSTRUMENT",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 21,
+  "text": "AF_WEAPON",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 22,
+  "text": "AFA_DOCUMENT",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 23,
+  "text": "AFA_PERFORMANCE",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 24,
+  "text": "AFA_VIDEO",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 25,
+  "text": "AFA_ART_CRAFT",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 26,
+  "text": "AFA_MUSIC",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 27,
+  "text": "AFW_SERVICE_PRODUCTS",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 28,
+  "text": "AFW_OTHER_PRODUCTS",
+  "backgroundColor": "#7b64ff",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 29,
+  "text": "OGG_ECONOMY",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 30,
+  "text": "OGG_EDUCATION",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 31,
+  "text": "OGG_MILITARY",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 32,
+  "text": "OGG_MEDIA",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 33,
+  "text": "OGG_SPORTS",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 34,
+  "text": "OGG_ART",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 35,
+  "text": "OGG_MEDICINE",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 36,
+  "text": "OGG_RELIGION",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 37,
+  "text": "OGG_SCIENCE",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 38,
+  "text": "OGG_LIBRARY",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 39,
+  "text": "OGG_LAW",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 40,
+  "text": "OGG_POLITICS",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 41,
+  "text": "OGG_FOOD",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 42,
+  "text": "OGG_HOTEL",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 43,
+  "text": "OGG_OTHERS",
+  "backgroundColor": "#f44e3b",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 44,
+  "text": "LCP_COUNTRY",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 45,
+  "text": "LCP_PROVINCE",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 46,
+  "text": "LCP_COUNTY",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 47,
+  "text": "LCP_CITY",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 48,
+  "text": "LCP_CAPITALCITY",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 49,
+  "text": "LCG_RIVER",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 50,
+  "text": "LCG_OCEAN",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 51,
+  "text": "LCG_BAY",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 52,
+  "text": "LCG_MOUNTAIN",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 53,
+  "text": "LCG_ISLAND",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 54,
+  "text": "LCG_CONTINENT",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 55,
+  "text": "LC_SPACE",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 56,
+  "text": "LC_OTHERS",
+  "backgroundColor": "#fcdc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 57,
+  "text": "CV_CULTURE",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 58,
+  "text": "CV_TRIBE",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 59,
+  "text": "CV_LANGUAGE",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 60,
+  "text": "CV_POLICY",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 61,
+  "text": "CV_LAW",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 62,
+  "text": "CV_CURRENCY",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 63,
+  "text": "CV_TAX",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 64,
+  "text": "CV_FUNDS",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 65,
+  "text": "CV_ART",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 66,
+  "text": "CV_SPORTS",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 67,
+  "text": "CV_SPORTS_POSITION",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 68,
+  "text": "CV_SPORTS_INST",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 69,
+  "text": "CV_PRIZE",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 70,
+  "text": "CV_RELATION",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 71,
+  "text": "CV_OCCUPATION",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 72,
+  "text": "CV_POSITION",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 73,
+  "text": "CV_FOOD",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 74,
+  "text": "CV_DRINK",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 75,
+  "text": "CV_FOOD_STYLE",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 76,
+  "text": "CV_CLOTHING",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 77,
+  "text": "CV_BUILDING_TYPE",
+  "backgroundColor": "#0062b1",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 78,
+  "text": "DT_DURATION",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 79,
+  "text": "DT_DAY",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 80,
+  "text": "DT_WEEK",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 81,
+  "text": "DT_MONTH",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 82,
+  "text": "DT_YEAR",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 83,
+  "text": "DT_SEASON",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 84,
+  "text": "DT_GEOAGE",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 85,
+  "text": "DT_DYNASTY",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 86,
+  "text": "DT_OTHERS",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 87,
+  "text": "TI_DURATION",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 88,
+  "text": "TI_HOUR",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 89,
+  "text": "TI_MINUTE",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 90,
+  "text": "TI_SECOND",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 91,
+  "text": "TI_OTHERS",
+  "backgroundColor": "#68bc00",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 92,
+  "text": "QT_AGE",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 93,
+  "text": "QT_SIZE",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 94,
+  "text": "QT_LENGTH",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 95,
+  "text": "QT_COUNT",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 96,
+  "text": "QT_MAN_COUNT",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 97,
+  "text": "QT_WEIGHT",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 98,
+  "text": "QT_PERCENTAGE",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 99,
+  "text": "QT_SPEED",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 100,
+  "text": "QT_TEMPERATURE",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 101,
+  "text": "QT_VOLUME",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 102,
+  "text": "QT_ORDER",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 103,
+  "text": "QT_PRICE",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 104,
+  "text": "QT_PHONE",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 105,
+  "text": "QT_SPORTS",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 106,
+  "text": "QT_CHANNEL",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 107,
+  "text": "QT_ALBUM",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 108,
+  "text": "QT_ADDRESS",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 109,
+  "text": "QT_OTHERS",
+  "backgroundColor": "#194d33",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 110,
+  "text": "EV_ACTIVITY",
+  "backgroundColor": "#ab149e",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 111,
+  "text": "EV_WAR_REVOLUTION",
+  "backgroundColor": "#ab149e",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 112,
+  "text": "EV_SPORTS",
+  "backgroundColor": "#ab149e",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 113,
+  "text": "EV_FESTIVAL",
+  "backgroundColor": "#ab149e",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 114,
+  "text": "EV_OTHERS",
+  "backgroundColor": "#ab149e",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 115,
+  "text": "AM_INSECT",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 116,
+  "text": "AM_BIRD",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 117,
+  "text": "AM_FISH",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 118,
+  "text": "AM_MAMMALIA",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 119,
+  "text": "AM_AMPHIBIA",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 120,
+  "text": "AM_REPTILIA",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 121,
+  "text": "AM_TYPE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 122,
+  "text": "AM_PART",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 123,
+  "text": "AM_OTHERS",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 124,
+  "text": "PT_FRUIT",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 125,
+  "text": "PT_FLOWER",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 126,
+  "text": "PT_TREE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 127,
+  "text": "PT_GRASS",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 128,
+  "text": "PT_TYPE",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 129,
+  "text": "PT_PART",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 130,
+  "text": "PT_OTHERS",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 131,
+  "text": "MT_ELEMENT",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 132,
+  "text": "MT_METAL",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 133,
+  "text": "MT_ROCK",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 134,
+  "text": "MT_CHEMICAL",
+  "backgroundColor": "#666666",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 135,
+  "text": "TM_COLOR",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 136,
+  "text": "TM_DIRECTION",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 137,
+  "text": "TM_CLIMATE",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 138,
+  "text": "TM_SHAPE",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 139,
+  "text": "TM_CELL_TISSUE_ORGAN",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 140,
+  "text": "TMM_DISEASE",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 141,
+  "text": "TMM_DRUG",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 142,
+  "text": "TMI_HW",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 143,
+  "text": "TMI_SW",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 144,
+  "text": "TMI_SITE",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 145,
+  "text": "TMI_EMAIL",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 146,
+  "text": "TMI_MODEL",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 147,
+  "text": "TMI_SERVICE",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 148,
+  "text": "TMI_PROJECT",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 149,
+  "text": "TMIG_GENRE",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ },
+ {
+  "id": 150,
+  "text": "TM_SPORTS",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff",
+  "prefixKey": null,
+  "suffixKey": null
+ }
+]
