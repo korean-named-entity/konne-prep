@@ -413,7 +413,7 @@ B	O
  	O
 보	B-TM_SPORTS
 기	I-TM_SPORTS
-에	I-TM_SPORTS
+에	O
  	O
 그	O
 친	O
@@ -2363,7 +2363,7 @@ V	I-TMI_HW
 한	B-QT_COUNT
  	I-QT_COUNT
 편	I-QT_COUNT
-의	I-QT_COUNT
+의	O
  	O
 영	O
 화	O
@@ -5858,7 +5858,7 @@ A	B-PS_NAME
 
 ## klue-ner-v1_dev_00093-wikitree	이씨는 검문검색에 걸리자 차 안에서 지니고 있던 흉기로 자신의 목을 찔러 스스로 목숨을 끊었다.
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 는	O
  	O
 검	O
@@ -12779,7 +12779,7 @@ H	I-AF_TRANSPORT
 기	I-CV_POSITION
 이	I-CV_POSITION
 사	I-CV_POSITION
-의	I-CV_POSITION
+의	O
  	O
 주	O
 소	O
@@ -14505,7 +14505,7 @@ S	I-OGG_MILITARY
  	O
 재	B-PS_NAME
 룡	I-PS_NAME
-이	I-PS_NAME
+이	O
 오	O
 빠	O
  	O
@@ -19097,8 +19097,8 @@ O	I-OGG_MILITARY
  	O
 일	B-CV_ART
 본	I-CV_ART
- 	O
-애	B-CV_ART
+ 	I-CV_ART
+애	I-CV_ART
 니	I-CV_ART
 중	O
 에	O
@@ -19278,7 +19278,7 @@ O	I-OGG_MILITARY
 인	O
  	O
 후	B-LC_OTHERS
-씨	O
+씨	I-LC_OTHERS
  	O
 지	O
 역	O
@@ -21746,9 +21746,9 @@ O	I-CV_POSITION
 단	O
 지	O
  	O
-배	B-AM_PART
-두	I-AM_PART
-나	O
+배	B-PS_NAME
+두	I-PS_NAME
+나	I-PS_NAME
  	O
 몸	B-AM_PART
  	O
@@ -22349,7 +22349,7 @@ m	I-QT_OTHERS
  	O
 이	B-PS_NAME
 신	I-PS_NAME
-이	I-PS_NAME
+이	O
 가	O
  	O
 진	O
@@ -24813,7 +24813,7 @@ M	I-OGG_ECONOMY
 
 ## klue-ner-v1_dev_00419-wikitree	이씨는 지난해 5월 17일 오전 1시∼3시 30분 연희동 일대 벽에 수의와 수갑을 착용한 채 29만원짜리 수표를 들고 서 있는 전 전 대통령의 포스터 55장을 청테이프로 붙인 혐의로 기소됐다.
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 는	O
  	O
 지	B-DT_OTHERS
@@ -27076,7 +27076,7 @@ X	I-OGG_ECONOMY
 길	O
  	O
 위	B-TM_DIRECTION
-로	I-TM_DIRECTION
+로	O
  	O
 뜬	O
  	O
@@ -28387,8 +28387,8 @@ m	I-QT_LENGTH
  	I-PS_NAME
 뎀	I-PS_NAME
 시	I-PS_NAME
-라	I-PS_NAME
-는	I-PS_NAME
+라	O
+는	O
  	O
 배	B-CV_OCCUPATION
 우	I-CV_OCCUPATION
@@ -29942,7 +29942,7 @@ A	B-PS_NAME
 
 ## klue-ner-v1_dev_00504-wikitree	이씨 일당은 약 10년 전 한 영어학원에서 강사·학생 등으로 만난 친구 사이로, '신의 눈물'을 판매해 큰 돈을 번 사람이 있다는 소문을 듣고 마약 판매에 뛰어든 것으로 조사됐다.
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
  	O
 일	O
 당	O
@@ -30482,8 +30482,8 @@ A	B-PS_NAME
 ## klue-ner-v1_dev_00514-nsmc	강산이도 계탔다 지혜누나 짱 ㅜㅜ 사랑해요 ㅜ
 강	B-PS_NAME
 산	I-PS_NAME
-이	I-PS_NAME
-도	I-PS_NAME
+이	O
+도	O
  	O
 계	O
 탔	O
@@ -36927,7 +36927,7 @@ K	I-OGG_ECONOMY
 는	O
  	O
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 가	O
  	O
 구	O
@@ -37976,7 +37976,7 @@ C	I-AF_BUILDING
 1	B-QT_AGE
 4	I-QT_AGE
 살	I-QT_AGE
-이	I-QT_AGE
+이	O
 었	O
 습	O
 니	O
@@ -39752,7 +39752,7 @@ V	I-AFA_VIDEO
 한	B-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 손	O
 님	O
@@ -39967,7 +39967,7 @@ V	I-AFA_VIDEO
  	O
 로	B-PS_NAME
 진	I-PS_NAME
-이	I-PS_NAME
+이	O
  	O
 주	O
 는	O
@@ -46622,7 +46622,7 @@ B	B-OGG_ECONOMY
 된	O
  	O
 론	B-PS_NAME
-만	I-PS_NAME
+만	O
 으	O
 로	O
 도	O
@@ -47390,7 +47390,7 @@ A	B-PS_NAME
 와	O
  	O
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 는	O
  	O
 서	B-LCP_CAPITALCITY
@@ -52369,7 +52369,7 @@ P	I-OGG_MEDIA
 는	O
  	O
 박	B-PS_NAME
-모	I-PS_NAME
+모	O
 (	O
 5	B-QT_AGE
 4	I-QT_AGE
@@ -58502,7 +58502,7 @@ t	I-QT_WEIGHT
  	O
 마	B-PS_NAME
 준	I-PS_NAME
-이	I-PS_NAME
+이	O
  	O
 안	O
 버	O
@@ -60571,7 +60571,7 @@ m	I-QT_LENGTH
 에	O
  	O
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 의	O
  	O
 눈	B-AM_PART
@@ -61492,7 +61492,7 @@ S	O
 한	B-PS_NAME
 효	I-PS_NAME
 주	I-PS_NAME
-의	I-PS_NAME
+의	O
  	O
 아	B-CV_RELATION
 버	I-CV_RELATION
@@ -61865,7 +61865,7 @@ C	I-OGG_MEDIA
 서	O
  	O
 박	B-PS_NAME
-모	I-PS_NAME
+모	O
 (	O
 5	B-QT_AGE
 5	I-QT_AGE
@@ -62153,7 +62153,7 @@ C	I-OGG_MEDIA
 로	O
  	O
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 와	O
  	O
 아	B-CV_RELATION
@@ -62164,7 +62164,7 @@ C	I-OGG_MEDIA
 ,	O
  	O
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 의	O
  	O
 일	O
@@ -62388,7 +62388,7 @@ C	I-OGG_MEDIA
 만	I-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 신	O
 자	O
@@ -68715,12 +68715,12 @@ _	O
 었	O
 던	O
  	O
-ㄷ	B-AFA_VIDEO
-ㄷ	I-AFA_VIDEO
-두	I-AFA_VIDEO
-한	I-AFA_VIDEO
-행	I-AFA_VIDEO
-님	I-AFA_VIDEO
+ㄷ	O
+ㄷ	O
+두	B-PS_NAME
+한	I-PS_NAME
+행	O
+님	O
 ,	O
  	O
 소	B-PS_NAME
@@ -77478,12 +77478,12 @@ A	B-PS_NAME
 ## klue-ner-v1_dev_01302-wikitree	일본 애니메이션 '진격의 거인'을 연상시키는 '진격의 농부'가 등장해 각종 커뮤니티 사이트에서 화제를 모으고 있습니다.
 일	B-CV_ART
 본	I-CV_ART
- 	O
-애	O
-니	O
-메	O
-이	O
-션	O
+ 	I-CV_ART
+애	I-CV_ART
+니	I-CV_ART
+메	I-CV_ART
+이	I-CV_ART
+션	I-CV_ART
  	O
 '	O
 진	B-AFA_VIDEO
@@ -81877,7 +81877,7 @@ m	I-QT_SPEED
 뎀	I-PS_NAME
 프	I-PS_NAME
 시	I-PS_NAME
-,	I-PS_NAME
+,	O
  	O
 이	O
 후	O
@@ -82519,7 +82519,7 @@ m	I-QT_LENGTH
 ## klue-ner-v1_dev_01383-wikitree	민석이는 자신의 꿈인 고고학자가 되기위해 문화재 관련 학과에 입학을 결정하였고, 현재 해당 학과로 부터 합격 통보를 받았다.
 민	B-PS_NAME
 석	I-PS_NAME
-이	I-PS_NAME
+이	O
 는	O
  	O
 자	O
@@ -84135,7 +84135,7 @@ X	B-AFA_VIDEO
 여	I-QT_COUNT
  	I-QT_COUNT
 건	I-QT_COUNT
-의	I-QT_COUNT
+의	O
  	O
 입	O
 찰	O
@@ -85228,7 +85228,7 @@ K	I-OGG_ECONOMY
 1	I-DT_DURATION
 분	I-DT_DURATION
 기	I-DT_DURATION
-에	I-DT_DURATION
+에	O
  	O
 연	O
 결	O
@@ -87672,7 +87672,7 @@ A	B-PS_NAME
 후	O
  	O
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 가	O
  	O
 살	B-CV_LAW
@@ -88620,10 +88620,10 @@ V	I-TMI_HW
  	O
 제	B-PS_NAME
 인	I-PS_NAME
- 	O
-배	B-AM_PART
-들	O
-러	O
+ 	I-PS_NAME
+배	I-PS_NAME
+들	I-PS_NAME
+러	I-PS_NAME
  	O
 쵝	O
 오	O
@@ -93399,8 +93399,8 @@ X	O
 대	I-TMI_SERVICE
 학	I-TMI_SERVICE
 교	I-TMI_SERVICE
- 	O
-대	B-TMI_SERVICE
+ 	I-TMI_SERVICE
+대	I-TMI_SERVICE
 나	I-TMI_SERVICE
 무	I-TMI_SERVICE
 숲	I-TMI_SERVICE
@@ -95058,7 +95058,7 @@ V	I-AFA_VIDEO
 가	O
  	O
 탄	B-PS_NAME
-이	I-PS_NAME
+이	O
  	O
 제	B-OGG_ECONOMY
 국	I-OGG_ECONOMY
@@ -98178,7 +98178,7 @@ V	I-TMI_SERVICE
 윈	B-LCP_PROVINCE
 난	I-LCP_PROVINCE
 성	I-LCP_PROVINCE
-이	I-LCP_PROVINCE
+이	O
 랍	O
 니	O
 다	O
@@ -101727,7 +101727,7 @@ J	I-OGG_MEDIA
 여	I-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 소	O
 비	O
@@ -105057,7 +105057,7 @@ C	O
  	O
 힉	B-PS_NAME
 스	I-PS_NAME
-의	I-PS_NAME
+의	O
  	O
 송	B-TM_SPORTS
 구	I-TM_SPORTS
@@ -118344,11 +118344,11 @@ C	I-OGG_SPORTS
 어	B-TMI_PROJECT
 젠	I-TMI_PROJECT
 다	I-TMI_PROJECT
- 	O
-2	B-DT_YEAR
-0	I-DT_YEAR
-2	I-DT_YEAR
-0	I-DT_YEAR
+ 	I-TMI_PROJECT
+2	I-TMI_PROJECT
+0	I-TMI_PROJECT
+2	I-TMI_PROJECT
+0	I-TMI_PROJECT
 '	O
  	O
 개	O
@@ -118638,8 +118638,8 @@ C	I-OGG_SPORTS
 보	I-PS_NAME
 아	I-PS_NAME
 텡	I-PS_NAME
-에	I-PS_NAME
-게	I-PS_NAME
+에	O
+게	O
  	O
 인	O
 종	O
@@ -130516,7 +130516,7 @@ S	I-OGG_MEDIA
 지	O
 만	O
 니	B-PS_NAME
-코	O
+코	I-PS_NAME
  	O
 엄	B-CV_RELATION
 마	I-CV_RELATION
@@ -131226,9 +131226,9 @@ S	I-OGG_MEDIA
 인	O
 물	O
 도	O
-0	B-AFA_VIDEO
-0	I-AFA_VIDEO
-7	I-AFA_VIDEO
+0	B-PS_CHARACTER
+0	I-PS_CHARACTER
+7	I-PS_CHARACTER
 의	O
  	O
 연	O
@@ -135626,7 +135626,7 @@ A	B-PS_NAME
 
 ## klue-ner-v1_dev_02278-wikitree	이씨와 함께 계약서를 위조한 임씨는 이후 수도원을 찾아가 하도급업체에 공사대금을 지급하라고 요구해 1억5천만원을 송금받아 가로챈 것으로 드러났다.
 이	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 와	O
  	O
 함	O
@@ -135642,7 +135642,7 @@ A	B-PS_NAME
 한	O
  	O
 임	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 는	O
  	O
 이	O
@@ -138575,7 +138575,7 @@ C	I-OGG_SPORTS
  	O
 현	B-PS_NAME
 준	I-PS_NAME
-이	I-PS_NAME
+이	O
 만	O
  	O
 볼	O
@@ -141029,10 +141029,10 @@ V	I-TMI_HW
 너	I-PS_NAME
 의	O
  	O
-보	B-CV_OCCUPATION
-디	I-CV_OCCUPATION
-가	O
-드	O
+보	B-AFA_VIDEO
+디	I-AFA_VIDEO
+가	I-AFA_VIDEO
+드	I-AFA_VIDEO
 같	O
 은	O
  	O
@@ -145888,7 +145888,7 @@ B	B-PS_NAME
  	O
 예	B-PS_NAME
 진	I-PS_NAME
-이	I-PS_NAME
+이	O
 는	O
  	O
 여	O
@@ -148892,7 +148892,7 @@ A	B-PS_NAME
 지	O
  	O
 임	B-PS_NAME
-씨	I-PS_NAME
+씨	O
 로	O
 부	O
 터	O
@@ -149606,7 +149606,7 @@ R	B-PS_NAME
  	O
 샐	B-PS_NAME
 리	I-PS_NAME
-에	I-PS_NAME
+에	O
 게	O
  	O
 확	O
@@ -149732,8 +149732,8 @@ R	B-PS_NAME
  	O
 치	B-PS_NAME
 바	I-PS_NAME
- 	O
-유	B-PS_NAME
+ 	I-PS_NAME
+유	I-PS_NAME
 다	I-PS_NAME
 이	I-PS_NAME
  	O
@@ -153682,7 +153682,7 @@ m	I-QT_LENGTH
 서	O
  	O
 박	B-PS_NAME
-모	I-PS_NAME
+모	O
  	O
 경	B-CV_POSITION
 위	I-CV_POSITION
@@ -153733,7 +153733,7 @@ m	I-QT_LENGTH
 돼	O
  	O
 박	B-PS_NAME
-모	I-PS_NAME
+모	O
  	O
 상	B-CV_POSITION
 경	I-CV_POSITION
@@ -154697,7 +154697,7 @@ S	O
 여	I-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 체	O
 포	O
@@ -156827,7 +156827,7 @@ C	I-OGG_SPORTS
 사	B-CV_OCCUPATION
 육	I-CV_OCCUPATION
 사	I-CV_OCCUPATION
-의	I-CV_OCCUPATION
+의	O
  	O
 도	O
 움	O
@@ -159248,7 +159248,7 @@ T	I-CV_OCCUPATION
  	O
 김	B-PS_NAME
 신	I-PS_NAME
-이	I-PS_NAME
+이	O
 랑	O
  	O
 나	B-PS_NAME
@@ -159473,7 +159473,7 @@ K	I-OGG_POLITICS
 리	I-PS_NAME
 스	I-PS_NAME
 탈	I-PS_NAME
-이	I-PS_NAME
+이	O
 랑	O
  	O
 비	B-PS_NAME
@@ -162238,10 +162238,10 @@ A	B-PS_NAME
 .	O
 
 ## klue-ner-v1_dev_02724-nsmc	휴 잭맨과 맥 라이언의 조화.. 정말 재밌었다..
-휴	B-AFA_VIDEO
- 	O
-잭	B-PS_CHARACTER
-맨	I-PS_CHARACTER
+휴	B-PS_NAME
+ 	I-PS_NAME
+잭	I-PS_NAME
+맨	I-PS_NAME
 과	O
  	O
 맥	B-PS_CHARACTER
@@ -164272,7 +164272,7 @@ C	I-OGG_MEDIA
 이	O
  	O
 똑	B-AFA_VIDEO
-살	O
+살	I-AFA_VIDEO
 에	O
  	O
 언	O
@@ -164800,8 +164800,8 @@ S	I-OGG_MILITARY
 사	B-PS_NAME
 지	I-PS_NAME
 다	I-PS_NAME
- 	O
-알	B-PS_NAME
+ 	I-PS_NAME
+알	I-PS_NAME
 리	I-PS_NAME
 샤	I-PS_NAME
 위	I-PS_NAME
@@ -170715,11 +170715,11 @@ l	I-QT_OTHERS
 로	I-CV_CLOTHING
 즈	I-CV_CLOTHING
  	O
-스	B-AFW_OTHER_PRODUCTS
-포	I-AFW_OTHER_PRODUCTS
-츠	I-AFW_OTHER_PRODUCTS
- 	O
-양	B-CV_CLOTHING
+스	B-CV_CLOTHING
+포	I-CV_CLOTHING
+츠	I-CV_CLOTHING
+ 	I-CV_CLOTHING
+양	I-CV_CLOTHING
 말	I-CV_CLOTHING
 (	O
 3	B-QT_COUNT
@@ -182005,10 +182005,10 @@ h	I-PS_NAME
  	O
 악	B-PS_NAME
 동	I-PS_NAME
- 	O
-뮤	B-CV_OCCUPATION
-지	I-CV_OCCUPATION
-션	I-CV_OCCUPATION
+ 	I-PS_NAME
+뮤	I-PS_NAME
+지	I-PS_NAME
+션	I-PS_NAME
  	O
 파	O
 이	O
@@ -186891,7 +186891,7 @@ D	I-EV_OTHERS
 늘	O
  	O
 위	B-TM_DIRECTION
-로	I-TM_DIRECTION
+로	O
  	O
 축	O
 포	O
@@ -188426,7 +188426,7 @@ V	I-OGG_MEDIA
 만	I-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 애	O
 청	O
@@ -188568,7 +188568,7 @@ V	I-OGG_MEDIA
 인	O
  	O
 박	B-PS_NAME
-모	I-PS_NAME
+모	O
 씨	O
 가	O
  	O
@@ -188767,10 +188767,10 @@ V	I-OGG_MEDIA
 화	I-QT_ORDER
 에	O
  	O
-백	B-AFA_VIDEO
-독	I-AFA_VIDEO
-사	I-AFA_VIDEO
-의	I-AFA_VIDEO
+백	B-PS_NAME
+독	I-PS_NAME
+사	I-PS_NAME
+의	O
  	O
 출	O
 연	O
@@ -189981,7 +189981,7 @@ J	B-PS_NAME
 고	O
  	O
 뒤	B-TM_DIRECTION
-로	I-TM_DIRECTION
+로	O
  	O
 흘	O
 렀	O
@@ -194292,7 +194292,7 @@ D	I-OGG_ECONOMY
 원	I-OGG_MEDICINE
  	O
 박	B-PS_NAME
-모	I-PS_NAME
+모	O
  	O
 교	B-CV_OCCUPATION
 수	I-CV_OCCUPATION
@@ -195825,7 +195825,7 @@ P	I-OGG_OTHERS
 신	B-LCP_COUNTY
 대	I-LCP_COUNTY
 리	I-LCP_COUNTY
-에	I-LCP_COUNTY
+에	O
  	O
 위	O
 치	O
@@ -198914,8 +198914,8 @@ S	I-OGG_MILITARY
 에	O
  	O
 호	B-PS_NAME
-반	B-CV_POSITION
-장	I-CV_POSITION
+반	I-PS_NAME
+장	I-PS_NAME
 이	O
  	O
 없	O
@@ -203679,7 +203679,7 @@ F	O
  	O
 창	B-PS_NAME
 정	I-PS_NAME
-이	I-PS_NAME
+이	O
  	O
 형	O
 님	O
@@ -204559,7 +204559,7 @@ D	I-CV_OCCUPATION
 네	B-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 텔	B-CV_OCCUPATION
 레	I-CV_OCCUPATION
@@ -210940,7 +210940,7 @@ m	I-QT_LENGTH
  	I-PS_NAME
 겐	I-PS_NAME
 지	I-PS_NAME
-다	I-PS_NAME
+다	O
 .	O
  	O
 이	O
@@ -221725,9 +221725,9 @@ s	O
 해	B-AFA_VIDEO
 롤	I-AFA_VIDEO
 드	I-AFA_VIDEO
-와	O
- 	O
-쿠	B-AFA_VIDEO
+와	I-AFA_VIDEO
+ 	I-AFA_VIDEO
+쿠	I-AFA_VIDEO
 마	I-AFA_VIDEO
  	O
 이	O
@@ -223995,7 +223995,7 @@ m	I-QT_LENGTH
 바	I-LCP_PROVINCE
 다	I-LCP_PROVINCE
 주	I-LCP_PROVINCE
-의	I-LCP_PROVINCE
+의	O
  	O
 애	B-OGG_ECONOMY
 플	I-OGG_ECONOMY
@@ -229852,7 +229852,7 @@ S	I-OGG_MEDIA
 두	B-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 여	O
 성	O
@@ -236250,7 +236250,7 @@ V	I-TMI_HW
 카	I-OGG_ECONOMY
 드	I-OGG_ECONOMY
 사	I-OGG_ECONOMY
-의	I-OGG_ECONOMY
+의	O
  	O
 온	O
 라	O
@@ -245539,7 +245539,7 @@ A	B-PS_NAME
 ## klue-ner-v1_dev_04135-wikitree	힉스는 21일(이하 한국시간) 미국 뉴욕 양키스타디움에서 열린 오클랜드 애슬레틱스와 메이저리그 홈 경기에서 양키스가 1-3으로 뒤진 4회초 1사 만루 때 욘더 알론소의 타구를 직접 잡아 강하게 홈 송구를 했다.
 힉	B-PS_NAME
 스	I-PS_NAME
-는	I-PS_NAME
+는	O
  	O
 2	B-DT_DAY
 1	I-DT_DAY
@@ -245985,9 +245985,9 @@ K	I-OGG_ECONOMY
 법	I-OGG_LAW
 원	I-OGG_LAW
 (	O
-고	B-OGG_LAW
-연	O
-금	O
+고	B-PS_NAME
+연	I-PS_NAME
+금	I-PS_NAME
  	O
 부	B-CV_POSITION
 장	I-CV_POSITION
@@ -247264,7 +247264,7 @@ S	I-OGG_MEDIA
 신	B-LCP_COUNTY
 대	I-LCP_COUNTY
 리	I-LCP_COUNTY
-에	I-LCP_COUNTY
+에	O
  	O
 위	O
 치	O
@@ -247744,7 +247744,7 @@ S	I-OGG_MEDIA
 ## klue-ner-v1_dev_04175-nsmc	보성이 형님 영화는 다들 명작들만 있나..
 보	B-PS_NAME
 성	I-PS_NAME
-이	I-PS_NAME
+이	O
  	O
 형	O
 님	O
@@ -266435,15 +266435,15 @@ A	B-PS_NAME
 조	B-PS_NAME
 현	I-PS_NAME
 재	I-PS_NAME
- 	O
-안	B-PS_NAME
+ 	B-PS_NAME
+안	I-PS_NAME
 드	I-PS_NAME
 레	I-PS_NAME
 아	I-PS_NAME
- 	I-PS_NAME
-떄	I-PS_NAME
-문	I-PS_NAME
-에	I-PS_NAME
+ 	O
+떄	O
+문	O
+에	O
  	O
 정	O
 말	O
@@ -268566,7 +268566,7 @@ C	I-OGG_MEDIA
 1	B-QT_AGE
 9	I-QT_AGE
 살	I-QT_AGE
-이	I-QT_AGE
+이	O
 라	O
 서	O
  	O
@@ -269421,7 +269421,7 @@ V	I-TR_SCIENCE
 만	I-QT_MAN_COUNT
  	I-QT_MAN_COUNT
 명	I-QT_MAN_COUNT
-의	I-QT_MAN_COUNT
+의	O
  	O
 관	O
 광	O
@@ -277050,7 +277050,7 @@ m	I-QT_SPEED
  	I-PS_NAME
 뮐	I-PS_NAME
 러	I-PS_NAME
-의	I-PS_NAME
+의	O
  	O
 머	B-AM_PART
 리	I-AM_PART
@@ -277984,7 +277984,7 @@ S	I-OGG_MEDIA
 로	O
  	O
 박	B-PS_NAME
-모	I-PS_NAME
+모	O
  	O
 씨	O
 (	O
@@ -279412,9 +279412,9 @@ E	I-PS_NAME
 제	I-AF_BUILDING
 임	I-AF_BUILDING
 스	I-AF_BUILDING
- 	O
-파	B-LC_OTHERS
-크	I-LC_OTHERS
+ 	I-AF_BUILDING
+파	I-AF_BUILDING
+크	I-AF_BUILDING
 에	O
 서	O
  	O
@@ -281021,7 +281021,7 @@ l	I-QT_VOLUME
  	I-PS_NAME
 라	I-PS_NAME
 롸	I-PS_NAME
-의	I-PS_NAME
+의	O
  	O
 착	O
 한	O
@@ -286348,7 +286348,7 @@ S	I-OGG_MEDIA
  	O
 대	B-PS_NAME
 철	I-PS_NAME
-이	I-PS_NAME
+이	O
 가	O
  	O
 그	O
