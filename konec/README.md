@@ -14,14 +14,11 @@ KLUE-NER에서 시작하여 150개 개체명 부류 태그를 추가 주석한 �
 - BIO 태그 중 B-태그 연쇄 오류 수정
 - klue의 PS 정보를 이용한 태그 추가
 - klue의 PS외 정보를 이용한 태그 추가
-
-계획
-
-
-- konec 형식 오류 수정
-- klue-ner과 일대일로 매핑
-- span이 일치하면서 대부류 태그가 불일치하는 경우 확인
-- span이 불일치하는 경우 확인
+- konec의 kwic 생성. klue의 태그 정보를 병기
+- konec과 klue가 불일치하는 경우를 중심으로 검토
+- konec에서 false positive tag 삭제
+- label 오류 수정
+- span 오류 수정
 
 ## 작업
 
