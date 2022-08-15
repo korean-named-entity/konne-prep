@@ -4492,7 +4492,7 @@
 {"id": 25500, "klue_id": "klue-ner-v1_dev_04491-nsmc", "text": "5점도 안된다는게 이해가 안간다...", "label": [[0, 2, "QT_OTHERS"]]}
 {"id": 25501, "klue_id": "klue-ner-v1_dev_04492-nsmc", "text": "옥정을 현치수보고 청나라로 데려가달라까지한 숙종 너무 멋졌고 숙종을 곤란케하지 않은 옥정도 너무나 멋있었어요.", "label": [[0, 2, "PS_NAME"], [4, 7, "PS_NAME"], [10, 13, "LCP_COUNTRY"], [24, 26, "PS_NAME"], [34, 36, "PS_NAME"], [47, 49, "PS_NAME"]]}
 {"id": 25502, "klue_id": "klue-ner-v1_dev_04493-nsmc", "text": "게임비교가 문제가 아니라 영화가 문제야 오죽하면 전문가 평점이 2.33ㅋㅋㅋ", "label": [[35, 39, "QT_OTHERS"]]}
-{"id": 25503, "klue_id": "klue-ner-v1_dev_04494-nsmc", "text": "순수한 조현재 안드레아 떄문에 정말 열심히 봤다.", "label": [[7, 12, "PS_NAME"]]}
+{"id": 25503, "klue_id": "klue-ner-v1_dev_04494-nsmc", "text": "순수한 조현재 안드레아 떄문에 정말 열심히 봤다.", "label": [[4, 7, "PS_NAME"], [8, 12, "PS_NAME"]]}
 {"id": 25504, "klue_id": "klue-ner-v1_dev_04495-wikitree", "text": "검찰은 부장검사 1명과 검사 3명으로 팀을 꾸려 이대우를 집중 조사할 계획이다.", "label": [[0, 2, "OGG_POLITICS"], [4, 8, "CV_POSITION"], [9, 11, "QT_MAN_COUNT"], [13, 15, "CV_OCCUPATION"], [16, 18, "QT_MAN_COUNT"], [27, 30, "PS_NAME"]]}
 {"id": 25505, "klue_id": "klue-ner-v1_dev_04496-nsmc", "text": "별 0점을 찍을수 잇게 수정해야 합니다", "label": [[2, 4, "QT_OTHERS"]]}
 {"id": 25506, "klue_id": "klue-ner-v1_dev_04497-wikitree", "text": "135번 환자는 지난 29일 14번 환자(35)가 삼성서울병원 응급실에 입원했을 당시 응급실 안전요원으로 일했다.", "label": [[0, 4, "QT_ORDER"], [9, 15, "DT_DAY"], [16, 19, "QT_ORDER"], [23, 25, "QT_AGE"], [28, 34, "OGG_MEDICINE"], [52, 56, "CV_POSITION"]]}
